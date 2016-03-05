@@ -1,0 +1,62 @@
+body{
+    position: static;
+    justify-items: center;
+    width: 1366px;
+    text-align: left;
+}
+
+div {
+}
+
+#base {
+    justify-items: center;
+    width: 997px;
+    height: 1300px;
+    background-color: yellow;
+}
+
+.title {
+    height: 65px;
+    font-size: 20px;
+    background-color: blueviolet;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+#research_direction_content {
+    height: 119px;
+    background-color: greenyellow;
+}
+
+#sample {
+    width: 997px;
+    height: 683px;
+}
+
+#stick {
+    width: 128px;
+    height: 3px;
+}
+
+.journal_content {
+    font-size: 20px;
+    height: 612px;
+    background-color: palevioletred;
+}
+
+.number {
+    width: 100px;
+}
+
+.name {
+    width: 270px;
+}
+
+.SCIIF {
+    width: 150px;
+}
+
+.website {
+    width: 350px;
+}
