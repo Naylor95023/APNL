@@ -1,32 +1,36 @@
 #content{
-  width: 1024px;
+  width: 800px;
   height: auto;
   margin: 0px auto;
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
 }
 
 #contentHead{
-  display: flex;
-  flex-direction: column;
   background: white;
   div{
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    border-bottom: solid;
     width: auto;
     h1{
-      font-size: 36px;
+      font-size: 32px;
       font-family: "Microsoft YaHei";
       color: #000000;
+      margin-top: 20px;
     }
     h2{
       font-size: 20px;
       font-family: serif;
       font-weight: bolder;
       color: #000000;
-      margin: 5px;
+      margin-top: 5px;
+    }
+    div{
+      width: 128px;
+      height: 1px;
+      margin-top: 5px;
+      border-bottom: solid;
     }
   }
 }
