@@ -1,0 +1,39 @@
+.introduction{
+    width: 1366px;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.ch-title{
+    font-size: 32px;
+    font-family: 'PingFang TC Semibold';
+}
+
+.en-title{
+    font-size: 20px;
+}
+
+p{
+    font-weight: 700;
+}
+
+.professor{
+    border:1px dashed red;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#professor-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.professor-detail{
+    display: flex;
+    flex-direction: column;
+}
+.professor-detail div{
+    border:1px dashed red;
+}
