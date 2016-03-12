@@ -31,6 +31,9 @@ p{
 .font-size-20{
     font-size: 20px;
 }
+.line-height-18px{
+    line-height: 18px;
+}
 #ch-name{
     font-size: 20px;
 }
@@ -113,11 +116,13 @@ p{
     width: 1024px;
     height: 235px;
     border-bottom: solid 1px black;
+    margin-top: 15px;
 }
 #focus-bar{
     background-color: #333333;
     width: 132px;
     height: 3px;
+    margin-bottom: 18px;
 }
 
 /*experience style*/
@@ -126,6 +131,9 @@ p{
     height: 291px;
     border-bottom: solid 1px black;
 }
+#experience ul{
+    margin-top: 20px;
+}
 #experience-bar{
     background-color: #333333;
     width: 378px;
@@ -133,6 +141,9 @@ p{
 }
 
 /*research style*/
+#research ol{
+    margin-top: 20px;
+}
 #research-bar{
     background-color: #333333;
     width: 142px;
