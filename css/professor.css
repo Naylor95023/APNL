@@ -1,39 +1,102 @@
-.introduction{
-    width: 1366px;
-    box-sizing: border-box;
-    padding-left: 200px;
-    padding-right: 200px;
+p{
+    font-weight: 700;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.Arial{
+    font-family: 'Arial Bold',Arial;
 }
 
 .ch-title{
     font-size: 32px;
-    font-family: 'PingFang TC Semibold';
 }
 
 .en-title{
     font-size: 20px;
 }
 
-p{
-    font-weight: 700;
+.font-size-16{
+    font-size: 16px;
 }
 
-.professor{
-    border:1px dashed red;
+.font-size-20{
+    font-size: 20px;
+}
+#professor-bar{
+    background-color: #333333;
+    width: 128px;
+    height: 3px;
+}
+
+#focus-bar{
+    background-color: #333333;
+    width: 132px;
+    height: 3px;
+}
+
+#experience-bar{
+    background-color: #333333;
+    width: 378px;
+    height: 3px;
+}
+
+#research-bar{
+    background-color: #333333;
+    width: 142px;
+    height: 3px;
+}
+
+#introduction{
+    width: 1024px;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
 }
 
-#professor-name{
+#profile-pic{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.professor-detail{
+#ch-name{
+    font-size: 20px;
+}
+
+.en-name{
+    font-size: 16px;
+}
+
+#profile-content{
     display: flex;
     flex-direction: column;
 }
-.professor-detail div{
-    border:1px dashed red;
+
+#address{
+    display: flex;
+    flex-direction: row;
 }
+
+#address p{
+    margin-right: 50px;
+}
+
+#profile-main{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#profile-main div div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#profile-main div div p{
+    margin-right: 25px;
+}
+
