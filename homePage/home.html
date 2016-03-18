@@ -10,7 +10,6 @@
     <script src="../changePage.js"></script>
 </head>
 <body ng-app="_tabApp" ng-controller="_tabCtrl">
-
 <nav id="homeNav">
     <ul>
         <li ng-click="onClickTab('homeContent')"><span>首頁</span><span>HOME</span></li>
@@ -25,14 +24,11 @@
     </ul>
     <img src="..\img\ntutlogo.png">
 </nav>
-
 <header id="homeHeader">
     <h1>有機高分子所・前瞻高分子材料及奈米科技實驗室</h1>
 
     <h2>Advanced Polymer and Nanotechnology Laboratory</h2>
 </header>
-
 <div id="content" ng-include=currentTab></div>
-
 </body>
 </html>
