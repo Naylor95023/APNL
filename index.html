@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <title>前瞻高分子材料及奈米科技實驗室</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"/>
-    <link rel="stylesheet/less" href="../css/home.less"/>
+    <link rel="stylesheet/less" href="css/home.less"/>
+    <link rel="stylesheet" href="css/professor.css"/>
+    <link rel="stylesheet" href="css/research.css"/>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="../changePage.js"></script>
+    <script src="js/apnl.js"></script>
+    <script src="js/tabCtrl.js"></script>
+    <script src="js/newsCtrl.js"></script>
 </head>
-<body ng-app="_tabApp" ng-controller="_tabCtrl" ng-init="currentTab='homeContent.html'">
-
+<body ng-app="apnl" ng-controller="TabCtrl as ctrl">
 <nav id="homeNav">
     <ul>
-        <li ng-click="onClickTab('homeContent')"><span>首頁</span><span>HOME</span></li>
-        <li ng-click="onClickTab('professor')"><span>主持人</span><span>PROFESSOR</span></li>
-        <li ng-click="onClickTab('research')"><span>研究方向</span><span>RESEARCH</span></li>
+        <li ng-click="ctrl.onClickTab('home')"><span>首頁</span><span>HOME</span></li>
+        <li ng-click="ctrl.onClickTab('professor')"><span>主持人</span><span>PROFESSOR</span></li>
+        <li ng-click="ctrl.onClickTab('research')"><span>研究方向</span><span>RESEARCH</span></li>
         <li><span>研究成果</span><span>PUBLICATION</span></li>
         <li><span>榮譽事蹟</span><span>HONOR</span></li>
         <li><span>成員</span><span>MEMBER</span></li>
@@ -23,16 +27,13 @@
         <li><span>招募與規則</span><span>RECRUITMENT</span></li>
         <li><span>聯繫方式</span><span>CONTACT</span></li>
     </ul>
-    <img src="..\img\ntutlogo.png">
+    <img src="img/ntutlogo.png">
 </nav>
-
 <header id="homeHeader">
     <h1>有機高分子所・前瞻高分子材料及奈米科技實驗室</h1>
 
     <h2>Advanced Polymer and Nanotechnology Laboratory</h2>
 </header>
-
-<div id="content" ng-include=currentTab></div>
-
+<div id="content" ng-include=ctrl.currentTab></div>
 </body>
 </html>
