@@ -11,28 +11,61 @@
 
 </head>
 
-<body ng-app="_contentApp" ng-controller="_contentCtrl">
+<body>
 
-    <header id="contentHead">
-        <div>
-            <h1>最新消息</h1>
-            <h2>NEWS</h2>
-            <div></div>
-        </div>
+<header id="contentHead">
+    <div>
+        <h1>最新消息</h1>
+
+        <h2>NEWS</h2>
+
+        <div></div>
+    </div>
+</header>
+
+<nav id="contentNav">
+    <ul>
+        <li>2016</li>
+        <li>2015</li>
+        <li>2014</li>
+        <li>2013</li>
+        <li>2012</li>
+    </ul>
+</nav>
+
+<div class="waterShed"></div>
+
+<div id="items">
+    <header id="newsHead">
+        <h1>時間Time </h1>
+
+        <h1>項目Event</h1>
     </header>
 
-    <nav id="contentNav">
+    <div class="waterShed"></div>
+
+    <div id = "news">
         <ul>
-            <li>2016</li>
-            <li>2015</li>
-            <li>2014</li>
-            <li>2013</li>
-            <li>2012</li>
+            <li>
+                <span>2013.07</span>
+                <span>happynew year</span>
+            </li>
+            <li>
+                <span>2013.07</span>
+                <span>happynew year</span>
+            </li>
+            <li>
+                <span>2013.07</span>
+                <span>happynew year</span>
+            </li>
+            <li>
+                <span>2013.07</span>
+                <span>happynew year</span>
+            </li>
         </ul>
-    </nav>
-    <div id="waterShed"></div>
-    <div id="newsContent"></div>
-    <div id="items" ng-include="'news.html'"></div>
+    </div>
+
+</div>
 </body>
 
 </html>

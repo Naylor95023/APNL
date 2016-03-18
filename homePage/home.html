@@ -9,13 +9,13 @@
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src="../changePage.js"></script>
 </head>
-<body ng-app="_tabApp" ng-controller="_tabCtrl" ng-init="currentTab='homeContent.html'">
+<body ng-app="_tabApp" ng-controller="_tabCtrl">
 
 <nav id="homeNav">
     <ul>
         <li ng-click="onClickTab('homeContent')"><span>首頁</span><span>HOME</span></li>
-        <li ng-click="onClickTab('professor')"><span>主持人</span><span>PROFESSOR</span></li>
-        <li ng-click="onClickTab('research')"><span>研究方向</span><span>RESEARCH</span></li>
+        <li ng-click="onClickTab('../professor')"><span>主持人</span><span>PROFESSOR</span></li>
+        <li ng-click="onClickTab('../research')"><span>研究方向</span><span>RESEARCH</span></li>
         <li><span>研究成果</span><span>PUBLICATION</span></li>
         <li><span>榮譽事蹟</span><span>HONOR</span></li>
         <li><span>成員</span><span>MEMBER</span></li>
