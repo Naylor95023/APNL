@@ -1,39 +1,151 @@
-.introduction{
-    width: 1366px;
-    box-sizing: border-box;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.ch-title{
-    font-size: 32px;
-    font-family: 'PingFang TC Semibold';
-}
-
-.en-title{
-    font-size: 20px;
-}
-
+/*global style*/
 p{
     font-weight: 700;
 }
-
-.professor{
-    border:1px dashed red;
+#introduction{
+    width: 1024px;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
 }
-
-#professor-name{
+#profile-pic{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.professor-detail{
+.title{
     display: flex;
     flex-direction: column;
 }
-.professor-detail div{
-    border:1px dashed red;
+.Arial{
+    font-family: 'Arial Bold',Arial;
+}
+.ch-title{
+    font-size: 32px;
+}
+.en-title{
+    font-size: 20px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.line-height-18px{
+    line-height: 18px;
+}
+#ch-name{
+    font-size: 20px;
+}
+.en-name{
+    font-size: 16px;
+}
+
+/*professor style*/
+#professor {
+    width: 1024px;
+    height: 463px;
+    border-bottom: solid 1px black;
+}
+#professor-bar{
+    background-color: #333333;
+    width: 128px;
+    height: 3px;
+}
+#profile-pic p{
+    margin-top: 10px;
+}
+#profile-content{
+    display: flex;
+    flex-direction: column;
+}
+#profile-left{
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid black;
+}
+#profile-left div{
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-right{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+#profile-right div{
+    display: flex;
+    flex-direction: column;
+}
+#profile-left div p{
+    margin-bottom: 60px;
+}
+
+#profile-right div p{
+    margin-bottom: 60px;
+}
+#address{
+    display: flex;
+    flex-direction: row;
+}
+
+#address p{
+    margin-right: 50px;
+}
+
+#profile-main{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#profile-content{
+    margin-left: 30px;
+}
+#profile-main div div p{
+    margin-right: 25px;
+}
+
+#introduction{
+    margin-top: 17px;
+}
+
+/*focus style*/
+#focus{
+    width: 1024px;
+    height: 235px;
+    border-bottom: solid 1px black;
+    margin-top: 15px;
+}
+#focus-bar{
+    background-color: #333333;
+    width: 132px;
+    height: 3px;
+    margin-bottom: 18px;
+}
+
+/*experience style*/
+#experience{
+    width: 1024px;
+    height: 291px;
+    border-bottom: solid 1px black;
+}
+#experience ul{
+    margin-top: 20px;
+}
+#experience-bar{
+    background-color: #333333;
+    width: 378px;
+    height: 3px;
+}
+
+/*research style*/
+#research ol{
+    margin-top: 20px;
+}
+#research-bar{
+    background-color: #333333;
+    width: 142px;
+    height: 3px;
 }
