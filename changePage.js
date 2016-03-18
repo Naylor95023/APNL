@@ -1,11 +1,14 @@
 (function() {
     var app = angular.module('_tabApp', []);
     app.controller('_tabCtrl', function ($scope) {
-        $scope.currentTab = 'homeContent.html';
+        $scope.currentTab = getIncludeUrl('homeContent');
 
         $scope.onClickTab = function (tab) {
-            var index = "'" + tab + ".html'";
-            $scope.currentTab = index;
+            $scope.currentTab = getIncludeUrl(tab);
+        };
+
+        function getIncludeUrl(page) {
+            return "pages/" + page + ".html";
         }
     });
 })();
