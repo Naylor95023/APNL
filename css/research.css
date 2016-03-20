@@ -5,58 +5,86 @@ body{
     text-align: left;
 }
 
-div {
-}
-
 #base {
     justify-items: center;
     width: 997px;
     height: 1300px;
-    background-color: yellow;
+    font-weight: 700;
+    color: #333333;
 }
 
 .title {
-    height: 65px;
+    margin-top: 30px;
+}
+
+.title h1 {
+    font-size: 32px;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+}
+
+.title h2 {
     font-size: 20px;
-    background-color: blueviolet;
-    display:flex;
-    align-content: center;
-    flex-direction: column;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+}
+
+.u25_line {
+    width: 128px;
+    margin: 5px auto 15px 0px;
 }
 
 #research_direction_content {
+    font-size: 16px;
     height: 119px;
-    background-color: greenyellow;
+    line-height: normal;
 }
 
-#sample {
+#u57_img {
     width: 997px;
     height: 683px;
 }
 
-#stick {
-    width: 128px;
-    height: 3px;
+
+#divider {
+    margin-top: 30px;
+}
+
+#journal {
+    float: right;
+    width: 954px;
+    height: 612px;
+}
+
+.journal_content_title {
+    font-size: 20px;
+    height: 22px;
+    display: flex;
+    padding: 10px 10px 0px 10px;
 }
 
 .journal_content {
-    font-size: 20px;
-    height: 612px;
-    background-color: palevioletred;
+    font-size: 16px;
+    height: 17px;
+    display: flex;
+    padding: 10px 10px 10px 10px;
 }
 
-.number {
-    width: 100px;
+.column_1 {
+    width: 10%;
 }
 
-.name {
-    width: 270px;
+.column_2 {
+    width: 25%;
 }
 
-.SCIIF {
-    width: 150px;
+.column_3 {
+    width: 20%;
 }
 
-.website {
-    width: 350px;
+.column_4 {
+    width: 45%;
 }
+
