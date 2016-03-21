@@ -1,7 +1,7 @@
 (function () {
     angular.module('apnl').controller('TabCtrl', TabCtrl);
 
-    TabCtrl.$inject = [];
+    TabCtrl.$inject = [$routeProvider];
     function TabCtrl() {
         var vm = this;
         vm.onClickTab = onClickTab;

@@ -18,15 +18,15 @@
 <body ng-app="apnl" ng-controller="TabCtrl as ctrl">
 <nav id="homeNav">
     <ul>
-        <li ng-click="ctrl.onClickTab('home')"><span>首頁</span><span>HOME</span></li>
-        <li ng-click="ctrl.onClickTab('professor')"><span>主持人</span><span>PROFESSOR</span></li>
-        <li ng-click="ctrl.onClickTab('research')"><span>研究方向</span><span>RESEARCH</span></li>
-        <li><span>研究成果</span><span>PUBLICATION</span></li>
-        <li><span>榮譽事蹟</span><span>HONOR</span></li>
-        <li><span>成員</span><span>MEMBER</span></li>
-        <li><span>聚會照片</span><span>PHOTO</span></li>
-        <li><span>招募與規則</span><span>RECRUITMENT</span></li>
-        <li><span>聯繫方式</span><span>CONTACT</span></li>
+        <li><a href="#/news"><span>首頁</span><span>HOME</span></a></li>
+        <li><a href="#/professor"><span>主持人</span><span>PROFESSOR</span></a></li>
+        <li><a href="#/research"><span>研究方向</span><span>RESEARCH</span></a></li>
+        <li><a href="#/research"><span>研究成果</span><span>PUBLICATION</span></a></li>
+        <li><a href="#/research"><span>榮譽事蹟</span><span>HONOR</span></a></li>
+        <li><a href="#/research"><span>成員</span><span>MEMBER</span></a></li>
+        <li><a href="#/research"><span>聚會照片</span><span>PHOTO</span></a></li>
+        <li><a href="#/research"><span>招募與規則</span><span>RECRUITMENT</span></a></li>
+        <li><a href="#/research"><span>聯繫方式</span><span>CONTACT</span></a></li>
     </ul>
     <img src="img/ntutlogo.png">
 </nav>
@@ -35,6 +35,6 @@
 
     <h2>Advanced Polymer and Nanotechnology Laboratory</h2>
 </header>
-<div id="content" ng-include=ctrl.currentTab></div>
+<div id="content" ng-view></div>
 </body>
 </html>
