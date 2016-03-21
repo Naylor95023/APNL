@@ -6,27 +6,28 @@
   background: #BFA959;
   ul{
     display: flex;
-    color: #E5E5E5;
   }
-  ul > li{
+  ul li a{
     margin-left: 50px;
     display: flex;
     flex-direction: column;
     padding-bottom: 5px;
+    text-decoration: none;
+    color: #E5E5E5;
   }
-  ul > li:hover{
-    padding-bottom: 2px;
-    border-bottom: solid 3px;
-    color: #FFFFFF;
-    cursor: pointer;
-  }
-  ul > li > span:nth-child(odd){
+  ul li a:hover{
+     padding-bottom: 2px;
+     border-bottom: solid 3px;
+     color: #FFFFFF;
+     cursor: pointer;
+   }
+  ul li a> span:nth-child(odd){
     margin-top: 5px;
     font-size: 20px;
     font-family: 'Microsoft YaHei';
     font-weight: bold;
   }
-  ul > li > span:nth-child(even){
+  ul li a> span:nth-child(even){
     margin-top: 10px;
     font-size: 14px;
     font-family: serif;
