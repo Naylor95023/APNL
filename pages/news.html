@@ -1,4 +1,4 @@
-<div ng-controller="NewsCtrl as ctrl">
+<div>
     <header id="contentHead">
         <div>
             <h1>最新消息</h1>
@@ -26,21 +26,9 @@
         
         <div id="news">
             <ul>
-                <li>
-                    <span>2013.07</span>
-                    <span>happynew year</span>
-                </li>
-                <li>
-                    <span>2013.07</span>
-                    <span>happynew year</span>
-                </li>
-                <li>
-                    <span>2013.07</span>
-                    <span>happynew year</span>
-                </li>
-                <li>
-                    <span>2013.07</span>
-                    <span>happynew year</span>
+                <li ng-repeat="item in ctrl.NEWS">
+                    <span>{{item.date}}</span>
+                    <span>{{item.content}}</span>
                 </li>
             </ul>
         </div>
