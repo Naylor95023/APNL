@@ -1,7 +1,4 @@
-<html>
-<head>
 
-</head>
     <div id="contentHead">
         <div>
             <h1>研究成果</h1>
@@ -13,19 +10,19 @@
     <div id="tab">
         <div class="titleList">
             <div>
-                <div class="tab4">
+                <div class="tab4" ng-click ="selectTab('tab1')">
                     <h1>國際期刊論文</h1>
                     <h2>Journal Papers</h2>
                 </div>
-                <div class="tab4">
+                <div class="tab4" ng-click="selectTab('tab2')">
                     <h1>專書</h1>
                     <h2>Book Chapter</h2>
                 </div>
-                <div class="tab4">
+                <div class="tab4" ng-click="selectTab('tab3')">
                     <h1>專利</h1>
                     <h2>Patent</h2>
                 </div>
-                <div class="tab4">
+                <div class="tab4" ng-click="selectTab('tab4')">
                     <h1>國際研討會議論文</h1>
                     <h2>Conference Papers</h2>
                 </div>
@@ -34,8 +31,8 @@
         <!--titleList end-->
     </div>
 <!-- id tab end-->
-    <div id="con">
-        <div class="con" style="display:flex">
+    <div id="con" ng-switch on="selectedTab">
+        <div ng-switch-when="tab1" style="display:flex">
             <ul>
             <img class="marginTop30" src="img/u54_line.png"/>
             <div class="columnMargin">
@@ -87,46 +84,46 @@
         </div><!--column end-->
             </ul>
         </div><!-- con end-->
-    <div class="con">
-        <ul>
-        <img class="marginTop30" src="img/u54_line.png"/>
-        <div class="bookName">書名 Book</div>
-        <img class="margin10" src="img/u73_line.png"/>
-            <p class="contentFont">
-                Chi-Ching Kuo, Chen-Liang Liu and Wen-Chang Chen* <br>
-                Chapter 19.  Morphologies and photophysical properties of rod-coil block copolymers
-                Complex Macromolecular Architectures: Synthesis, Characterization, and Self-Assembly, WILEY (2011)
-            </p>
-        </ul>
-    </div><!-- con end-->
-    <div class="con">
-        <ul>
-        <div class="columnMargin">
-            <h1>No.</h1>
-            <h2>專利 Patent</h2>
-        </div><!--columnMargin end-->
-        <img class="margin10" src="img/u73_line.png"/>
-        <div class="column">
-            <div class="row">
-                <h1>1.</h1>
-                <h2>
-                    Wen-Chang Chen＊, Chi-Ching Kuo, and Cheng-Ting Wang.
-                    Electrospun Device for Preparing A High Aligned Nanofibers and Luminescent Nanofiber by The Device.
-                    Applied Number: 097118789, 2008, ROC(Taiwan) Patent.
-                </h2>
-            </div>
-            <div class="row">
-                <h1>2.</h1>
-                <h2>
-                    Hsieh-Chih Chen, Wen-Chang Chen＊, Chi-Ching Kuo, and Yu-Cheng Liu.
-                    Photoluminescence Fiber and Material Thereof”.
-                    Applied Number: 96105007, 2006, ROC (Taiwan)/American Patent Application.
-                </h2>
-            </div>
-        </div><!--column end-->
-        </ul>
-    </div><!-- con end-->
-    <div class="con">
+        <div ng-switch-when="tab2">
+            <ul>
+            <img class="marginTop30" src="img/u54_line.png"/>
+            <div class="bookName">書名 Book</div>
+            <img class="margin10" src="img/u73_line.png"/>
+                <p class="contentFont">
+                    Chi-Ching Kuo, Chen-Liang Liu and Wen-Chang Chen* <br>
+                    Chapter 19.  Morphologies and photophysical properties of rod-coil block copolymers
+                    Complex Macromolecular Architectures: Synthesis, Characterization, and Self-Assembly, WILEY (2011)
+                </p>
+            </ul>
+        </div><!-- con end-->
+        <div ng-switch-when="tab3">
+            <ul>
+            <div class="columnMargin">
+                <h1>No.</h1>
+                <h2>專利 Patent</h2>
+            </div><!--columnMargin end-->
+            <img class="margin10" src="img/u73_line.png"/>
+            <div class="column">
+                <div class="row">
+                    <h1>1.</h1>
+                    <h2>
+                        Wen-Chang Chen＊, Chi-Ching Kuo, and Cheng-Ting Wang.
+                        Electrospun Device for Preparing A High Aligned Nanofibers and Luminescent Nanofiber by The Device.
+                        Applied Number: 097118789, 2008, ROC(Taiwan) Patent.
+                    </h2>
+                </div>
+                <div class="row">
+                    <h1>2.</h1>
+                    <h2>
+                        Hsieh-Chih Chen, Wen-Chang Chen＊, Chi-Ching Kuo, and Yu-Cheng Liu.
+                        Photoluminescence Fiber and Material Thereof”.
+                        Applied Number: 96105007, 2006, ROC (Taiwan)/American Patent Application.
+                    </h2>
+                </div>
+            </div><!--column end-->
+            </ul>
+        </div><!-- con end-->
+        <div ng-switch-when="tab4">
         <ul>
         <div class="columnMargin">
             <h1>No.</h1>
@@ -157,5 +154,3 @@
     <div class="space"></div>
     <img class="margin10" src="img/u73_line.png"/>
     <div class="space"></div>
-</div><!-- ng-app end-->
-</html>

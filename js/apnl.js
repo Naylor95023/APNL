@@ -3,10 +3,13 @@
 
     config.$inject = [$routeProvider];
     function config($routeProvider) {
-        $routeProvider.when('/news', {templateUrl: 'pages/home.html',controller: 'newsCtrl'});
+        $routeProvider.when('/news', {templateUrl: 'pages/home.html'});
         $routeProvider.when('/professor', {templateUrl: 'pages/professor.html'});
         $routeProvider.when('/research', {templateUrl: 'pages/research.html'});
-        $routeProvider.when('/publication', {templateUrl: 'pages/publication.html'});
+        $routeProvider.when('/publication', {
+                templateUrl: 'pages/publication.html',
+                controller: 'PublicationCtrl'
+            });
         $routeProvider.otherwise({redirectTo: '/news'});
     }
 })();
