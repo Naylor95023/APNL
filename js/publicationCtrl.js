@@ -10,7 +10,6 @@
 
         function selectTab(tab){
             vm.selectedTab = tab;
-
         }
     }
 })();
