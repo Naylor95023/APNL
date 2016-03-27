@@ -1,0 +1,46 @@
+{
+  "JournalPapers": [
+    {
+      "number": "23.",
+      "content": "Bo-Yu Chen, Chi-Ching Kuo*, Yun-Shao Huang, Shih-Tung Lu, Fang-Cheng Liang, Dai-Hua Jiang “Novel Highly Selective and Reversible Chemosensors Based on Dual Ratiometric Fluorescent Electrospun Nanofibers with pH- and Fe3+-modulated Multicolor Fluorescence Emission” ACS Applied Materials & Interfaces (2015) (finally accept) SCI (MATERIALS SCIENCE, MULTIDISCIPLINARY: 26/251) (IF= 5.900)"
+    },
+    {
+      "number": "22.",
+      "content": "Yen-Yu Chen, Chi-Ching Kuo*, Bo-Yu Chen, Pei-Chi Chiu, and Ping-Chun Tsai “Multifunctional Polyacrylonitrile-ZnO/Ag Electrospun Nanofiber Membranes with Various ZnO Morphologies for Photocatalytic, UV-shielding, and Antibacterial Applications” Journal of Polymer Science Part B-Polymer Physics (2014) (in press) (DOI: 10.1002/polb.23621) SCI (POLYMER SCIENCE: 11/82) (IF= 3.803)"
+    },
+    {
+      "number": "21.",
+      "content": "Liang-Nien Chen, Chi-Ching Kuo*, Yu-Cheng Chiu, and Wen-Chang Chen* “Ultra Metal Ions and pH Sensing Characteristics of Thermoresponsive Luminescent Electrospun Nanofibers Prepared From Poly(HPBO-co-NIPAAm-co-SA)” RSC Advances, 4, 45345–45353 (2014) SCI (CHEMISTRY, MULTIDISCIPLINARY: 35/148) (IF= 3.708)"
+    },
+    {
+      "number": "20.",
+      "content": "Yun-Shao Huang, Chi-Ching Kuo*, Yao-Chi Shu, Shin-Cheng Jang, Wen-Chin Tsen, Fu-Sheng Chuang, and Chien-Chung Chen “Highly Aligned and Single-Layered Hollow Fibrous Membranes Prepared from Polyurethane and Silica Blends through Two-Fluid Coaxial Electrospun Process” Macromolecular Chemistry and Physics, 215, 879-887 (2014) (feature on issue cover) SCI (POLYMER SCIENCE: 26/82) (IF=2.451)"
+    }
+  ],
+  "BookName": [
+    {
+      "author": "Chi-Ching Kuo, Chen-Liang Liu and Wen-Chang Chen*" ,
+      "content":" Chapter 19. Morphologies and photophysical properties of rod-coil block copolymers Complex Macromolecular Architectures: Synthesis, Characterization, and Self-Assembly, WILEY (2011)"
+    }
+  ],
+  "Patent": [
+    {
+      "number": "1." ,
+      "content":" Wen-Chang Chen＊, Chi-Ching Kuo, and Cheng-Ting Wang. Electrospun Device for Preparing A High Aligned Nanofibers and Luminescent Nanofiber by The Device. Applied Number: 097118789, 2008, ROC(Taiwan) Patent."
+    },
+    {
+      "number": "2." ,
+      "content":"Hsieh-Chih Chen, Wen-Chang Chen＊, Chi-Ching Kuo, and Yu-Cheng Liu. Photoluminescence Fiber and Material Thereof”. Applied Number: 96105007, 2006, ROC (Taiwan)/American Patent Application."
+    }
+  ],
+  "ConferencePapers": [
+    {
+      "number": "1." ,
+      "content":"Jung-Yao Chen+, Chi-Ching Kuo+, Chia-Sheng Lai, Wen-Chang Chen*, and Hsin-Lung Chen* Manipulation on the Morphology and Electrical Properties of Poly(3-hexylthiophene) Aligned Electrospun Nanofibers For Field-Effect Transistor Applications. 2011 Annual Polymer Conference, Taichung, 2011. (Poster Award)"
+    },
+    {
+      "number": "2." ,
+      "content":"Chi-Ching Kuo,Chen-Ting Wang, Hsieh-Chih Chen, Yi-Chih Tung, and Wen-Chang Chen*, Morphology and Optoelectronic Properties of Semiconducting Polymer Electrospun Nanofibers. International Conference on Nano Science and Nano Technology, Gwangju, Korea, 2010. (Oral presentation)"
+    }
+  ]
+}

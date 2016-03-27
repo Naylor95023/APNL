@@ -15,39 +15,12 @@
     margin-left: 0px;
 }
 
-.titleList div div div h5{
-    width: 140px;
-    height: 1px;
-    margin-top: 5px;
-    border-bottom: solid;
-    margin-left: 0px;
-}
-.titleList div div div h2{
-    width: 140px;
-    height: 1px;
-    margin-top: 5px;
-    border-bottom: solid;
-    margin-left: 0px;
-}
-.titleList div div div h3{
-    width: 70px;
-    height: 1px;
-    margin-top: 5px;
-    border-bottom: solid;
-    margin-left: 0px;
-}
-.titleList div div div h4{
-    width: 180px;
-    height: 1px;
-    margin-top: 5px;
-    border-bottom: solid;
-    margin-left: 0px;
-}
 .titleList h1{
     font-size: 26px;
-    font-family: "Microsoft YaHei";
+    font-family: "微軟正黑體";
     color: #6e6e6e;
     margin-top: 20px;
+    font-weight: bold;
 }
 .titleList h2{
     font-size: 20px;
@@ -60,9 +33,10 @@
 .columnMargin{
     display: flex;
     flex-direction: row;
-    font-family: "Microsoft YaHei";
+    font-family: "微軟正黑體";
     margin-top:30px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 .columnMargin h1{
     margin-left:52px;
@@ -81,6 +55,8 @@
     display: flex;
     flex-direction: column;
     margin-top:10px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
 }
 .column div{
     margin-top:10px;
@@ -92,12 +68,16 @@
     flex-direction: row;
 }
 .row h1{
-     margin-left:54px;
+    margin-left:54px;
+    font-size: 18px;
+    font-family: "微軟正黑體";
+    font-weight: bolder;
  }
 .row h2{
-    font-family: "Times New Roman";
+    font-family: "微軟正黑體";
     margin-left:100px;
     font-size: 18px;
+    font-weight: bold;
 }
 .space{
     height: 30px;
@@ -106,26 +86,28 @@
     margin-top:30px;
 }
 .contentFont{
-    font-family: "Times New Roman";
+    font-family: "微軟正黑體";
     font-size:18px ;
     margin-top:20px;
     margin-left:30px;
+    font-weight: bold;
 }
 .bookName{
-    font-family: "Microsoft YaHei";
+    font-family: "微軟正黑體";
     font-size:22px ;
     margin-top:20px;
     margin-left:30px;
+    font-weight: bold;
 }
 
-.tab4:hover{
+.titleName:hover{
     cursor: pointer;
 }
 
-.tab4:hover h1{
+.titleName:hover h1{
     color:black;
 }
-.tab4:hover h2{
+.titleName:hover h2{
     color:black;
     text-decoration:underline;
 }
