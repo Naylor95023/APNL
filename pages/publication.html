@@ -1,157 +1,197 @@
+<div id="contentHead">
+    <div>
+        <h1>研究成果</h1>
+        <h2>PUBLICATION</h2>
 
-</head>
-    <div id="contentHead">
+        <div></div>
+    </div>
+</div>
+<!-- contentHead end -->
+<div id="tab">
+    <div class="titleList">
         <div>
-            <h1>研究成果</h1>
-            <h2>PUBLICATION</h2>
-            <div></div>
-        </div>
-    </div>
-    <!-- contentHead end -->
-    <div id="tab">
-        <div class="titleList">
-            <div>
-                <div class="tab4" ng-click ="selectTab('tab1')" >
-                    <h1>國際期刊論文</h1>
-                    <h2>Journal Papers</h2>
-                </div>
-                <div class="tab4" ng-click="selectTab('tab2')">
-                    <h1>專書</h1>
-                    <h2>Book Chapter</h2>
-                </div>
-                <div class="tab4" ng-click="selectTab('tab3')">
-                    <h1>專利</h1>
-                    <h2>Patent</h2>
-                </div>
-                <div class="tab4" ng-click="selectTab('tab4')">
-                    <h1>國際研討會議論文</h1>
-                    <h2>Conference Papers</h2>
-                </div>
+            <div class="tab4" ng-click="ctrl.selectTab('tab1')">
+                <h1>國際期刊論文</h1>
+
+                <h2>Journal Papers</h2>
+            </div>
+            <div class="tab4" ng-click="ctrl.selectTab('tab2')">
+                <h1>專書</h1>
+
+                <h2>Book Chapter</h2>
+            </div>
+            <div class="tab4" ng-click="ctrl.selectTab('tab3')">
+                <h1>專利</h1>
+
+                <h2>Patent</h2>
+            </div>
+            <div class="tab4" ng-click="ctrl.selectTab('tab4')">
+                <h1>國際研討會議論文</h1>
+
+                <h2>Conference Papers</h2>
             </div>
         </div>
-        <!--titleList end-->
     </div>
+    <!--titleList end-->
+</div>
 <!-- id tab end-->
-    <div id="con" ng-switch on="selectedTab">
-        <div ng-switch-when="tab1" style="display:flex">
-            <ul>
+<div id="con" ng-switch on="ctrl.selectedTab">
+    <div ng-switch-when="tab1">
+        <ul>
             <img class="marginTop30" src="img/u54_line.png"/>
-            <div class="columnMargin">
-                 <h1>No.</h1>
-                 <h2>論文 Journal</h2>
-            </div>
-            <!--columnMargin end-->
-        <img class="margin10" src="img/u73_line.png"/>
-        <div class="column">
-             <div class="row">
-                 <h1>23.</h1>
-                 <h2>
-                Bo-Yu Chen, Chi-Ching Kuo*, Yun-Shao Huang, Shih-Tung Lu, Fang-Cheng Liang, Dai-Hua Jiang
-                “Novel Highly Selective and Reversible Chemosensors Based on Dual Ratiometric Fluorescent Electrospun Nanofibers with pH- and Fe3+-modulated Multicolor Fluorescence Emission”
-                ACS Applied Materials & Interfaces (2015) (finally accept)
-                SCI (MATERIALS SCIENCE, MULTIDISCIPLINARY: 26/251) (IF= 5.900)
-                 </h2>
-             </div>
-            <!--row end-->
-        <div class="row">
-            <h1>22.</h1>
-            <h2>
-                Yen-Yu Chen, Chi-Ching Kuo*, Bo-Yu Chen, Pei-Chi Chiu, and Ping-Chun Tsai
-                “Multifunctional Polyacrylonitrile-ZnO/Ag Electrospun Nanofiber Membranes with Various ZnO Morphologies for Photocatalytic, UV-shielding, and Antibacterial Applications”
-                Journal of Polymer Science Part B-Polymer Physics (2014) (in press)
-                (DOI: 10.1002/polb.23621) SCI (POLYMER SCIENCE: 11/82) (IF= 3.803)
-            </h2>
-        </div>
-            <!--row end-->
-        <div class="row">
-            <h1>21.</h1>
-            <h2>
-                Liang-Nien Chen, Chi-Ching Kuo*, Yu-Cheng Chiu, and Wen-Chang Chen*
-                “Ultra Metal Ions and pH Sensing Characteristics of Thermoresponsive Luminescent Electrospun Nanofibers Prepared From Poly(HPBO-co-NIPAAm-co-SA)”
-                RSC Advances, 4, 45345–45353 (2014)
-                SCI (CHEMISTRY, MULTIDISCIPLINARY: 35/148) (IF= 3.708)
-            </h2>
-        </div>
-            <!--row end-->
-        <div class="row">
-            <h1>20.</h1>
-            <h2>
-                Yun-Shao Huang, Chi-Ching Kuo*, Yao-Chi Shu, Shin-Cheng Jang, Wen-Chin Tsen, Fu-Sheng Chuang, and Chien-Chung Chen
-                “Highly Aligned and Single-Layered Hollow Fibrous Membranes Prepared from Polyurethane and Silica Blends through Two-Fluid Coaxial Electrospun Process”
-                Macromolecular Chemistry and Physics, 215, 879-887 (2014) (feature on issue cover)
-                SCI (POLYMER SCIENCE: 26/82) (IF=2.451)
-            </h2>
-        </div><!--row end-->
-        </div><!--column end-->
-            </ul>
-        </div><!-- con end-->
-        <div ng-switch-when="tab2">
-            <ul>
-            <img class="marginTop30" src="img/u54_line.png"/>
-            <div class="bookName">書名 Book</div>
-            <img class="margin10" src="img/u73_line.png"/>
-                <p class="contentFont">
-                    Chi-Ching Kuo, Chen-Liang Liu and Wen-Chang Chen* <br>
-                    Chapter 19.  Morphologies and photophysical properties of rod-coil block copolymers
-                    Complex Macromolecular Architectures: Synthesis, Characterization, and Self-Assembly, WILEY (2011)
-                </p>
-            </ul>
-        </div><!-- con end-->
-        <div ng-switch-when="tab3">
-            <ul>
+
             <div class="columnMargin">
                 <h1>No.</h1>
-                <h2>專利 Patent</h2>
-            </div><!--columnMargin end-->
+
+                <h2>論文 Journal</h2>
+            </div>
+            <!--columnMargin end-->
             <img class="margin10" src="img/u73_line.png"/>
+
+            <div class="column">
+                <div class="row">
+                    <h1>23.</h1>
+
+                    <h2>
+                        Bo-Yu Chen, Chi-Ching Kuo*, Yun-Shao Huang, Shih-Tung Lu, Fang-Cheng Liang, Dai-Hua Jiang
+                        “Novel Highly Selective and Reversible Chemosensors Based on Dual Ratiometric Fluorescent
+                        Electrospun Nanofibers with pH- and Fe3+-modulated Multicolor Fluorescence Emission”
+                        ACS Applied Materials & Interfaces (2015) (finally accept)
+                        SCI (MATERIALS SCIENCE, MULTIDISCIPLINARY: 26/251) (IF= 5.900)
+                    </h2>
+                </div>
+                <!--row end-->
+                <div class="row">
+                    <h1>22.</h1>
+
+                    <h2>
+                        Yen-Yu Chen, Chi-Ching Kuo*, Bo-Yu Chen, Pei-Chi Chiu, and Ping-Chun Tsai
+                        “Multifunctional Polyacrylonitrile-ZnO/Ag Electrospun Nanofiber Membranes with Various ZnO
+                        Morphologies for Photocatalytic, UV-shielding, and Antibacterial Applications”
+                        Journal of Polymer Science Part B-Polymer Physics (2014) (in press)
+                        (DOI: 10.1002/polb.23621) SCI (POLYMER SCIENCE: 11/82) (IF= 3.803)
+                    </h2>
+                </div>
+                <!--row end-->
+                <div class="row">
+                    <h1>21.</h1>
+
+                    <h2>
+                        Liang-Nien Chen, Chi-Ching Kuo*, Yu-Cheng Chiu, and Wen-Chang Chen*
+                        “Ultra Metal Ions and pH Sensing Characteristics of Thermoresponsive Luminescent Electrospun
+                        Nanofibers Prepared From Poly(HPBO-co-NIPAAm-co-SA)”
+                        RSC Advances, 4, 45345–45353 (2014)
+                        SCI (CHEMISTRY, MULTIDISCIPLINARY: 35/148) (IF= 3.708)
+                    </h2>
+                </div>
+                <!--row end-->
+                <div class="row">
+                    <h1>20.</h1>
+
+                    <h2>
+                        Yun-Shao Huang, Chi-Ching Kuo*, Yao-Chi Shu, Shin-Cheng Jang, Wen-Chin Tsen, Fu-Sheng Chuang,
+                        and Chien-Chung Chen
+                        “Highly Aligned and Single-Layered Hollow Fibrous Membranes Prepared from Polyurethane and
+                        Silica Blends through Two-Fluid Coaxial Electrospun Process”
+                        Macromolecular Chemistry and Physics, 215, 879-887 (2014) (feature on issue cover)
+                        SCI (POLYMER SCIENCE: 26/82) (IF=2.451)
+                    </h2>
+                </div>
+                <!--row end-->
+            </div>
+            <!--column end-->
+        </ul>
+    </div>
+    <!-- con end-->
+    <div ng-switch-when="tab2">
+        <ul>
+            <img class="marginTop30" src="img/u54_line.png"/>
+
+            <div class="bookName">書名 Book</div>
+            <img class="margin10" src="img/u73_line.png"/>
+
+            <p class="contentFont">
+                Chi-Ching Kuo, Chen-Liang Liu and Wen-Chang Chen* <br>
+                Chapter 19. Morphologies and photophysical properties of rod-coil block copolymers
+                Complex Macromolecular Architectures: Synthesis, Characterization, and Self-Assembly, WILEY (2011)
+            </p>
+        </ul>
+    </div>
+    <!-- con end-->
+    <div ng-switch-when="tab3">
+        <ul>
+            <div class="columnMargin">
+                <h1>No.</h1>
+
+                <h2>專利 Patent</h2>
+            </div>
+            <!--columnMargin end-->
+            <img class="margin10" src="img/u73_line.png"/>
+
             <div class="column">
                 <div class="row">
                     <h1>1.</h1>
+
                     <h2>
                         Wen-Chang Chen＊, Chi-Ching Kuo, and Cheng-Ting Wang.
-                        Electrospun Device for Preparing A High Aligned Nanofibers and Luminescent Nanofiber by The Device.
+                        Electrospun Device for Preparing A High Aligned Nanofibers and Luminescent Nanofiber by The
+                        Device.
                         Applied Number: 097118789, 2008, ROC(Taiwan) Patent.
                     </h2>
                 </div>
                 <div class="row">
                     <h1>2.</h1>
+
                     <h2>
                         Hsieh-Chih Chen, Wen-Chang Chen＊, Chi-Ching Kuo, and Yu-Cheng Liu.
                         Photoluminescence Fiber and Material Thereof”.
                         Applied Number: 96105007, 2006, ROC (Taiwan)/American Patent Application.
                     </h2>
                 </div>
-            </div><!--column end-->
-            </ul>
-        </div><!-- con end-->
-        <div ng-switch-when="tab4">
-        <ul>
-        <div class="columnMargin">
-            <h1>No.</h1>
-            <h2>國際研討會議論文 Conference Papers</h2>
-        </div><!--columnMargin end-->
-        <img class="margin10" src="img/u73_line.png"/>
-        <div class="column">
-            <div class="row">
-                <h1>1.</h1>
-                <h2>
-                    Jung-Yao Chen+, Chi-Ching Kuo+, Chia-Sheng Lai, Wen-Chang Chen*, and Hsin-Lung Chen*
-                    Manipulation on the Morphology and Electrical Properties of Poly(3-hexylthiophene) Aligned Electrospun Nanofibers For Field-Effect Transistor Applications.
-                    2011 Annual Polymer Conference, Taichung, 2011. (Poster Award)
-                </h2>
-            </div><!--row end-->
-            <div class="row">
-                <h1>2.</h1>
-                <h2>
-                    Chi-Ching Kuo,Chen-Ting Wang, Hsieh-Chih Chen, Yi-Chih Tung, and Wen-Chang Chen*,
-                    Morphology and Optoelectronic Properties of Semiconducting Polymer Electrospun Nanofibers.
-                    International Conference on Nano Science and Nano Technology, Gwangju, Korea, 2010. (Oral presentation)
-                </h2>
-            </div><!--row end-->
-        </div><!--column end-->
+            </div>
+            <!--column end-->
         </ul>
-    </div><!--end con-->
-    </div><!--end id con-->
-    <div class="space"></div>
-    <img class="margin10" src="img/u73_line.png"/>
-    <div class="space"></div>
+    </div>
+    <!-- con end-->
+    <div ng-switch-when="tab4">
+        <ul>
+            <div class="columnMargin">
+                <h1>No.</h1>
+
+                <h2>國際研討會議論文 Conference Papers</h2>
+            </div>
+            <!--columnMargin end-->
+            <img class="margin10" src="img/u73_line.png"/>
+
+            <div class="column">
+                <div class="row">
+                    <h1>1.</h1>
+
+                    <h2>
+                        Jung-Yao Chen+, Chi-Ching Kuo+, Chia-Sheng Lai, Wen-Chang Chen*, and Hsin-Lung Chen*
+                        Manipulation on the Morphology and Electrical Properties of Poly(3-hexylthiophene) Aligned
+                        Electrospun Nanofibers For Field-Effect Transistor Applications.
+                        2011 Annual Polymer Conference, Taichung, 2011. (Poster Award)
+                    </h2>
+                </div>
+                <!--row end-->
+                <div class="row">
+                    <h1>2.</h1>
+
+                    <h2>
+                        Chi-Ching Kuo,Chen-Ting Wang, Hsieh-Chih Chen, Yi-Chih Tung, and Wen-Chang Chen*,
+                        Morphology and Optoelectronic Properties of Semiconducting Polymer Electrospun Nanofibers.
+                        International Conference on Nano Science and Nano Technology, Gwangju, Korea, 2010. (Oral
+                        presentation)
+                    </h2>
+                </div>
+                <!--row end-->
+            </div>
+            <!--column end-->
+        </ul>
+    </div>
+    <!--end con-->
+</div><!--end id con-->
+<div class="space"></div>
+<img class="margin10" src="img/u73_line.png"/>
+<div class="space"></div>
