@@ -14,7 +14,8 @@
 .titleList div div div{
     margin-left: 0px;
 }
-.titleList div div div h1{
+
+.titleList div div div h5{
     width: 140px;
     height: 1px;
     margin-top: 5px;
@@ -45,14 +46,14 @@
 .titleList h1{
     font-size: 26px;
     font-family: "Microsoft YaHei";
-    color: #000000;
+    color: #6e6e6e;
     margin-top: 20px;
 }
 .titleList h2{
     font-size: 20px;
     font-family: serif;
     font-weight: bolder;
-    color: #000000;
+    color: #6e6e6e;
     margin-top: 10px;
 }
 
@@ -112,7 +113,18 @@
 }
 .bookName{
     font-family: "Microsoft YaHei";
-    font-size:18px ;
+    font-size:22px ;
     margin-top:20px;
     margin-left:30px;
+}
+.con{
+    display:none;
+}
+
+.tab4:hover h1{
+    color:black;
+}
+.tab4:hover h2{
+    color:black;
+    text-decoration:underline;
 }

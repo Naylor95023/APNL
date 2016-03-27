@@ -6,7 +6,6 @@
         var vm = this;
         vm.onClickTab = onClickTab;
         vm.currentTab = getIncludeUrl('home');
-
         function onClickTab(tab) {
             vm.currentTab = getIncludeUrl(tab);
         }
