@@ -5,7 +5,7 @@
     function NewsCtrl($http) {
         var vm = this;
         $http.get('data/news.json').then(function (response) {
-            vm.NEWS = response.data.New_2;
+            vm.NEWS = response.data;
         })
     }
 })();
