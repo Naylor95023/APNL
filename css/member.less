@@ -4,12 +4,17 @@
     justify-content: center;
     align-items: center;
     border-bottom: Gray solid 1px;
+    padding: 20px 0;
 
     ul {
       width: 100%;
       list-style: none;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+
+      .action {
+        color: black;
+      }
 
       li {
         display: flex;
@@ -17,7 +22,9 @@
         justify-content: center;
         align-items: center;
         border-bottom: black solid 2px;
+        margin-right: 45px;
         cursor: pointer;
+        color: gray;
 
         span {
           font-weight: 700;
@@ -25,10 +32,12 @@
 
         .item-ch {
           font-size: 24px;
+          padding-bottom: 10px;
         }
 
         .item-eng {
           font-size: 20px;
+          padding-bottom: 6px;
         }
       }
     }
@@ -55,8 +64,10 @@
           width: 100%;
         }
 
-        h4 {
-          margin-bottom: 0;
+        span {
+          font-size: 16px;
+          font-weight: 700;
+          margin: 10px 0;
         }
       }
 
