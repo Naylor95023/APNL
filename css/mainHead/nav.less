@@ -1,21 +1,43 @@
 #homeNav {
   display: flex;
   align-items: center;
-  width: 1366px;
+  width: 100%;
   height: 80px;
   background: #BFA959;
+  position: relative;
 
   ul {
     display: flex;
+    align-items: center;
+
+    li {
+      padding: 0 5px;
+      border-right: white solid 1px;
+    }
+
+    li:last-child{
+      border: none;
+    }
   }
 
   ul li a {
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 5px;
     text-decoration: none;
     color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .nav-img {
+      width: 20px;
+      height: auto;
+
+    }
+
+    .news-word {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 5px;
+    }
   }
 
   ul li a:hover {
@@ -38,9 +60,10 @@
     font-family: serif;
   }
 
-  img {
-    width: 120px;
-    height: 60px;
-    margin-left: 100px;
+  #logo {
+    position: absolute;
+    right: 20px;
+    width: 66px;
+    height: 66px;
   }
 }
