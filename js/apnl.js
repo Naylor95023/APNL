@@ -1,30 +1,30 @@
 (function () {
     'use strict';
 
-    angular.module('apnl', ['ngRoute']).config(config);
+    angular.module('apnl', ['ui.router']).config(config);
 
-    config.$inject = ['$routeProvider'];
+    config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
-    function config($routeProvider) {
-        $routeProvider.when('/news', {
+    function config($stateProvider, $urlRouterProvider) {
+        $stateProvider.state('news', {
+            url: "/news",
             templateUrl: 'pages/news.html',
             controller: 'NewsCtrl as ctrl'
         });
-        $routeProvider.when('/professor', {
+        $stateProvider.state('professor', {
+            url: "/professor",
             templateUrl: 'pages/professor.html'
         });
-        $routeProvider.when('/research', {
+        $stateProvider.state('research', {
+            url: "/research",
             templateUrl: 'pages/research.html'
         });
-        $routeProvider.when('/publication', {
+        $stateProvider.state('publication', {
+            url: "/publication",
             templateUrl: 'pages/publication.html',
             controller: 'PublicationCtrl as ctrl'
         });
-        $routeProvider.when('research/books', {
-            templateUrl: 'pages/tableColumn1.html',
-            controller: 'BookCtrl as ctrl'
-        });
 
-        $routeProvider.otherwise({redirectTo: '/news'});
+        $urlRouterProvider.otherwise('/news');
     }
 })();
