@@ -24,21 +24,26 @@
             templateUrl: 'pages/publication.html',
             controller: 'PublicationCtrl as ctrl'
         });
+        $stateProvider.state("honor", {
+            url: "/honor",
+            templateUrl: 'pages/honor.html',
+            controller: "HonorCtrl as ctrl"
+        });
         $stateProvider.state('member', {
             url: "/member",
-            templateUrl: 'pages/member.html',
+            templateUrl: 'pages/member.html'
         });
         $stateProvider.state('contact', {
             url: "/contact",
-            templateUrl: 'pages/contact.html',
+            templateUrl: 'pages/contact.html'
         });
-        $stateProvider.state('recuiment', {
-            url: "/recuiment",
-            templateUrl: 'pages/recuiment.html',
+        $stateProvider.state('recruitment', {
+            url: "/recruitment",
+            templateUrl: 'pages/recruitment.html'
         });
         $stateProvider.state('photo', {
             url: "/photo",
-            templateUrl: 'pages/photo.html',
+            templateUrl: 'pages/photo.html'
         });
 
         $urlRouterProvider.otherwise('/news');
