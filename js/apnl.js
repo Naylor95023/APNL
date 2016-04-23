@@ -28,6 +28,18 @@
             url: "/member",
             templateUrl: 'pages/member.html',
         });
+        $stateProvider.state('contact', {
+            url: "/contact",
+            templateUrl: 'pages/contact.html',
+        });
+        $stateProvider.state('recuiment', {
+            url: "/recuiment",
+            templateUrl: 'pages/recuiment.html',
+        });
+        $stateProvider.state('photo', {
+            url: "/photo",
+            templateUrl: 'pages/photo.html',
+        });
 
         $urlRouterProvider.otherwise('/news');
     }
