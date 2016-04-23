@@ -7,7 +7,7 @@
     <link rel="stylesheet/less" href="css/home.less"/>
     <link rel="stylesheet" href="css/professor.css"/>
     <link rel="stylesheet" href="css/publication.css"/>
-    <link rel="stylesheet/less" href="css/member.less"/>
+    <link rel="stylesheet/less" href="css/member/member.less"/>
     <link rel="stylesheet/less" href="css/contact.less"/>
     <link rel="stylesheet/less" href="css/recuiment.less"/>
     <link rel="stylesheet/less" href="css/photo.less"/>
@@ -18,17 +18,89 @@
 <body ng-app="apnl">
 <nav id="homeNav">
     <ul>
-        <li><a ui-sref="news"><span>首頁</span><span>HOME</span></a></li>
-        <li><a ui-sref="professor"><span>主持人</span><span>PROFESSOR</span></a></li>
-        <li><a ui-sref="research"><span>研究方向</span><span>RESEARCH</span></a></li>
-        <li><a ui-sref="publication"><span>研究成果</span><span>PUBLICATION</span></a></li>
-        <li><a ui-sref="research"><span>榮譽事蹟</span><span>HONOR</span></a></li>
-        <li><a ui-sref="member"><span>成員</span><span>MEMBER</span></a></li>
-        <li><a ui-sref="photo"><span>聚會照片</span><span>PHOTO</span></a></li>
-        <li><a ui-sref="recuiment"><span>招募與規則</span><span>RECRUITMENT</span></a></li>
-        <li><a ui-sref="contact"><span>聯繫方式</span><span>CONTACT</span></a></li>
+        <li>
+            <a ui-sref="news">
+                <img class="nav-img" src="img/icons/1_news.png" alt=""/>
+                <div class="news-word">
+                    <span>首頁</span>
+                    <span>HOME</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="professor">
+                <img class="nav-img" src="img/icons/2_主持人.png" alt=""/>
+                <div class="news-word">
+                    <span>主持人</span>
+                    <span>PROFESSOR</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="research">
+                <img class="nav-img" src="img/icons/3_研究方向.png" alt=""/>
+                <div class="news-word">
+                    <span>研究方向</span>
+                    <span>RESEARCH</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="publication">
+                <img class="nav-img" src="img/icons/4_研究成果.png" alt=""/>
+                <div class="news-word">
+                    <span>研究成果</span>
+                    <span>PUBLICATION</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="research">
+                <img class="nav-img" src="img/icons/4_研究成果.png" alt=""/>
+                <div class="news-word">
+                    <span>榮譽事蹟</span>
+                    <span>HONOR</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="member">
+                <img class="nav-img" src="img/icons/6_成員.png" alt=""/>
+                <div class="news-word">
+                    <span>成員</span>
+                    <span>MEMBER</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="research">
+                <img class="nav-img" src="img/icons/7_聚會照片.png" alt=""/>
+                <div class="news-word">
+                    <span>聚會照片</span>
+                    <span>PHOTO</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="research">
+                <img class="nav-img" src="img/icons/8_招募與規則.png" alt=""/>
+                <div class="news-word">
+                    <span>招募與規則</span>
+                    <span>RECRUITMENT</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="research">
+                <img class="nav-img" src="img/icons/9_聯繫方式.png" alt=""/>
+                <div class="news-word">
+                    <span>聯繫方式</span>
+                    <span>CONTACT</span>
+                </div>
+            </a>
+        </li>
     </ul>
-    <img src="img/ntutlogo.png">
+    <img id="logo" src="img/LOGO.png">
 </nav>
 <header id="homeHeader">
     <h1>有機高分子所・前瞻高分子材料及奈米科技實驗室</h1>
