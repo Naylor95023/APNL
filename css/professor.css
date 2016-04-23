@@ -1,43 +1,54 @@
 /*global style*/
-p{
+p {
     font-weight: 700;
 }
-#introduction{
+
+#introduction {
     width: 1024px;
     display: flex;
     flex-direction: row;
 }
-#profile-pic{
+
+#profile-pic {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.title{
+
+.title {
     display: flex;
     flex-direction: column;
 }
-.Arial{
-    font-family: 'Arial Bold',Arial;
+
+.Arial {
+    font-family: 'Arial Bold', Arial;
 }
-.ch-title{
+
+.ch-title {
     font-size: 32px;
 }
-.en-title{
+
+.en-title {
     font-size: 20px;
 }
-.font-size-16{
+
+.font-size-16 {
     font-size: 16px;
 }
-.font-size-20{
+
+.font-size-20 {
     font-size: 20px;
 }
-.line-height-18px{
+
+.line-height-18px {
     line-height: 18px;
 }
-#ch-name{
+
+#ch-name {
     font-size: 20px;
 }
-.en-name{
+
+.en-name {
     font-size: 16px;
 }
 
@@ -47,78 +58,88 @@ p{
     height: 463px;
     border-bottom: solid 1px black;
 }
-#professor-bar{
+
+#professor-bar {
     background-color: #333333;
     width: 128px;
     height: 3px;
 }
-#profile-pic p{
+
+#profile-pic p {
     margin-top: 10px;
 }
-#profile-content{
+
+#profile-content {
     display: flex;
     flex-direction: column;
 }
-#profile-left{
+
+#profile-left {
     display: flex;
     flex-direction: row;
     border-right: 1px solid black;
 }
-#profile-left div{
+
+#profile-left div {
     display: flex;
     flex-direction: column;
 }
 
-#profile-right{
+#profile-right {
     margin-left: 40px;
     display: flex;
     flex-direction: row;
 }
-#profile-right div{
+
+#profile-right div {
     display: flex;
     flex-direction: column;
 }
-#profile-left div p{
+
+#profile-left div p {
     margin-bottom: 60px;
 }
 
-#profile-right div p{
+#profile-right div p {
     margin-bottom: 60px;
 }
-#address{
+
+#address {
     display: flex;
     flex-direction: row;
 }
 
-#address p{
+#address p {
     margin-right: 50px;
 }
 
-#profile-main{
+#profile-main {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
 }
 
-#profile-content{
+#profile-content {
     margin-left: 30px;
 }
-#profile-main div div p{
+
+#profile-main div div p {
     margin-right: 25px;
 }
 
-#introduction{
+#introduction {
     margin-top: 17px;
 }
 
 /*focus style*/
-#focus{
+#focus {
     width: 1024px;
     height: 235px;
     border-bottom: solid 1px black;
     margin-top: 15px;
 }
-#focus-bar{
+
+#focus-bar {
     background-color: #333333;
     width: 132px;
     height: 3px;
@@ -126,25 +147,28 @@ p{
 }
 
 /*experience style*/
-#experience{
+#experience {
     width: 1024px;
     height: 291px;
     border-bottom: solid 1px black;
 }
-#experience ul{
+
+#experience ul {
     margin-top: 20px;
 }
-#experience-bar{
+
+#experience-bar {
     background-color: #333333;
     width: 378px;
     height: 3px;
 }
 
 /*research style*/
-#research ol{
+#research ol {
     margin-top: 20px;
 }
-#research-bar{
+
+#research-bar {
     background-color: #333333;
     width: 142px;
     height: 3px;

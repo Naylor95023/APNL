@@ -1,28 +1,30 @@
-.titleList div{
+.titleList div {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    margin-left:10%;
+    margin-left: 10%;
 }
 
-.titleList div div{
+.titleList div div {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
 }
-.titleList div div div{
-    margin-left: 0px;
+
+.titleList div div div {
+    margin-left: 0;
 }
 
-.titleList h1{
+.titleList h1 {
     font-size: 26px;
     font-family: "微軟正黑體";
     color: #6e6e6e;
     margin-top: 20px;
     font-weight: bold;
 }
-.titleList h2{
+
+.titleList h2 {
     font-size: 20px;
     font-family: serif;
     font-weight: bolder;
@@ -30,84 +32,96 @@
     margin-top: 10px;
 }
 
-.columnMargin{
+.columnMargin {
     display: flex;
     flex-direction: row;
     font-family: "微軟正黑體";
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: bold;
 }
-.columnMargin h1{
-    margin-left:52px;
+
+.columnMargin h1 {
+    margin-left: 52px;
     font-size: 24px;
 }
-.columnMargin h2{
-    margin-left:80px;
+
+.columnMargin h2 {
+    margin-left: 80px;
     font-size: 22px;
 }
-.margin10{
+
+.margin10 {
     margin-left: 2%;
     margin-right: 2%;
-    margin-top:10px;
- }
-.column{
+    margin-top: 10px;
+}
+
+.column {
     display: flex;
     flex-direction: column;
-    margin-top:10px;
+    margin-top: 10px;
     font-family: "微軟正黑體";
     font-weight: bold;
 }
-.column div{
-    margin-top:10px;
+
+.column div {
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
 }
-.row h1{
-    margin-left:54px;
+
+.row h1 {
+    margin-left: 54px;
     font-size: 18px;
     font-family: "微軟正黑體";
     font-weight: bolder;
- }
-.row h2{
+}
+
+.row h2 {
     font-family: "微軟正黑體";
-    margin-left:100px;
+    margin-left: 100px;
     font-size: 18px;
     font-weight: bold;
 }
-.space{
+
+.space {
     height: 30px;
 }
-.marginTop30{
-    margin-top:30px;
+
+.marginTop30 {
+    margin-top: 30px;
 }
-.contentFont{
+
+.contentFont {
     font-family: "微軟正黑體";
-    font-size:18px ;
-    margin-top:20px;
-    margin-left:30px;
-    font-weight: bold;
-}
-.bookName{
-    font-family: "微軟正黑體";
-    font-size:22px ;
-    margin-top:20px;
-    margin-left:30px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
     font-weight: bold;
 }
 
-.titleName:hover{
+.bookName {
+    font-family: "微軟正黑體";
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.titleName:hover {
     cursor: pointer;
 }
 
-.titleName:hover h1{
-    color:black;
+.titleName:hover h1 {
+    color: black;
 }
-.titleName:hover h2{
-    color:black;
-    text-decoration:underline;
+
+.titleName:hover h2 {
+    color: black;
+    text-decoration: underline;
 }

@@ -1,6 +1,7 @@
 <div id="contentHead">
     <div>
         <h1>研究成果</h1>
+
         <h2>PUBLICATION</h2>
 
         <div></div>
@@ -10,22 +11,22 @@
 <div id="tab">
     <div class="titleList">
         <div>
-            <div class="titleName" ng-click="ctrl.selectTab('tab1')">
+            <div class="titleName" ng-click="ctrl.selectTab('papers')">
                 <h1>國際期刊論文</h1>
 
                 <h2>Journal Papers</h2>
             </div>
-            <div class="titleName" ng-click="ctrl.selectTab('tab2')">
+            <div class="titleName" ng-click="ctrl.selectTab('books')">
                 <h1>專書</h1>
 
                 <h2>Book Chapter</h2>
             </div>
-            <div class="titleName" ng-click="ctrl.selectTab('tab3')">
+            <div class="titleName" ng-click="ctrl.selectTab('patents')">
                 <h1>專利</h1>
 
                 <h2>Patent</h2>
             </div>
-            <div class="titleName" ng-click="ctrl.selectTab('tab4')">
+            <div class="titleName" ng-click="ctrl.selectTab('conferences')">
                 <h1>國際研討會議論文</h1>
 
                 <h2>Conference Papers</h2>
@@ -36,7 +37,7 @@
 </div>
 <!-- id tab end-->
 <div id="con" ng-switch on="ctrl.selectedTab">
-    <div ng-switch-when="tab1">
+    <div ng-switch-when="papers">
         <ul>
             <img class="marginTop30" src="img/u54_line.png"/>
 
@@ -51,6 +52,7 @@
             <div class="column">
                 <div ng-repeat="item in ctrl.PUBLICATION" class="row">
                     <h1>{{item.number}}</h1>
+
                     <h2>{{item.content}}</h2>
                 </div>
                 <!--row end-->
@@ -58,8 +60,10 @@
             <!--column end-->
         </ul>
     </div>
+
+    <ui-view></ui-view>
     <!-- con end-->
-    <div ng-switch-when="tab2">
+    <div ng-switch-when="books">
         <ul>
             <img class="marginTop30" src="img/u54_line.png"/>
 
@@ -68,12 +72,13 @@
 
             <div ng-repeat="item in ctrl.PUBLICATION" class="contentFont">
                 <h1>{{item.author}}</h1>
+
                 <h2>{{item.content}}</h2>
             </div>
         </ul>
     </div>
     <!-- con end-->
-    <div ng-switch-when="tab3">
+    <div ng-switch-when="patents">
         <ul>
             <div class="columnMargin">
                 <h1>No.</h1>
@@ -83,9 +88,10 @@
             <!--columnMargin end-->
             <img class="margin10" src="img/u73_line.png"/>
 
-            <div  ng-repeat="item in ctrl.PUBLICATION" class="column">
+            <div ng-repeat="item in ctrl.PUBLICATION" class="column">
                 <div class="row">
                     <h1>{{item.number}}</h1>
+
                     <h2>{{item.content}}</h2>
                 </div>
             </div>
@@ -93,7 +99,7 @@
         </ul>
     </div>
     <!-- con end-->
-    <div ng-switch-when="tab4">
+    <div ng-switch-when="conferences">
         <ul>
             <div class="columnMargin">
                 <h1>No.</h1>
@@ -106,6 +112,7 @@
             <div class="column">
                 <div ng-repeat="item in ctrl.PUBLICATION" class="row">
                     <h1>{{item.number}}</h1>
+
                     <h2>{{item.content}}</h2>
                 </div>
                 <!--row end-->

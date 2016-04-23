@@ -1,4 +1,4 @@
-body{
+body {
     position: static;
     justify-items: center;
     width: 1366px;
@@ -47,7 +47,6 @@ body{
     height: 683px;
 }
 
-
 #divider {
     margin-top: 30px;
 }
@@ -87,4 +86,3 @@ body{
 .column_4 {
     width: 45%;
 }
-
