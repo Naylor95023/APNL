@@ -3,18 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>前瞻高分子材料及奈米科技實驗室</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"/>
+    <link rel="stylesheet" href="bower_components/reset-css/reset.css"/>
     <link rel="stylesheet/less" href="css/home.less"/>
     <link rel="stylesheet" href="css/professor.css"/>
     <link rel="stylesheet" href="css/research.css"/>
     <link rel="stylesheet" href="css/publication.css"/>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="http://code.angularjs.org/1.4.8/angular-route.min.js"></script>
-    <script src="js/apnl.js"></script>
-    <script src="js/newsCtrl.js"></script>
-    <script src="js/publicationCtrl.js"></script>
 </head>
 <body ng-app="apnl">
 <nav id="homeNav">
@@ -37,5 +30,18 @@
     <h2>Advanced Polymer and Nanotechnology Laboratory</h2>
 </header>
 <div id="content" ng-view></div>
+
+
+<!-- Js libraries -->
+<script src="bower_components/less/dist/less.min.js"></script>
+
+<!-- Angular Dependencies -->
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+
+<!-- Custom Angular modules & services etc... -->
+<script src="js/apnl.js"></script>
+<script src="js/newsCtrl.js"></script>
+<script src="js/publicationCtrl.js"></script>
 </body>
 </html>
