@@ -24,31 +24,40 @@
   }
 
   #profile_main {
+    height: 180px;
     display: flex;
     flex-direction: row;
   }
 
   #profile_main_left {
+    margin: 10px 0px;
     display: flex;
     flex-direction: row;
     border-right: 1px solid black;
     div {
-
-      p {
-        margin-bottom: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: space-between;
+      div {
+        text-align: center;
+        padding: 0px 40px;
       }
     }
   }
 
-  #profile_main_right {
-    margin-left: 40px;
+  #profile_main_left {
+    margin: 10px 0px;
     display: flex;
     flex-direction: row;
+    border-right: 1px solid black;
     div {
       display: flex;
       flex-direction: column;
-      p {
-        margin-bottom: 60px;
+      justify-content: space-around;
+      align-content: space-between;
+      div {
+        padding: 0px 30px;
       }
     }
   }
