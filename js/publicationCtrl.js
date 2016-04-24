@@ -1,7 +1,7 @@
 (function () {
     angular.module('apnl').controller('PublicationCtrl', PublicationCtrl);
 
-    PublicationCtrl.$inject = [$http];
+    PublicationCtrl.$inject = ['$http'];
 
     function PublicationCtrl($http){
         var vm = this;
