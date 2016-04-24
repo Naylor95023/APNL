@@ -1,34 +1,126 @@
 {
-  "NEWS_1": [
+  "news": [
     {
-      "date": "2012.03",
-      "content": "Hello World"
+      "category": "2016",
+      "items": [
+        {
+          "date": "2016.07",
+          "title": "恭賀北科高分所 盧士棟 莊淑媛 陳健誠 邱佩琪 口試結束順利畢業"
+        },
+        {
+          "date": "2016.05",
+          "title": "恭賀參加北科大工程學院金手獎獲獎:江岱樺(學士組第一名),詹皓惟(學士組佳作),陳健誠(碩士組佳作)"
+        },
+        {
+          "date": "2016.05",
+          "title": "實驗室慶生會五月壽星(梁芳誠)"
+        },
+        {
+          "date": "2016.04",
+          "title": "實驗室四月份聚餐(WoodStone)"
+        },
+        {
+          "date": "2016.04",
+          "title": "實驗室慶生會四月壽星(陳伯瑜,陳健誠)"
+        },
+        {
+          "date": "2016.03",
+          "title": "實驗室慶生會三月壽星(羅以伶)"
+        },
+        {
+          "date": "2016.03",
+          "title": "實驗室三月份聚餐(薩莉亞)"
+        },
+        {
+          "date": "2016.02",
+          "title": "恭賀陳彥友發表SCI Paper(Journal of Polymer Science Part B:Polymer Physics, 53, 262-269 2015)(IF=3.803)"
+        },
+        {
+          "date": "2016.02",
+          "title": "恭賀陳伯瑜發表SCI Paper(ACS Applied Materials &Interfaces, 7, 2797-2808 2015)(IF=5.9)"
+        },
+        {
+          "date": "2016.05",
+          "title": "恭賀黃雲紹發表SCI Paper (Macromolecular Chemistry and Physics, 215, 879-887 2014)(IF=2.451)"
+        },
+        {
+          "date": "2016.02",
+          "title": "實驗室春酒(松滿樓)"
+        },
+        {
+          "date": "2016.01",
+          "title": "恭賀邱珮琪(優秀)、蔡秉均(佳作)、盧士棟(佳作) 同學參加高分子年會獲獎"
+        }
+      ]
     },
     {
-      "date": "2016.02",
-      "content": "Happpy New Year"
+      "category": "2015",
+      "items": [
+        {
+          "date": "2015.07",
+          "title": "恭賀北科高分所 盧士棟 莊淑媛 陳健誠 邱佩琪 口試結束順利畢業"
+        },
+        {
+          "date": "2015.05",
+          "title": "恭賀參加北科大工程學院金手獎獲獎:江岱樺(學士組第一名),詹皓惟(學士組佳作),陳健誠(碩士組佳作)"
+        },
+        {
+          "date": "2015.05",
+          "title": "實驗室慶生會五月壽星(梁芳誠)"
+        },
+        {
+          "date": "2015.04",
+          "title": "實驗室四月份聚餐(WoodStone)"
+        },
+        {
+          "date": "2015.04",
+          "title": "實驗室慶生會四月壽星(陳伯瑜,陳健誠)"
+        },
+        {
+          "date": "2015.03",
+          "title": "實驗室慶生會三月壽星(羅以伶)"
+        },
+        {
+          "date": "2015.03",
+          "title": "實驗室三月份聚餐(薩莉亞)"
+        },
+        {
+          "date": "2015.02",
+          "title": "恭賀陳彥友發表SCI Paper(Journal of Polymer Science Part B:Polymer Physics, 53, 262-269 2015)(IF=3.803)"
+        },
+        {
+          "date": "2015.02",
+          "title": "恭賀陳伯瑜發表SCI Paper(ACS Applied Materials &Interfaces, 7, 2797-2808 2015)(IF=5.9)"
+        },
+        {
+          "date": "2015.05",
+          "title": "恭賀黃雲紹發表SCI Paper (Macromolecular Chemistry and Physics, 215, 879-887 2014)(IF=2.451)"
+        },
+        {
+          "date": "2015.02",
+          "title": "實驗室春酒(松滿樓)"
+        },
+        {
+          "date": "2015.01",
+          "title": "恭賀邱珮琪(優秀)、蔡秉均(佳作)、盧士棟(佳作) 同學參加高分子年會獲獎"
+        }
+      ]
     },
     {
-      "date": "2015.12",
-      "content": "nothing...to...say"
+      "category": "2014",
+      "items": []
     },
     {
-      "date": "2015.11",
-      "content": "How are U?"
-    }
-  ],
-  "NEWS_2": [
-    {
-      "date": "2012.03",
-      "content": "diff"
+      "category": "2013",
+      "items": []
     },
     {
-      "date": "2016.02",
-      "content": "Happpy New Year"
+      "category": "2012",
+      "items": []
     },
     {
-      "date": "2015.12",
-      "content": "nothing...to...say"
+      "category": "2011",
+      "items": []
     }
   ]
 }

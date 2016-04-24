@@ -1,34 +1,17 @@
 <div>
     <div class="title">
         <h1>最新消息</h1>
+
         <h2>NEWS</h2>
     </div>
     <nav id="contentNav">
         <ul>
-            <li>2016</li>
-            <li>2015</li>
-            <li>2014</li>
-            <li>2013</li>
-            <li>2012</li>
+            <li ng-repeat="newsItem in ctrl.news" ui-sref-active="active">
+                <span ui-sref="news.category({ category: newsItem.category })">
+                    {{newsItem.category}}
+                </span>
+            </li>
         </ul>
     </nav>
-    <div class="waterShed"></div>
-    <div id="items">
-        <header id="newsHead">
-            <h1>時間Time </h1>
-
-            <h1>項目Event</h1>
-        </header>
-        <div class="waterShed"></div>
-        
-        <div id="news">
-            {{ctrl.NEWS}}
-            <ul>
-                <li ng-repeat="item in ctrl.NEWS">
-                    <span>{{item.date}}</span>
-                    <span>{{item.content}}</span>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <ui-view></ui-view>
 </div>
