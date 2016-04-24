@@ -13,7 +13,11 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
+<<<<<<< HEAD
 figure, figcaption, footer, header, hgroup, 
+=======
+figure, figcaption, footer, header, hgroup,
+>>>>>>> parent of f4cc85c... External Source
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
