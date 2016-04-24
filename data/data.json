@@ -1,16 +1,3 @@
-{
-	"researchGoal": {
-		"goals": ["靜電紡絲奈米纖維技術 Electrospun Nanofiber Technology",
-			"前瞻高分子合成技術 Advanced Polymers Synthesis",
-			"光電高分子與元件(發光元件/太陽能元件) Optoeletronic Polymers and Device (LED and Solar based on fibers)",
-			"智慧型紡織品 Smart Textiles",
-			"穿戴式彈性感測元件 (Wearable-flexible Elastic Sensory)",
-			"金屬分離感測螢光纖維膜 (Metal-ions Sensing Fluorescent Filters)"
-		],
-		"photos": [],
-		"videos": ["https://www.youtube.com/watch?v=NjTT5_RSkw4"]
-	}
-}
 
 
 {

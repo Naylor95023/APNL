@@ -1,20 +1,19 @@
-<div id="research" class ="content">
+<div id="research" class="content">
     <div class="title">
         <h1>研究方向</h1>
+
         <h2>RESEARCH GOAL</h2>
     </div>
     <div id="research_direction_content">
         <ol>
-            <li>1. 靜電紡絲奈米纖維技術 Electrospun Nanofiber Technology</li>
-            <li>2. 前瞻高分子合成技術 Advanced Polymers Synthesis</li>
-            <li>3. 光電高分子與元件(發光元件/太陽能元件) Optoeletronic Polymers and Device (LED and Solar based on fibers)</li>
-            <li>4. 智慧型紡織品 Smart Textiles</li>
-            <li>5. 穿戴式彈性感測元件 (Wearable-flexible Elastic Sensory)</li>
-            <li>6. 金屬分離感測螢光纖維膜 (Metal-ions Sensing Fluorescent Filters)</li>
+            <li ng-repeat="goal in ctrl.research.goals">{{goal}}</li>
         </ol>
     </div>
-    <img id="sample_img" src="img/research_img.jpg" alt="sample"/>
+    <img id="sample_img" src="img/research.jpg" alt="sample"/>
 
+    <div ng-repeat="image in ctrl.research.images">
+        <img class="full" src="{{image}}"/>
+    </div>
+    <ng-youtube-embed ng-repeat="video in ctrl.research.videos"
+                      url="video"></ng-youtube-embed>
 </div>
-
-

@@ -11,6 +11,7 @@
         service.getProfessor = getProfessor;
         service.getMember = getMember;
         service.getMemberList = getMemberList;
+        service.getResearch = getResearch;
 
         function getNews() {
             return $http.get('data/news.json')
@@ -83,16 +84,29 @@
             function success(response) {
                 console.log('getMemberList', response);
                 var memberList = [];
-                angular.forEach(response.data.member,function (data){
-                   if (data.category == category) {
-                       memberList = data.items;
-                   }
+                angular.forEach(response.data.member, function (data) {
+                    if (data.category == category) {
+                        memberList = data.items;
+                    }
                 });
                 return memberList;
             }
 
             function failed(error) {
                 console.log("getMemberListFailed", error);
+            }
+        }
+
+        function getResearch() {
+            return $http.get("data/research.json")
+                .then(success)
+                .catch(failed);
+            function success(response) {
+                return response.data.research;
+            }
+
+            function failed(error) {
+                console.log("getResearch", error);
             }
         }
 

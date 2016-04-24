@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    angular.module('apnl', ['ui.router']).config(config);
+    angular.module('apnl', ['ui.router', 'ngYoutubeEmbed']).config(config);
 
     config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
@@ -27,7 +27,9 @@
         });
         $stateProvider.state('research', {
             url: "/research",
-            templateUrl: 'pages/research.html'
+            templateUrl: 'pages/research.html',
+            controller: 'ResearchCtrl as ctrl',
+            resolve: {research: getResearch}
         });
         $stateProvider.state('publication', {
             url: "/publication",
@@ -89,6 +91,11 @@
         getMemberList.$inject = ['ApnlData', '$stateParams'];
         function getMemberList(ApnlData, $stateParams) {
             return ApnlData.getMemberList($stateParams.category);
+        }
+
+        getResearch.$inject = ['ApnlData'];
+        function getResearch(ApnlData) {
+            return ApnlData.getResearch();
         }
     }
 })();
