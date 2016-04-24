@@ -8,6 +8,7 @@
         var service = {};
         service.getNews = getNews;
         service.getNewsList = getNewsList;
+        service.getProfessor = getProfessor;
 
         function getNews() {
             return $http.get('data/news.json')
@@ -42,6 +43,19 @@
 
             function failed(error) {
                 console.log("getNewsListFailed", error);
+            }
+        }
+
+        function getProfessor() {
+            return $http.get("data/professor.json")
+                .then(success)
+                .catch(failed);
+            function success(response) {
+                return response.data.professor;
+            }
+
+            function failed(error) {
+                console.log("getProfessor", error);
             }
         }
 

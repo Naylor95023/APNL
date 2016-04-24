@@ -8,109 +8,110 @@
 </head>
 <body>
 
-<div id ="professor" class="content">
+<div id="professor" class="content">
     <div class="title">
         <h1>主持人</h1>
+
         <h2>PROFESSOR</h2>
     </div>
 
-        <div id="introduction">
+    <div id="introduction">
+        <div id="profile_img">
+            <img src="img/profile_pic.png" alt="profile_pic.png"/>
 
-            <div id="profile_img">
-                <img src="img/profile_pic.png" alt="profile_pic.png"/>
-                <p>郭霽慶</p>
-                <p>Dr. Chi-Ching Kuo</p>
-                <p>Assistant Professor</p>
-            </div>
-            <div id="profile_data">
-                <div id="profile_main">
+            <p> {{ctrl.professor.nameCht}}</p>
 
-                    <div id="profile_main_left">
-                        <div>
-                            <div><p>辦公室</p><p>Office</p></div>
-                            <div><p>傳真</p><p>Fax</p></div>
-                        </div>
-                        <div>
-                            <p>分子館3F</p><p>+886-2-2771-2171 ext 2407</p>
-                            <p>+886-2-2731-2171</p>
-                        </div>
-                    </div>
-                    <div id="profile_main_right">
-                        <div>
-                            <p class="font-size-20">研究室<br><span class="font-size-16">Office</span></p>
+            <p>{{ctrl.professor.nameEng}}</p>
 
-                            <p class="font-size-20">信箱<br><span class="font-size-16">Email</span></p>
-                        </div>
-                        <div>
-                            <p class="font-size-16 Arial">分子館3F<br><span class="font-size-16 Arial">+886-2-2771-2171 ext 2446</span>>
-                            </p>
-
-                            <p class="font-size-16 Arial">kuocc@mail.ntut.edu.tw</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div id="address">
-                    <p class="font-size-20">地址<br><span class="font-size-16">Address</span></p>
-
-                    <p class="font-size-16 Arial">
-                        No 1, Sec.3, Chung-hsio E. Rd., Taipei 10608, Taiwan.<br>
-                        Department of Molecular Science and Engineer Institude of Organic Poymeric<br>
-                        Materials<br>
-                        National Taipei University of Technology
-                    </p>
-                </div>
-                <!--address end-->
-            </div>
-            <!--profile-content end-->
+            <p>{{ctrl.professor.rankEng}}</p>
         </div>
-        <!--introduction end-->
+        <div id="profile_data">
+            <div id="profile_main">
+
+                <div id="profile_main_left">
+                    <div>
+                        <div><p>辦公室</p>
+
+                            <p>Office</p></div>
+                        <div><p>傳真</p>
+
+                            <p>Fax</p></div>
+                    </div>
+                    <div>
+                        <p>分子館3F</p>
+
+                        <p>{{ctrl.professor.officePhone}}</p>
+
+                        <p>{{ctrl.professor.fax}}</p>
+                    </div>
+                </div>
+                <div id="profile_main_right">
+                    <div>
+                        <p class="font-size-20">研究室<br><span class="font-size-16">Laboratory</span></p>
+
+                        <p class="font-size-20">信箱<br><span class="font-size-16">Email</span></p>
+                    </div>
+                    <div>
+                        <p class="font-size-16 Arial">分子館3F<br>
+                            <span class="font-size-16 Arial">
+                                {{ctrl.professor.laboratoryPhone}} </span>>
+                        </p>
+
+                        <p class="font-size-16 Arial">{{ctrl.professor.email}}</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="address">
+                <p class="font-size-20">地址<br><span class="font-size-16">Address</span></p>
+
+                <div>
+                    <p class="font-size-16 Arial" ng-repeat="address in ctrl.professor.addressLine">
+                        {{address}}
+                    </p></div>
+            </div>
+            <!--address end-->
+        </div>
+        <!--profile-content end-->
+    </div>
+    <!--introduction end-->
     <div class="title">
         <h1>研究興趣</h1>
+
         <h2>OUR FOCUS</h2>
     </div>
     <div id="focus">
-        <p>以靜電紡絲技術為平台，將前瞻高分子（光電高分子與生醫高分子）製備成奈米纖維，研究其奈米尺度型態、光電元件與組織工程上的應用</p>
-        <p>
-            Based on the eletrospun nanotechonology, we focus on producing the eletrospun nanofibers prepared from
-            various advanced polymers such as conjugated polymers and biomaterials and futher exploring their
-            nanoscale-morphology, and applications on optoeletronic device and tissue engineering.
-        </p>
+        <p>{{ctrl.professor.focusCht}}</p>
+
+        <p>{{ctrl.professor.focusEng}}</p>
     </div>
 
     <div class="title">
         <h1>教育/研究資歷</h1>
+
         <h2>Education and Professional Experience</h2>
     </div>
     <div id="experience">
         <ul>
-            <li><p>Assistant Professor, Department of Molecular Science and Engineering and Institude of Organic and Polymeric Materials, National Taipei University of Techonology (02/2011 - present)</p></li>
-            <li><p>Postdoc, Institude of Polymer Science and Engineering, National Taiwan University (03/2009 - 02/2011)</p></li>
-            <li><p>Ph.D., Polymer Science and Engineering, National Taiwan University (09/2005 - 09/2005)</p></li>
-            <li><p>Research Scientist, Industrial Technology Institude (ITRI), Taiwan (09/2002 - 09/2005)</p></li>
-            <li><p>MS, Chemical Engineering, National Chung Hsing University (06/2000 - 09/2002)</p></li>
-            <li><p>BS, Chemical Engineering, National Chung Hsing University (09/1996 - 06/2000)</p></li>
+            <li ng-repeat="experience in ctrl.professor.experiences">
+                <p>{{experience}}</p>
+            </li>
         </ul>
     </div>
 
     <div class="title">
         <h1>研究專長</h1>
+
         <h2>Research Interests</h2>
     </div>
     <div id="research">
         <ol>
-            <li><p>1. 靜電紡絲奈米纖維技術 Electrospun Nanofiber Technology</p></li>
-            <li><p>2. 前瞻高分子合成技術 Advanced Polymers Synthesis</p></li>
-            <li><p>3. 光電高分子與元件(發光元件/太陽能元件) Optoeletronic Polymers and Device (LED and Solar based on fibers)</p></li>
-            <li><p>4. 智慧型紡織品 Smart Textiles</p></li>
-            <li><p>5. 穿戴式彈性感測元件 (Wearable-flexible Elastic Sensory)</p></li>
-            <li><p>6. 金屬分離感測螢光纖維膜 (Metal-ions Sensing Fluorescent Filters)</p></li>
+            <li ng-repeat="researchInterest in ctrl.professor.researchInterests">
+                <p>{{researchInterest}}</p>
+            </li>
         </ol>
     </div>
-
 </div>
 </body>
 </html>
-
-

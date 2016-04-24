@@ -1,0 +1,37 @@
+{
+  "professor": {
+    "nameCht": "郭霽慶",
+    "nameEng": "Dr. Chi-Ching Kuo",
+    "rankCht": "副教授",
+    "rankEng": "Associate Professor",
+    "officePlace": "分子館3F",
+    "officePhone": "+886-2-2771-2171 ext 2407",
+    "laboratoryPlace": "分子館3F",
+    "laboratoryPhone": "+886-2-2771-2171 ext 2446",
+    "fax": "+886-2-2731-2171",
+    "email": "kuocc@mail.ntut.edu.tw",
+    "addressLine": [
+      "No 1, Sec.3, Chung-hsio E. Rd., Taipei 10608, Taiwan.",
+      "Department of Molecular Science and Engineer Institude of Organic Poymeric Materials",
+      "National Taipei University of Technology"
+    ],
+    "focusCht": "以靜電紡絲與精準合成技術為平台，將前瞻高分子（光電高分子/透明彈性高分子）製備成奈米纖維，研究其奈米尺度型態與光電特性、光電元件(發光元件/太陽能元件)、新世代智慧型纖維織物、穿戴式彈性感測元件、金屬分離感測膜…等應用。",
+    "focusEng": "Based on the eletrospun nanotechonology and precision synthesis, we focus on producing the eletrospun nanofibers prepared from various advanced polymers such as conjugated polymers and transparent elastic polymer, and futher exploring their nanoscale-morphology and optical properties, and applications on optoeletronic device (LED/solar cell), smart textile, wearable-flexible elastic sensory, metal-ions sensing filters and so on.",
+    "experiences": [
+      "Associate Professor (08/2015 - present), Assistant Professor (02/2011 – 07/2015), Department of Molecular Science and Engineering and Institute of Organic and Polymeric Materials, National Taipei University of Technology",
+      "Postdoc, Institute of Polymer Science and Engineering, National Taiwan University (03/2009 - 02/2011)",
+      "Ph.D., Polymer Science and Engineering, National Taiwan University (09/2005 - 09/2005)",
+      "Research Scientist, Industrial Technology Institute (ITRI), Taiwan (09/2002 - 09/2005)",
+      "MS, Chemical Engineering, National Chung Hsing University (06/2000 - 09/2002)",
+      "BS, Chemical Engineering, National Chung Hsing University (09/1996 - 06/2000)"
+    ],
+    "researchInterests": [
+      "1. 靜電紡絲奈米纖維技術 Electrospun Nanofiber Technology",
+      "2. 前瞻高分子合成技術 Advanced Polymers Synthesis",
+      "3. 光電高分子與元件(發光元件/太陽能元件) Optoeletronic Polymers and Device (LED and Solar based on fibers)",
+      "4. 智慧型紡織品 Smart Textiles",
+      "5. 穿戴式彈性感測元件 (Wearable-flexible Elastic Sensory)",
+      "6. 金屬分離感測螢光纖維膜 (Metal-ions Sensing Fluorescent Filters)"
+    ]
+  }
+}

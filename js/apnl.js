@@ -21,7 +21,9 @@
 
         $stateProvider.state('professor', {
             url: "/professor",
-            templateUrl: 'pages/professor.html'
+            templateUrl: 'pages/professor.html',
+            controller: 'ProfessorCtrl as ctrl',
+            resolve: {professor: getProfessor}
         });
         $stateProvider.state('research', {
             url: "/research",
@@ -64,6 +66,11 @@
         getNewsList.$inject = ['ApnlData', '$stateParams'];
         function getNewsList(ApnlData, $stateParams) {
             return ApnlData.getNewsList($stateParams.category);
+        }
+
+        getProfessor.$inject = ['ApnlData'];
+        function getProfessor(ApnlData) {
+            return ApnlData.getProfessor();
         }
     }
 })();
