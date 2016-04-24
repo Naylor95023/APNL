@@ -1,0 +1,48 @@
+<div>
+    <div class="title">
+        <h1>榮譽事蹟</h1>
+
+        <h2>HONOR</h2>
+    </div>
+    <div>
+        <div class="titleList">
+            <div>
+                <div class="titleName" ng-click="ctrl.selectTab('professor')">
+                    <h1>主持人</h1>
+
+                    <h2>Professor</h2>
+                </div>
+                <div class="titleName" ng-click="ctrl.selectTab('student')">
+                    <h1>學生</h1>
+
+                    <h2>Guide students</h2>
+                </div>
+            </div>
+        </div>
+        <!--titleList end-->
+    </div>
+    <div>
+            <ul>
+                <img class="marginTop30" src="img/u54_line.png"/>
+
+                <div class="columnMargin">
+                    <h1>No.</h1>
+
+                    <h2>事蹟</h2>
+                </div>
+                <!--columnMargin end-->
+                <img class="margin10" src="img/u73_line.png"/>
+
+                <div class="column">
+                    <div ng-repeat="item in ctrl.EVENT" class="row">
+                        <h1>{{$index + 1}}</h1>
+
+                        <h2>{{item.content}}</h2>
+                    </div>
+                    <!--row end-->
+                </div>
+                <!--column end-->
+            </ul>
+    </div>
+
+</div>>

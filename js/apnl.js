@@ -1,6 +1,5 @@
 (function () {
     'use strict';
-
     angular.module('apnl', ['ui.router']).config(config);
 
     config.$inject = ['$stateProvider', '$urlRouterProvider'];
