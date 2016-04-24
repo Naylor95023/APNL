@@ -3,12 +3,13 @@
 
     angular.module('apnl').controller('NewsCtrl', NewsCtrl);
 
-    NewsCtrl.$inject = ['$http'];
-    function NewsCtrl($http) {
+    NewsCtrl.$inject = ['$state', 'news'];
+    function NewsCtrl($state, news) {
         var vm = this;
-        $http.get('data/news.json').then(function (response) {
-            console.log(response);
-            vm.news = response.data.news;
-        })
+        vm.news = news;
+
+        $state.transitionTo('news.category', {category: news[0].category}, {
+            location: false
+        });
     }
 })();
