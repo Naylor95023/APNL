@@ -1,42 +1,79 @@
-#homeNav{
+#homeNav {
   display: flex;
   align-items: center;
-  width: 1366px;
+  width: 100%;
   height: 80px;
   background: #BFA959;
-  ul{
+  position: relative;
+
+  ul {
     display: flex;
+    align-items: center;
+
+    li {
+      padding: 0 7px 0 10px;
+      border-right: white solid 1px;
+    }
+
+    li:last-child {
+      border: none;
+    }
   }
-  ul li a{
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 5px;
+
+  ul li a {
     text-decoration: none;
     color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: transparent solid 3px;
+    font-weight: 700;
+    border-bottom: transparent solid 3px;
+
+    .nav-img {
+      width: auto;
+      height: 20px;
+
+    }
+
+    .news-word {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 5px;
+      padding-left: 3px;
+
+      .news-eng {
+        padding-top: 5px;
+        font-size: 10px;
+      }
+    }
   }
-  ul li a:hover{
-     padding-bottom: 2px;
-     border-bottom: solid 3px;
-     color: #FFFFFF;
-     cursor: pointer;
-   }
-  ul li a> span:nth-child(odd){
+
+  ul li a:hover, ul li a.active {
+    color: #FFFFFF;
+    border-bottom: white solid 3px;
+    cursor: pointer;
+  }
+
+  ul li a > span:nth-child(odd) {
     margin-top: 5px;
     font-size: 20px;
     font-family: 'Microsoft YaHei';
     font-weight: bold;
   }
-  ul li a> span:nth-child(even){
+
+  ul li a > span:nth-child(even) {
     margin-top: 10px;
     font-size: 14px;
     font-family: serif;
   }
 
-  img{
-    width: 120px;
-    height: 60px;
-    margin-left: 100px;
+  #logo {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    right: 25px;
+    top: 50%;
+    transform: translate(0, -50%);
   }
-
 }

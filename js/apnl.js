@@ -1,23 +1,52 @@
 (function () {
-    angular.module('apnl', ['ngRoute']).config(config);
+    'use strict';
 
-    config.$inject = ['$routeProvider'];
 
-    function config($routeProvider) {
-        $routeProvider.when('/news', {
+    angular.module('apnl', ['ui.router']).config(config);
+
+    config.$inject = ['$stateProvider', '$urlRouterProvider'];
+
+    function config($stateProvider, $urlRouterProvider) {
+        $stateProvider.state('news', {
+            url: "/news",
             templateUrl: 'pages/news.html',
             controller: 'NewsCtrl as ctrl'
         });
-        $routeProvider.when('/professor', {
+        $stateProvider.state('professor', {
+            url: "/professor",
             templateUrl: 'pages/professor.html'
         });
-        $routeProvider.when('/research', {
+        $stateProvider.state('research', {
+            url: "/research",
             templateUrl: 'pages/research.html'
         });
-        $routeProvider.when('/publication', {
-                templateUrl: 'pages/publication.html',
-                controller: 'PublicationCtrl as ctrl'
-            });
-        $routeProvider.otherwise({redirectTo: '/news'});
+        $stateProvider.state('publication', {
+            url: "/publication",
+            templateUrl: 'pages/publication.html',
+            controller: 'PublicationCtrl as ctrl'
+        });
+        $stateProvider.state("honor", {
+            url: "/honor",
+            templateUrl: 'pages/honor.html',
+            controller: "HonorCtrl as ctrl"
+        });
+        $stateProvider.state('member', {
+            url: "/member",
+            templateUrl: 'pages/member.html'
+        });
+        $stateProvider.state('contact', {
+            url: "/contact",
+            templateUrl: 'pages/contact.html'
+        });
+        $stateProvider.state('recruitment', {
+            url: "/recruitment",
+            templateUrl: 'pages/recruitment.html'
+        });
+        $stateProvider.state('photo', {
+            url: "/photo",
+            templateUrl: 'pages/photo.html'
+        });
+
+        $urlRouterProvider.otherwise('/news');
     }
 })();

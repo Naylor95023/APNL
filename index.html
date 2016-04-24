@@ -3,39 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <title>前瞻高分子材料及奈米科技實驗室</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"/>
+    <link rel="stylesheet" href="bower_components/reset-css/reset.css"/>
     <link rel="stylesheet/less" href="css/home.less"/>
-    <link rel="stylesheet" href="css/professor.css"/>
-    <link rel="stylesheet" href="css/research.css"/>
-    <link rel="stylesheet" href="css/publication.css"/>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="http://code.angularjs.org/1.4.8/angular-route.min.js"></script>
-    <script src="js/apnl.js"></script>
-    <script src="js/newsCtrl.js"></script>
-    <script src="js/publicationCtrl.js"></script>
+    <link rel="stylesheet" href="css/publication.css"/>
+    <link rel="stylesheet/less" href="css/member/member.less"/>
+    <link rel="stylesheet/less" href="css/contact.less"/>
+    <link rel="stylesheet/less" href="css/recuiment.less"/>
+    <link rel="stylesheet/less" href="css/photo.less"/>
+    <link rel="stylesheet/less" href="css/research.less"/>
+    <link rel="stylesheet/less" href="css/member/toipcs.less">
+    <link rel="stylesheet/less" href="css/professor.less"/>
 </head>
 <body ng-app="apnl">
 <nav id="homeNav">
     <ul>
-        <li><a href="#/news"><span>首頁</span><span>HOME</span></a></li>
-        <li><a href="#/professor"><span>主持人</span><span>PROFESSOR</span></a></li>
-        <li><a href="#/research"><span>研究方向</span><span>RESEARCH</span></a></li>
-        <li><a href="#/publication"><span>研究成果</span><span>PUBLICATION</span></a></li>
-        <li><a href="#/research"><span>榮譽事蹟</span><span>HONOR</span></a></li>
-        <li><a href="#/research"><span>成員</span><span>MEMBER</span></a></li>
-        <li><a href="#/research"><span>聚會照片</span><span>PHOTO</span></a></li>
-        <li><a href="#/research"><span>招募與規則</span><span>RECRUITMENT</span></a></li>
-        <li><a href="#/research"><span>聯繫方式</span><span>CONTACT</span></a></li>
+        <li>
+            <a ui-sref="news" ui-sref-active="active">
+                <img class="nav-img" src="img/icons/1_news.png" alt=""/>
+
+                <div class="news-word">
+                    <span>首頁</span>
+                    <span class="news-eng">HOME</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="professor" ui-sref-active="active">
+                <img class="nav-img" src="img/icons/2_主持人.png" alt=""/>
+
+                <div class="news-word">
+                    <span>主持人</span>
+                    <span class="news-eng">PROFESSOR</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="research" ui-sref-active="active">
+                <img class="nav-img" src="img/icons/3_研究方向.png" alt=""/>
+
+                <div class="news-word">
+                    <span>研究方向</span>
+                    <span class="news-eng">RESEARCH</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="publication" ui-sref-active="active">
+                <img class="nav-img" src="img/icons/4_研究成果.png" alt=""/>
+
+                <div class="news-word">
+                    <span>研究成果</span>
+                    <span class="news-eng">PUBLICATION</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="honor" ui-sref-active="active">
+                <img class="nav-img" src="img/icons/4_研究成果.png" alt=""/>
+
+                <div class="news-word">
+                    <span>榮譽事蹟</span>
+                    <span class="news-eng">HONOR</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="member" ui-sref-active="active">
+                <img class="nav-img" src="img/icons/6_成員.png" alt=""/>
+
+                <div class="news-word">
+                    <span>成員</span>
+                    <span class="news-eng">MEMBER</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="photo" ui-sref-active="active">
+                <img class="nav-img" src="img/icons/7_聚會照片.png" alt=""/>
+
+                <div class="news-word">
+                    <span>聚會照片</span>
+                    <span class="news-eng">PHOTO</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="recruitment" ui-sref-active="active">
+                <img class="nav-img" src="img/icons/8_招募與規則.png" alt=""/>
+
+                <div class="news-word">
+                    <span>招募與規則</span>
+                    <span class="news-eng">RECRUITMENT</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a ui-sref="contact" ui-sref-active="active">
+                <img class="nav-img" src="img/icons/9_聯繫方式.png" alt=""/>
+
+                <div class="news-word">
+                    <span>聯繫方式</span>
+                    <span class="news-eng">CONTACT</span>
+                </div>
+            </a>
+        </li>
     </ul>
-    <img src="img/ntutlogo.png">
+    <img id="logo" src="img/LOGO.png">
 </nav>
 <header id="homeHeader">
     <h1>有機高分子所・前瞻高分子材料及奈米科技實驗室</h1>
 
     <h2>Advanced Polymer and Nanotechnology Laboratory</h2>
 </header>
-<div id="content" ng-view></div>
+<div id="content" ui-view></div>
+
+
+<!-- Js libraries -->
+<script src="bower_components/less/dist/less.min.js"></script>
+
+<!-- Angular Dependencies -->
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+<!-- Custom Angular modules & services etc... -->
+<script src="js/apnl.js"></script>
+<script src="js/newsCtrl.js"></script>
+<script src="js/publicationCtrl.js"></script>
+<script src="js/honorCtrl.js"></script>
 </body>
 </html>
