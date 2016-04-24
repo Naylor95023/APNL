@@ -6,13 +6,13 @@
     function HonorCtrl($http) {
         var vm = this;
         vm.selectTab = selectTab;
-        vm.selectedTab = 'professor';
-        selectTab(vm.selectedTab);
+        vm._tab = 'professor';
+        selectTab(vm._tab);
 
         function selectTab(tab) {
-            vm.selectedTab = tab;
+            vm._tab = tab;
             $http.get('data/honor.json').then(function (response) {
-                if(vm.selectedTab == 'professor'){
+                if(vm._tab == 'professor'){
                     console.log("HonorLoad!!");
                     vm.EVENT = response.data.Professor;
                 }
