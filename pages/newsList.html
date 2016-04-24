@@ -1,0 +1,19 @@
+<div class="waterShed"></div>
+<div id="items">
+    <header id="newsHead">
+        <h1>時間Time </h1>
+
+        <h1>項目Event</h1>
+    </header>
+    <div class="waterShed"></div>
+
+    <div id="news">
+        <h1 ng-show="ctrl.newsList.length==0">沒有任何資料！</h1>
+        <ul>
+            <li ng-repeat="newsItem in ctrl.newsList">
+                <span>{{newsItem.date}}</span>
+                <span>{{newsItem.title}}</span>
+            </li>
+        </ul>
+    </div>
+</div>

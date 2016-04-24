@@ -8,9 +8,14 @@
 
     function config($stateProvider, $urlRouterProvider) {
         $stateProvider.state('news', {
-            url: "/news",
+            url: "",
             templateUrl: 'pages/news.html',
             controller: 'NewsCtrl as ctrl'
+        });
+        $stateProvider.state('news.category', {
+            url: "/news/:category",
+            templateUrl: 'pages/newsList.html',
+            controller: 'NewsListCtrl as ctrl'
         });
         $stateProvider.state('professor', {
             url: "/professor",
@@ -47,6 +52,6 @@
             templateUrl: 'pages/photo.html'
         });
 
-        $urlRouterProvider.otherwise('/news');
+        $urlRouterProvider.otherwise('');
     }
 })();
