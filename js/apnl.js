@@ -1,16 +1,24 @@
 (function () {
     'use strict';
-
     angular.module('apnl', ['ui.router']).config(config);
 
     config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
     function config($stateProvider, $urlRouterProvider) {
         $stateProvider.state('news', {
-            url: "/news",
+            url: "",
             templateUrl: 'pages/news.html',
-            controller: 'NewsCtrl as ctrl'
+            controller: 'NewsCtrl as ctrl',
+            resolve: {news: getNews}
         });
+
+        $stateProvider.state('news.category', {
+            url: "/news/:category",
+            templateUrl: 'pages/newsList.html',
+            controller: 'NewsListCtrl as ctrl',
+            resolve: {newsList: getNewsList}
+        });
+
         $stateProvider.state('professor', {
             url: "/professor",
             templateUrl: 'pages/professor.html'
@@ -46,6 +54,16 @@
             templateUrl: 'pages/photo.html'
         });
 
-        $urlRouterProvider.otherwise('/news');
+        $urlRouterProvider.otherwise('');
+
+        getNews.$inject = ['ApnlData'];
+        function getNews(ApnlData) {
+            return ApnlData.getNews();
+        }
+
+        getNewsList.$inject = ['ApnlData', '$stateParams'];
+        function getNewsList(ApnlData, $stateParams) {
+            return ApnlData.getNewsList($stateParams.category);
+        }
     }
 })();
