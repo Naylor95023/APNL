@@ -1,0 +1,38 @@
+ <div class="data-box" ng-repeat="memberItem in ctrl.memberList">
+    <div class="left-img">
+        <img src="img/professor_img.png" alt=""/>
+        <span>{{memberItem.name}}</span>
+    </div>
+    <div class="right-detail">
+        <ul>
+            <li>
+                <span class="detail-title">E-mail</span>
+                <span class="detail-content">{{memberItem.email}}</span>
+            </li>
+            <li ng-if="memberItem.graduate != null">
+                <span class="detail-title">畢業時間</span>
+                <span class="detail-content">{{memberItem.graduate}}</span>
+            </li>
+            <li ng-if="memberItem.work != null">
+                <span class="detail-title">目前工作</span>
+                <span class="detail-content">{{memberItem.work}}</span>
+            </li>
+            <li>
+                <span class="detail-title">Phone</span>
+                <span class="detail-content">{{memberItem.phone}}</span>
+            </li>
+            <li>
+                <span class="detail-title">研究題目</span>
+                <span class="detail-content">{{memberItem.study}}</span>
+            </li>
+            <li>
+                <span class="detail-title">興趣</span>
+                <span class="detail-content">{{memberItiem.interest}}</span>
+            </li>
+            <li>
+                <span class="detail-title">座右銘</span>
+                <span class="detail-content" ng-repeat="motto in ctrl.mottoList">{{motto.text}} <br/><br/></span>
+            </li>
+        </ul>
+    </div>
+ </div>

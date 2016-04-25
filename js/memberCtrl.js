@@ -8,8 +8,9 @@
         var vm = this;
         vm.member = member;
 
-        //$state.transitionTo('member.category', {category: member[0].category}, {
-        //    location: false
-        //});
+        $state.transitionTo('member.category', {category: member[0].category}, {
+            location: false
+        });
+        console.log(member[0].category);
     }
 })();

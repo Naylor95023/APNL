@@ -47,12 +47,12 @@
             controller: 'MemberCtrl as ctrl',
             resolve: {member: getMember}
         });
-        //$stateProvider.state('member.category', {
-        //    url: "/member/:category",
-        //    templateUrl: 'pages/memberList.html',
-        //    controller: 'memberListCtrl as ctrl',
-        //    resolve: {membersList: getMemberList}
-        //});
+        $stateProvider.state('member.category', {
+            url: "/:category",
+            templateUrl: 'pages/memberList.html',
+            controller: 'MemberListCtrl as ctrl',
+            resolve: {membersList: getMemberList}
+        });
         $stateProvider.state('contact', {
             url: "/contact",
             templateUrl: 'pages/contact.html'

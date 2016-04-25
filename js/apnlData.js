@@ -78,7 +78,7 @@
         }
 
         function getMemberList (category) {
-            return $http.get('data/news.json')
+            return $http.get('data/member.json')
                 .then(success)
                 .catch(failed);
             function success(response) {

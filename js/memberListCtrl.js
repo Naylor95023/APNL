@@ -2,8 +2,11 @@
     'use strict';
     angular.module('apnl').controller('MemberListCtrl', MemberListCtrl);
 
-    MemberListCtrl.$inject = ['membersList'];
-    function MemberListCtrl(membersList) {
+    MemberListCtrl.$inject = ['memberList'];
+    function MemberListCtrl(memberList) {
+        console.log("MemberListCtrl In");
         var vm = this;
+        vm.memberList = memberList;
+        vm.mottoList = vm.memberList.motto;
     }
 })();
