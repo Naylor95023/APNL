@@ -7,12 +7,12 @@
     <div>
         <div class="titleList">
             <div>
-                <div class="titleName" ng-click="ctrl.selectTab('professor')">
+                <div id="professor_link" class="titleName" ng-click="ctrl.selectTab('professor')">
                     <h1>主持人</h1>
 
                     <h2>Professor</h2>
                 </div>
-                <div class="titleName" ng-click="ctrl.selectTab('student')">
+                <div id="student_link" class="titleName" ng-click="ctrl.selectTab('student')">
                     <h1>學生</h1>
 
                     <h2>Guide students</h2>
@@ -37,7 +37,7 @@
                     <div ng-repeat="item in ctrl.EVENT" class="row">
                         <h1>{{$index + 1}}</h1>
 
-                        <h2>{{item.content}}</h2>
+                        <pre><h2>{{item.content}}</h2></pre>
                     </div>
                     <!--row end-->
                 </div>
