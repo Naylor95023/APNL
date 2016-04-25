@@ -1,7 +1,7 @@
  <div class="data-box" ng-repeat="memberItem in ctrl.memberList">
     <div class="left-img">
-        <img ng-src = {{memberItem.img}} alt=""/>
-        <span>{{memberItem.name}}</span>
+        <img ng-if="memberItem.img !=''" ng-src = {{memberItem.img}} alt=""/>
+        <span ng-repeat="name in memberItem.name">{{name.text}}</span>
     </div>
     <div class="right-detail">
         <ul>
