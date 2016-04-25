@@ -12,11 +12,6 @@
       display: flex;
       justify-content: center;
 
-      .action {
-        color: black;
-        border-bottom: black solid 2px;
-      }
-
       li {
         display: flex;
         flex-direction: column;
@@ -25,6 +20,7 @@
         margin-right: 45px;
         cursor: pointer;
         color: gray;
+        border-bottom: transparent solid 2px;
 
         span {
           font-weight: 700;
@@ -40,15 +36,26 @@
           padding-bottom: 6px;
         }
       }
+
+      li:hover, li.active {
+        color: black;
+        border-bottom: black solid 2px;
+      }
     }
   }
 
   .member-data {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    ui-view {
+      width: 100%;
+    }
+
     .data-box {
+      box-sizing: border-box;
       padding: 28px 30px;
       display: flex;
       border-bottom: Gray solid 1px;
@@ -58,11 +65,12 @@
         padding-right: 48px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
 
         img {
-          width: 100%;
+          width: 210px;
+          height: 314px;
         }
 
         span {
@@ -86,6 +94,7 @@
 
             span {
               font-weight: 700;
+              word-break: break-all;
             }
 
             .detail-title {

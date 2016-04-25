@@ -7,7 +7,5 @@
         console.log("MemberListCtrl In");
         var vm = this;
         vm.memberList = memberList;
-        console.log(vm.memberList);
-        //vm.mottoList = memberList.motto;
     }
 })();

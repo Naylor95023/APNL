@@ -1,11 +1,11 @@
  <div class="data-box" ng-repeat="memberItem in ctrl.memberList">
     <div class="left-img">
-        <img src="img/professor_img.png" alt=""/>
+        <img ng-src = {{memberItem.img}} alt=""/>
         <span>{{memberItem.name}}</span>
     </div>
     <div class="right-detail">
         <ul>
-            <li>
+            <li ng-if="memberItem.email != ''">
                 <span class="detail-title">E-mail</span>
                 <span class="detail-content">{{memberItem.email}}</span>
             </li>
@@ -17,15 +17,15 @@
                 <span class="detail-title">目前工作</span>
                 <span class="detail-content">{{memberItem.work}}</span>
             </li>
-            <li>
+            <li ng-if="memberItem.phone != ''">
                 <span class="detail-title">Phone</span>
                 <span class="detail-content">{{memberItem.phone}}</span>
             </li>
-            <li>
+            <li ng-if="memberItem.study != ''">
                 <span class="detail-title">研究題目</span>
                 <span class="detail-content">{{memberItem.study}}</span>
             </li>
-            <li>
+            <li ng-if="memberItem.interest != ''">
                 <span class="detail-title">興趣</span>
                 <span class="detail-content">{{memberItem.interest}}</span>
             </li>
