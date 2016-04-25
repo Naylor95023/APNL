@@ -20,7 +20,8 @@
     "angular": "~1.5.5",
     "less": "~2.6.1",
     "angular-ui-router": "~0.2.18",
-    "ng-youtube-embed": "~0.2.3"
+    "ng-youtube-embed": "~0.2.3",
+    "jquery": "~1.12.0"
   },
   "resolutions": {
     "angular": "~1.5.5"
