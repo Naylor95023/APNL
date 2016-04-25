@@ -9,11 +9,11 @@
                 <span class="detail-title">E-mail</span>
                 <span class="detail-content">{{memberItem.email}}</span>
             </li>
-            <li ng-if="memberItem.graduate != null">
+            <li ng-if="memberItem.graduate != ''">
                 <span class="detail-title">畢業時間</span>
                 <span class="detail-content">{{memberItem.graduate}}</span>
             </li>
-            <li ng-if="memberItem.work != null">
+            <li ng-if="memberItem.work != ''">
                 <span class="detail-title">目前工作</span>
                 <span class="detail-content">{{memberItem.work}}</span>
             </li>
@@ -27,11 +27,11 @@
             </li>
             <li>
                 <span class="detail-title">興趣</span>
-                <span class="detail-content">{{memberItiem.interest}}</span>
+                <span class="detail-content">{{memberItem.interest}}</span>
             </li>
             <li>
                 <span class="detail-title">座右銘</span>
-                <span class="detail-content" ng-repeat="motto in ctrl.mottoList">{{motto.text}} <br/><br/></span>
+                <span class="detail-content" ng-repeat="motto in memberItem.motto">{{motto.text}} <br/><br/></span>
             </li>
         </ul>
     </div>

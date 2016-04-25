@@ -11,6 +11,5 @@
         $state.transitionTo('member.category', {category: member[0].category}, {
             location: false
         });
-        console.log(member[0].category);
     }
 })();

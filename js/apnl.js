@@ -51,7 +51,7 @@
             url: "/:category",
             templateUrl: 'pages/memberList.html',
             controller: 'MemberListCtrl as ctrl',
-            resolve: {membersList: getMemberList}
+            resolve: {memberList: getMemberList}
         });
         $stateProvider.state('contact', {
             url: "/contact",

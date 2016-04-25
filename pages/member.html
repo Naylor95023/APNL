@@ -5,7 +5,7 @@
     </div>
     <div class="member-column">
         <ul>
-            <li class="action" ui-sref-active="active" ui-sref="member.category({category: professor})">
+            <li class="action" ui-sref-active="active" ui-sref="member.category({category: 'professor'})">
                 <span class="item-ch">指導教授</span>
                 <span class="item-eng">Professor</span>
             </li>
@@ -27,5 +27,7 @@
             </li>
         </ul>
     </div>
-    <div class="member-data"></div>
+    <div class="member-data">
+        <ui-view></ui-view>
+    </div>
 </div>

@@ -69,6 +69,7 @@
                 .catch(failed);
 
             function success(response) {
+                console.log("getMember Load!");
                 return response.data.member;
             }
 
@@ -89,6 +90,7 @@
                         memberList = data.items;
                     }
                 });
+                console.log(memberList);
                 return memberList;
             }
 
