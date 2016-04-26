@@ -15,6 +15,8 @@
         service.getPublication = getPublication;
         service.getJournalPapers = getJournalPapers;
         service.getJournalPapersList = getJournalPapersList;
+        service.getResearchProjects = getResearchProjects;
+        service.getResearchProjectsAmounts = getResearchProjectsAmounts;
 
         function getNews() {
             return $http.get('data/news.json')
@@ -66,7 +68,7 @@
             }
         }
 
-        function getMember(){
+        function getMember() {
             return $http.get("data/member.json")
                 .then(success)
                 .catch(failed);
@@ -81,7 +83,7 @@
             }
         }
 
-        function getMemberList (category) {
+        function getMemberList(category) {
             return $http.get('data/member.json')
                 .then(success)
                 .catch(failed);
@@ -158,6 +160,38 @@
 
             function failed(error) {
                 console.log("getJournalPapers", error);
+            }
+        }
+
+        function getResearchProjects() {
+            return $http.get("data/publication.json")
+                .then(success)
+                .catch(failed);
+
+            function success(response) {
+                return response.data.publication.researchProjects;
+            }
+
+            function failed(error) {
+                console.log("getResearchProjects", error);
+            }
+        }
+
+        function getResearchProjectsAmounts() {
+            return $http.get("data/publication.json")
+                .then(success)
+                .catch(failed);
+
+            function success(response) {
+                var amount = 0;
+                angular.forEach(response.data.publication.researchProjects, function (project) {
+                    amount += project.amount;
+                });
+                return amount;
+            }
+
+            function failed(error) {
+                console.log("getResearchProjectsAmounts", error);
             }
         }
 

@@ -1,1 +1,15 @@
 researchProjects
+
+{{ctrl.researchProjects}}
+<div ng-repeat="project in ctrl.researchProjects">
+    <span class="project-name">{{project.name}}</span>
+    <span class="project-title">{{project.title}}</span>
+    <span class="project-work">{{project.work}}</span>
+    <span class="project-duration">{{project.duration}}</span>
+    <span class="project-institute">{{project.institute}}</span>
+    <span class="project-state">{{project.state}}</span>
+    <span class="project-amount">{{project.amount}}</span>
+</div>
+<div>
+    <span class="total">{{ctrl.amounts}}</span>
+</div>

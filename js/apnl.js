@@ -39,7 +39,10 @@
         });
         $stateProvider.state('publication.researchProjects', {
             url: "/researchProjects",
-            templateUrl: 'pages/researchProjects.html'
+            templateUrl: 'pages/researchProjects.html',
+            controller: 'ResearchProjectsCtrl as ctrl',
+            resolve: {researchProjects: getResearchProjects,
+            amounts: getResearchProjectsAmounts}
         });
         $stateProvider.state('publication.journalPapers', {
             url: "/journalPapers",
@@ -141,6 +144,16 @@
         getJournalPapersList.$inject = ['ApnlData', '$stateParams'];
         function getJournalPapersList(ApnlData, $stateParams) {
             return ApnlData.getJournalPapersList($stateParams.category);
+        }
+
+        getResearchProjects.$inject = ['ApnlData'];
+        function getResearchProjects(ApnlData) {
+            return ApnlData.getResearchProjects();
+        }
+
+        getResearchProjectsAmounts.$inject = ['ApnlData'];
+        function getResearchProjectsAmounts(ApnlData) {
+            return ApnlData.getResearchProjectsAmounts();
         }
     }
 })();
