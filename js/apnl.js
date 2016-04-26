@@ -43,7 +43,9 @@
         });
         $stateProvider.state('publication.journalPapers', {
             url: "/journalPapers",
-            templateUrl: 'pages/journalPapers.html'
+            templateUrl: 'pages/journalPapers.html',
+            controller: 'JournalPapersCtrl as ctrl',
+            resolve: {journalPapers: getJournalPapers}
         });
         $stateProvider.state('publication.bookChapters', {
             url: "/bookChapters",
@@ -107,5 +109,9 @@
             return ApnlData.getPublication();
         }
 
+        getJournalPapers.$inject = ['ApnlData'];
+        function getJournalPapers(ApnlData) {
+            return ApnlData.getJournalPapers();
+        }
     }
 })();

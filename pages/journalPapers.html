@@ -5,19 +5,23 @@
         <div class="columnMargin">
             <h1>No.</h1>
 
-            <h2>論文 Journal</h2>
+            <h2>國際期刊論文 Journal Papers</h2>
         </div>
         <!--columnMargin end-->
         <img class="margin10" src="img/u73_line.png"/>
 
-        <div class="column">
-            <div ng-repeat="item in ctrl.PUBLICATION" class="row">
-                <h1>{{item.number}}</h1>
+        <div><h1 ng-repeat="paper in ctrl.journalPapers">
+            {{paper.category}}
+        </h1></div>
 
-                <h2>{{item.content}}</h2>
-            </div>
-            <!--row end-->
-        </div>
+        <!--<div class="column">-->
+            <!--<div ng-repeat="item in ctrl.PUBLICATION" class="row">-->
+                <!--<h1>{{item.number}}</h1>-->
+
+                <!--<h2>{{item.content}}</h2>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;row end&ndash;&gt;-->
+        <!--</div>-->
         <!--column end-->
     </ul>
 </div>
