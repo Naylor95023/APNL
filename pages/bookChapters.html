@@ -3,8 +3,8 @@
 <div class="bookName">書名 Book</div>
 <img class="margin10" src="img/u73_line.png"/>
 
-<div ng-repeat="item in ctrl.PUBLICATION" class="contentFont">
-    <h1>{{item.author}}</h1>
-
-    <h2>{{item.content}}</h2>
+<div ng-repeat="bookChapter in ctrl.bookChapters" class="contentFont">
+    <p ng-repeat="bookChapterLine in bookChapter.title">
+        {{bookChapterLine}}
+    </p>
 </div>

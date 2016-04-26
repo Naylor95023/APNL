@@ -41,8 +41,10 @@
             url: "/researchProjects",
             templateUrl: 'pages/researchProjects.html',
             controller: 'ResearchProjectsCtrl as ctrl',
-            resolve: {researchProjects: getResearchProjects,
-            amounts: getResearchProjectsAmounts}
+            resolve: {
+                researchProjects: getResearchProjects,
+                amounts: getResearchProjectsAmounts
+            }
         });
         $stateProvider.state('publication.journalPapers', {
             url: "/journalPapers",
@@ -58,11 +60,15 @@
         });
         $stateProvider.state('publication.bookChapters', {
             url: "/bookChapters",
-            templateUrl: 'pages/bookChapters.html'
+            templateUrl: 'pages/bookChapters.html',
+            controller: 'BookChaptersCtrl as ctrl',
+            resolve: {bookChapters: getBookChapters}
         });
         $stateProvider.state('publication.patents', {
             url: "/patents",
-            templateUrl: 'pages/patents.html'
+            templateUrl: 'pages/patents.html',
+            controller: 'PatentsCtrl as ctrl',
+            resolve: {patents: getPatents}
         });
         $stateProvider.state('publication.conferences', {
             url: "/conferences",
@@ -154,6 +160,16 @@
         getResearchProjectsAmounts.$inject = ['ApnlData'];
         function getResearchProjectsAmounts(ApnlData) {
             return ApnlData.getResearchProjectsAmounts();
+        }
+
+        getBookChapters.$inject = ['ApnlData'];
+        function getBookChapters(ApnlData) {
+            return ApnlData.getBookChapters();
+        }
+
+        getPatents.$inject = ['ApnlData'];
+        function getPatents(ApnlData) {
+            return ApnlData.getPatents();
         }
     }
 })();

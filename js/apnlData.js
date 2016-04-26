@@ -17,6 +17,9 @@
         service.getJournalPapersList = getJournalPapersList;
         service.getResearchProjects = getResearchProjects;
         service.getResearchProjectsAmounts = getResearchProjectsAmounts;
+        service.getBookChapters = getBookChapters;
+        service.getPatents = getPatents;
+
 
         function getNews() {
             return $http.get('data/news.json')
@@ -194,6 +197,35 @@
                 console.log("getResearchProjectsAmounts", error);
             }
         }
+
+        function getBookChapters() {
+            return $http.get("data/publication.json")
+                .then(success)
+                .catch(failed);
+
+            function success(response) {
+                return response.data.publication.bookChapters;
+            }
+
+            function failed(error) {
+                console.log("getBookChapters", error);
+            }
+        }
+
+        function getPatents() {
+            return $http.get("data/publication.json")
+                .then(success)
+                .catch(failed);
+
+            function success(response) {
+                return response.data.publication.patents;
+            }
+
+            function failed(error) {
+                console.log("getPatents", error);
+            }
+        }
+
 
         return service;
     }

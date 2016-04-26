@@ -6,11 +6,11 @@
 <!--columnMargin end-->
 <img class="margin10" src="img/u73_line.png"/>
 
-<div ng-repeat="item in ctrl.PUBLICATION" class="column">
+<div ng-repeat="patents in ctrl.patents" class="column">
     <div class="row">
-        <h1>{{item.number}}</h1>
+        <h1>{{patents.no}}</h1>
 
-        <h2>{{item.content}}</h2>
+        <h2>{{patents.title}}</h2>
     </div>
 </div>
 <!--column end-->
