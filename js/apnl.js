@@ -73,7 +73,15 @@
         });
         $stateProvider.state('member', {
             url: "/member",
-            templateUrl: 'pages/member.html'
+            templateUrl: 'pages/member.html',
+            controller: 'MemberCtrl as ctrl',
+            resolve: {member: getMember}
+        });
+        $stateProvider.state('member.category', {
+            url: "/:category",
+            templateUrl: 'pages/memberList.html',
+            controller: 'MemberListCtrl as ctrl',
+            resolve: {memberList: getMemberList}
         });
         $stateProvider.state('contact', {
             url: "/contact",
@@ -103,6 +111,16 @@
         getProfessor.$inject = ['ApnlData'];
         function getProfessor(ApnlData) {
             return ApnlData.getProfessor();
+        }
+
+        getMember.$inject = ['ApnlData'];
+        function getMember(ApnlData) {
+            return ApnlData.getMember();
+        }
+
+        getMemberList.$inject = ['ApnlData', '$stateParams'];
+        function getMemberList(ApnlData, $stateParams) {
+            return ApnlData.getMemberList($stateParams.category);
         }
 
         getResearch.$inject = ['ApnlData'];

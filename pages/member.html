@@ -5,27 +5,29 @@
     </div>
     <div class="member-column">
         <ul>
-            <li class="action">
+            <li ui-sref-active="active" ui-sref="member.category({category: 'professor'})">
                 <span class="item-ch">指導教授</span>
                 <span class="item-eng">Professor</span>
             </li>
-            <li>
+            <li ui-sref-active="active" ui-sref="member.category({category: 'PhD'})">
                 <span class="item-ch">博士班</span>
                 <span class="item-eng">PhD</span>
             </li>
-            <li>
+            <li ui-sref-active="active" ui-sref="member.category({category: 'Master'})">
                 <span class="item-ch">碩士班</span>
                 <span class="item-eng">Master</span>
             </li>
-            <li>
+            <li ui-sref-active="active" ui-sref="member.category({category: 'Toipcs'})">
                 <span class="item-ch">專題生</span>
                 <span class="item-eng">Toipcs</span>
             </li>
-            <li>
+            <li ui-sref-active="active" ui-sref="member.category({category: 'Graduate'})">
                 <span class="item-ch">畢業生</span>
                 <span class="item-eng">Graduate</span>
             </li>
         </ul>
     </div>
-    <div class="member-data"></div>
+    <div class="member-data">
+        <ui-view></ui-view>
+    </div>
 </div>

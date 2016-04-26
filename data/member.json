@@ -1,0 +1,461 @@
+{
+  "member": [
+    {
+      "category": "professor",
+      "items": [
+        {
+          "name": [
+            {
+              "text": "郭霽慶"
+            }
+          ],
+          "img": "img/professor_img.png",
+          "email": "kuocc@mail.ntut.edu.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2407",
+          "study": "Advanced polymer and nanotechnology research",
+          "interest": "輕音樂、閱讀、游泳、禪修",
+          "motto": [
+            {
+              "text": "1.Life is a box of chocolate,you never know what you are gonna get.(Forrest Gump,阿甘正傳)"
+            },
+            {
+              "text": "2.無事忙中老，空裡有哭笑，本來沒有我，生死皆可拋。寂滅為樂。（釋聖嚴法師）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "PhD",
+      "items": [
+        {
+          "name": [
+            {
+              "text": "陳伯瑜"
+            }
+          ],
+          "img": "img/Phd01.png",
+          "email": "xzsefghjkl@yahoo.com.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Fluorescent copolymers: synthesis, pH/temp stimulate and sensing metallic ion",
+          "interest": "美食、宵夜、甜點",
+          "motto": [
+            {
+              "text": "氣度，決定你人生的高度。"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "黃雲紹"
+            }
+          ],
+          "img": "img/Phd02.png",
+          "email": "980538001@mail.vnu.edu.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Electrospinning nanofibers applied in the biomedical and optoeletions application",
+          "interest": "",
+          "motto": [
+            {
+              "text": "無"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Master",
+      "items": [
+        {
+          "name": [
+            {
+              "text": "邱佩琪"
+            }
+          ],
+          "img": "img/master01.jpg",
+          "email": "chie92714@gmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#24466",
+          "study": "Inorganic electrospun nanofibers: fabrication, morphology, and sensor application",
+          "interest": "逛街、旅遊、下午茶",
+          "motto": [
+            {
+              "text": "夢想，是使人前進的最大動力"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "莊舒媛"
+            }
+          ],
+          "img": "img/master02.jpg",
+          "email": "michiyo712@hotmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Flexible polymer blend thin film transistors with fibroin as the gate dielectric",
+          "interest": "彈鋼琴、閱讀、聽音樂",
+          "motto": [
+            {
+              "text": "不要為明天憂慮，因為明天自有明天的憂慮；一天的難處一天當就夠了。"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "陳健誠"
+            }
+          ],
+          "img": "img/master03.jpg",
+          "email": "tktom80415@hotmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Novel fluorescent electrospun nanofibers device for sensing metallic ion",
+          "interest": "打球、聽音樂",
+          "motto": [
+            {
+              "text": "做人沒有夢想，那跟鹹魚有什麼分別"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "盧士棟"
+            }
+          ],
+          "img": "img/master04.jpg",
+          "email": "steven5982@hotmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Fluorescent copolymers: synthesis, pH/temp stimulate and sensing metallic ion",
+          "interest": "服飾、攝影、運動",
+          "motto": [
+            {
+              "text": "選擇快樂過每一天"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "蔡秉均"
+            }
+          ],
+          "img": "img/master05.jpg",
+          "email": "eric800928@gmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Polyester electrospun nanofibers: fabrication and smart filter",
+          "interest": "打桌球，游泳",
+          "motto": [
+            {
+              "text": "Experience without learning is better than learning without experience.Bertrand Russell（英國哲學家羅素)"
+            },
+            {
+              "text": "If you would have a thing well done, you must do it yourself.Henry Wadsworth Longfellow（美國詩人朗費羅)"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "羅以玲"
+            }
+          ],
+          "img": "img/master06.jpg",
+          "email": "l80806@yahoo.com.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Polyester electrospun nanofibers: fabrication and smart filter",
+          "interest": "打桌球，游泳",
+          "motto": [
+            {
+              "text": "Experience without learning is better than learning without experience.Bertrand Russell（英國哲學家羅素)"
+            },
+            {
+              "text": "If you would have a thing well done, you must do it yourself.Henry Wadsworth Longfellow（美國詩人朗費羅)"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "卓家榮"
+            }
+          ],
+          "img": "img/master07.jpg",
+          "email": "ppaul288@yahoo.com.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Polyester electrospun nanofibers: fabrication and smart filter",
+          "interest": "打桌球，游泳",
+          "motto": [
+            {
+              "text": "Experience without learning is better than learning without experience.Bertrand Russell（英國哲學家羅素)"
+            },
+            {
+              "text": "If you would have a thing well done, you must do it yourself.Henry Wadsworth Longfellow（美國詩人朗費羅)"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "梁芳誠"
+            }
+          ],
+          "img": "img/master08.jpg",
+          "email": "frank62112003@yahoo.com.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Polyester electrospun nanofibers: fabrication and smart filter",
+          "interest": "打桌球，游泳",
+          "motto": [
+            {
+              "text": "Experience without learning is better than learning without experience.Bertrand Russell（英國哲學家羅素)"
+            },
+            {
+              "text": "If you would have a thing well done, you must do it yourself.Henry Wadsworth Longfellow（美國詩人朗費羅)"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "顧皓仁"
+            }
+          ],
+          "img": "img/master09.jpg",
+          "email": "howardareyou@hotmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "",
+          "interest": "閱讀、游泳",
+          "motto": [
+            {
+              "text": "如果有「以後」想做的事，現在就要去做。"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "温涵芳"
+            }
+          ],
+          "img": "img/master10.jpg",
+          "email": "sd1252011@gmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "",
+          "interest": "運動，腳踏車，旅遊",
+          "motto": [
+            {
+              "text": "拿出勇氣，才能把不可能變可能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Toipcs",
+      "items": [
+        {
+          "name": [
+            {
+              "text": "江岱樺"
+            },
+            {
+              "text": "郭皓承"
+            },
+            {
+              "text": "呂建儒"
+            },
+            {
+              "text": "陳奕廷"
+            },
+            {
+              "text": "詹皓惟"
+            },
+            {
+              "text": "林長進"
+            }
+          ],
+          "img": "",
+          "email": "",
+          "graduate": "",
+          "work": "",
+          "phone": "",
+          "study": "FPolyester electrospun nanofibers: fabrication and smart filter",
+          "interest": "打桌球，游泳",
+          "motto": [
+            {
+              "text": "Experience without learning is better than learning without experience.Bertrand Russell（英國哲學家羅素）"
+            },
+            {
+              "text": "If you would have a thing well done, you must do it yourself.Henry Wadsworth Longfellow（美國詩人朗費羅）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Graduate",
+      "items": [
+        {
+          "name": [
+            {
+              "text": "陳淑媛"
+            }
+          ],
+          "img": "img/graduate01.jpg",
+          "email": "into3212001@hotmail.com",
+          "graduate": "2012年7月",
+          "work": "未知",
+          "phone": "02-2771-2171#2446",
+          "study": "Morphology and Optoelectronic Property of Organic Field-Effect Transistors from Blends of Poly(3-hexylthiophene) and Biodegradable Poly(lactic acid)",
+          "interest": "閱讀、旅遊",
+          "motto": [
+            {
+              "text": "吼~"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "張右昇"
+            }
+          ],
+          "img": "img/graduate02.jpg",
+          "email": "yu311832@hotmail.com",
+          "graduate": "2013年7月",
+          "work": "太平洋電纜",
+          "phone": "02-2771-2171#2446",
+          "study": "Advanced polymer electrospun nanofibers for smart filter and sensor device",
+          "interest": "拍照，音樂，電影",
+          "motto": [
+            {
+              "text": "Energy and persistence conquer all things ( 班傑明‧富蘭克林 )"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "洪誌鍵"
+            }
+          ],
+          "img": "img/graduate03.jpg",
+          "email": "popinseeya@yahoo.com.tw",
+          "graduate": "2013年7月",
+          "work": "台灣大學高分所",
+          "phone": "02-2771-2171#2446",
+          "study": "Conjugated rod-coil block copolymers: synthesis, morphology, photophysical and sensing property",
+          "interest": "打球、看電影、聽音樂",
+          "motto": [
+            {
+              "text": "無"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "黃以欣"
+            }
+          ],
+          "img": "img/graduate04.jpg",
+          "email": "flyingrosemond@gmail.com",
+          "graduate": "2013年7月",
+          "work": "上偉",
+          "phone": "02-2771-2171#2446",
+          "study": "Conjugated polymer nanofibers or thin film transistors with fibroin as the gate dielectric",
+          "interest": "游泳、逛街、聽音樂、攝影、閱讀",
+          "motto": [
+            {
+              "text": "Are you chasing your dreams? Or are your dreams chasing you? Some people dream of success...others stay awake to achieve it"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "莊允怡"
+            }
+          ],
+          "img": "img/graduate05.jpg",
+          "email": "mi1472002@gmail.com",
+          "graduate": "",
+          "work": "力晶科技",
+          "phone": "02-2771-2171#2446",
+          "study": "Flexible polymer blend thin film transistors with fibroin as the gate dielectric",
+          "interest": "跳舞、聽音樂、旅遊、手工藝、看電影",
+          "motto": [
+            {
+              "text": "你不能左右天氣，但你能轉變你的心情"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "龍彥辰"
+            }
+          ],
+          "img": "img/graduate06.jpg",
+          "email": "iduo1125@hotmail.com",
+          "graduate": "",
+          "work": "力晶科技",
+          "phone": "02-2771-2171#2446",
+          "study": "Novel fluorescent electrospun nanofibers device for sensing metallic ion",
+          "interest": "打排球,看電影",
+          "motto": [
+            {
+              "text": "機會是給準備好的人"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "陳彥友"
+            }
+          ],
+          "img": "img/graduate07.jpg",
+          "email": "why982349@gmail.com",
+          "graduate": "2013年7月",
+          "work": "四維膠帶",
+          "phone": "02-2771-2171#2446",
+          "study": "Inorganic electrospun nanofibers: fabrication, morphology, and sensor application",
+          "interest": "聽古典音樂、彈琴、看電影",
+          "motto": [
+            {
+              "text": "一人一天只有24小時,唯有更努力,才能比別人更成功"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
