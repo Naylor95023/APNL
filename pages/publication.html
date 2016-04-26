@@ -1,6 +1,7 @@
 <div>
     <div class="title">
         <h1>研究成果</h1>
+
         <h2>PUBLICATION</h2>
     </div>
 </div>
@@ -8,23 +9,33 @@
 <div id="tab">
     <div class="titleList">
         <div>
-            <div class="titleName" ng-click="ctrl.selectTab('papers')">
+            <div class="titleName" ui-sref="publication.researchProjects"
+                 ui-sref-active="active">
+                <h1>歷年計畫</h1>
+
+                <h2>Research Project</h2>
+            </div>
+            <div class="titleName" ui-sref="publication.journalPapers"
+                 ui-sref-active="active">
                 <h1>國際期刊論文</h1>
 
-                <h2>Journal Papers</h2>
+                <h2>Journal Paper</h2>
             </div>
-            <div class="titleName" ng-click="ctrl.selectTab('books')">
+            <div class="titleName" ui-sref="publication.bookChapters"
+                 ui-sref-active="active">
                 <h1>專書</h1>
 
                 <h2>Book Chapter</h2>
             </div>
-            <div class="titleName" ng-click="ctrl.selectTab('patents')">
+            <div class="titleName" ui-sref="publication.patents"
+                 ui-sref-active="active">
                 <h1>專利</h1>
 
                 <h2>Patent</h2>
             </div>
-            <div class="titleName" ng-click="ctrl.selectTab('conferences')">
-                <h1>國際研討會議論文</h1>
+            <div class="titleName" ui-sref="publication.conferences"
+                 ui-sref-active="active">
+                <h1>研討會議論文</h1>
 
                 <h2>Conference Papers</h2>
             </div>
@@ -33,92 +44,5 @@
     <!--titleList end-->
 </div>
 <!-- id tab end-->
-<div id="con" ng-switch on="ctrl.selectedTab">
-    <div ng-switch-when="papers">
-        <ul>
-            <img class="marginTop30" src="img/u54_line.png"/>
 
-            <div class="columnMargin">
-                <h1>No.</h1>
-
-                <h2>論文 Journal</h2>
-            </div>
-            <!--columnMargin end-->
-            <img class="margin10" src="img/u73_line.png"/>
-
-            <div class="column">
-                <div ng-repeat="item in ctrl.PUBLICATION" class="row">
-                    <h1>{{item.number}}</h1>
-
-                    <h2>{{item.content}}</h2>
-                </div>
-                <!--row end-->
-            </div>
-            <!--column end-->
-        </ul>
-    </div>
-
-    <ui-view></ui-view>
-    <!-- con end-->
-    <div ng-switch-when="books">
-        <ul>
-            <img class="marginTop30" src="img/u54_line.png"/>
-
-            <div class="bookName">書名 Book</div>
-            <img class="margin10" src="img/u73_line.png"/>
-
-            <div ng-repeat="item in ctrl.PUBLICATION" class="contentFont">
-                <h1>{{item.author}}</h1>
-
-                <h2>{{item.content}}</h2>
-            </div>
-        </ul>
-    </div>
-    <!-- con end-->
-    <div ng-switch-when="patents">
-        <ul>
-            <div class="columnMargin">
-                <h1>No.</h1>
-
-                <h2>專利 Patent</h2>
-            </div>
-            <!--columnMargin end-->
-            <img class="margin10" src="img/u73_line.png"/>
-
-            <div ng-repeat="item in ctrl.PUBLICATION" class="column">
-                <div class="row">
-                    <h1>{{item.number}}</h1>
-
-                    <h2>{{item.content}}</h2>
-                </div>
-            </div>
-            <!--column end-->
-        </ul>
-    </div>
-    <!-- con end-->
-    <div ng-switch-when="conferences">
-        <ul>
-            <div class="columnMargin">
-                <h1>No.</h1>
-
-                <h2>國際研討會議論文 Conference Papers</h2>
-            </div>
-            <!--columnMargin end-->
-            <img class="margin10" src="img/u73_line.png"/>
-
-            <div class="column">
-                <div ng-repeat="item in ctrl.PUBLICATION" class="row">
-                    <h1>{{item.number}}</h1>
-
-                    <h2>{{item.content}}</h2>
-                </div>
-                <!--row end-->
-            </div>
-            <!--column end-->
-        </ul>
-    </div>
-    <!--end con-->
-</div><!--end id con-->
-<div class="space"></div>
-<img class="margin10" src="img/u73_line.png"/>
-<div class="space"></div>
+<ui-view></ui-view>

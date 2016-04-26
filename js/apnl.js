@@ -34,8 +34,30 @@
         $stateProvider.state('publication', {
             url: "/publication",
             templateUrl: 'pages/publication.html',
-            controller: 'PublicationCtrl as ctrl'
+            controller: 'PublicationCtrl as ctrl',
+            resolve: {publication: getPublication}
         });
+        $stateProvider.state('publication.researchProjects', {
+            url: "/researchProjects",
+            templateUrl: 'pages/researchProjects.html'
+        });
+        $stateProvider.state('publication.journalPapers', {
+            url: "/journalPapers",
+            templateUrl: 'pages/journalPapers.html'
+        });
+        $stateProvider.state('publication.bookChapters', {
+            url: "/bookChapters",
+            templateUrl: 'pages/bookChapters.html'
+        });
+        $stateProvider.state('publication.patents', {
+            url: "/patents",
+            templateUrl: 'pages/patents.html'
+        });
+        $stateProvider.state('publication.conferences', {
+            url: "/conferences",
+            templateUrl: 'pages/conferences.html'
+        });
+
         $stateProvider.state("honor", {
             url: "/honor",
             templateUrl: 'pages/honor.html',
@@ -79,5 +101,11 @@
         function getResearch(ApnlData) {
             return ApnlData.getResearch();
         }
+
+        getPublication.$inject = ['ApnlData'];
+        function getPublication(ApnlData) {
+            return ApnlData.getPublication();
+        }
+
     }
 })();

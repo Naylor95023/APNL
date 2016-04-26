@@ -10,6 +10,7 @@
         service.getNewsList = getNewsList;
         service.getProfessor = getProfessor;
         service.getResearch = getResearch;
+        service.getPublication = getPublication;
 
         function getNews() {
             return $http.get('data/news.json')
@@ -70,6 +71,19 @@
 
             function failed(error) {
                 console.log("getResearch", error);
+            }
+        }
+
+        function getPublication() {
+            return $http.get("data/publication.json")
+                .then(success)
+                .catch(failed);
+            function success(response) {
+                return response.data.publication;
+            }
+
+            function failed(error) {
+                console.log("getPublication", error);
             }
         }
 

@@ -1,46 +1,448 @@
 {
-  "JournalPapers": [
-    {
-      "number": "23.",
-      "content": "Bo-Yu Chen, Chi-Ching Kuo*, Yun-Shao Huang, Shih-Tung Lu, Fang-Cheng Liang, Dai-Hua Jiang “Novel Highly Selective and Reversible Chemosensors Based on Dual Ratiometric Fluorescent Electrospun Nanofibers with pH- and Fe3+-modulated Multicolor Fluorescence Emission” ACS Applied Materials & Interfaces (2015) (finally accept) SCI (MATERIALS SCIENCE, MULTIDISCIPLINARY: 26/251) (IF= 5.900)"
-    },
-    {
-      "number": "22.",
-      "content": "Yen-Yu Chen, Chi-Ching Kuo*, Bo-Yu Chen, Pei-Chi Chiu, and Ping-Chun Tsai “Multifunctional Polyacrylonitrile-ZnO/Ag Electrospun Nanofiber Membranes with Various ZnO Morphologies for Photocatalytic, UV-shielding, and Antibacterial Applications” Journal of Polymer Science Part B-Polymer Physics (2014) (in press) (DOI: 10.1002/polb.23621) SCI (POLYMER SCIENCE: 11/82) (IF= 3.803)"
-    },
-    {
-      "number": "21.",
-      "content": "Liang-Nien Chen, Chi-Ching Kuo*, Yu-Cheng Chiu, and Wen-Chang Chen* “Ultra Metal Ions and pH Sensing Characteristics of Thermoresponsive Luminescent Electrospun Nanofibers Prepared From Poly(HPBO-co-NIPAAm-co-SA)” RSC Advances, 4, 45345–45353 (2014) SCI (CHEMISTRY, MULTIDISCIPLINARY: 35/148) (IF= 3.708)"
-    },
-    {
-      "number": "20.",
-      "content": "Yun-Shao Huang, Chi-Ching Kuo*, Yao-Chi Shu, Shin-Cheng Jang, Wen-Chin Tsen, Fu-Sheng Chuang, and Chien-Chung Chen “Highly Aligned and Single-Layered Hollow Fibrous Membranes Prepared from Polyurethane and Silica Blends through Two-Fluid Coaxial Electrospun Process” Macromolecular Chemistry and Physics, 215, 879-887 (2014) (feature on issue cover) SCI (POLYMER SCIENCE: 26/82) (IF=2.451)"
+  "publication": {
+    "researchProjects": [
+      {
+        "title": "導電奈米材料之製備與薄膜印刷技術(1/4)(104-2218-E-002-030-)",
+        "work": "共同主持人",
+        "duration": "2015/10/01 ～ 2016/09/30",
+        "institute": "科技部",
+        "state": "執行中",
+        "amount": "9500000"
+      },
+      {
+        "title": "整合式多功能可拉伸奈米纖維於能源之創新應用(1/3) (104-2119-M-002-016-)",
+        "work": "共同主持人",
+        "duration": "2015/08/01 ～ 2016/07/31",
+        "institute": "科技部",
+        "state": "執行中",
+        "amount": "9900000"
+      },
+      {
+        "title": "精準RAFT合成嵌段共聚合螢光高分子之多功能靜電紡絲奈米纖維(104-2221-E-027-108-)",
+        "work": "主持人",
+        "duration": "2015/08/01 ～ 2016/07/31",
+        "institute": "科技部",
+        "state": "執行中",
+        "amount": "1090000"
+      },
+      {
+        "title": "[學研計畫] 多功能電紡奈米纖維之製備、結構控制及金屬離子分離膜應用(3/3) (103-2120-M-002-003-)",
+        "work": "共同主持人",
+        "duration": "2014/08/01 ～ 2015/09/30",
+        "institute": "科技部",
+        "state": "已結案",
+        "amount": "8000000"
+      },
+      {
+        "title": "新穎多形態氧化鋅靜電紡絲奈米纖維及其高效能光觸媒、抗菌、氣體感測研究 (103-2221-E-027-128-)",
+        "work": "主持人",
+        "duration": "2014/08/01 ～ 2015/10/31",
+        "institute": "科技部",
+        "state": "已結案",
+        "amount": "948000"
+      },
+      {
+        "title": "可金屬感測的螢光Rh系列之靜電紡絲高分子奈米纖維研究:合成，電紡絲，分離膜應用 (102-2221-E-027-111-)",
+        "work": "主持人",
+        "duration": "2013/08/01 ～ 2014/07/31",
+        "institute": "科技部",
+        "state": "已結案",
+        "amount": "1391000"
+      },
+      {
+        "title": "學研合作計畫-多功能電紡奈米纖維之製備、結構控制及金屬離子分離膜應用(2/3) (102-2120-M-002-007-)",
+        "work": "共同主持人",
+        "duration": "2013/08/01 ～ 2014/07/31",
+        "institute": "科技部",
+        "state": "已結案",
+        "amount": "8317000"
+      },
+      {
+        "title": "[學研計畫] 多功能電紡奈米纖維之製備、結構控制及金屬離子分離膜應用(1/3) (101-2120-M-002-014-)",
+        "work": "共同主持人",
+        "duration": "2012/08/01 ～ 2013/07/31",
+        "institute": "科技部",
+        "state": "已結案",
+        "amount": "8000000"
+      },
+      {
+        "title": "定向性共軛高分子靜電紡絲奈米纖維在場效電晶體上的應用 (100-2218-E-027-007-MY2)",
+        "work": "主持人",
+        "duration": "2011/09/01 ～ 2013/08/31",
+        "institute": "科技部",
+        "state": "已結案",
+        "amount": "1858000"
+      },
+      {
+        "title": "高分子改質吸水性吸附劑技術",
+        "work": "主持人",
+        "duration": "2015/04/01 ～ 2015/10/30",
+        "institute": "工研院",
+        "state": "已結案",
+        "amount": "100000"
+      },
+      {
+        "title": "開發多變色靜電紡絲奈米纖維於感測金屬離子/pH與其分離膜之應用",
+        "work": "主持人",
+        "duration": "2015/03/01 ～ 2015/12/31",
+        "institute": "紡研所",
+        "state": "已結案",
+        "amount": "500000"
+      },
+      {
+        "title": "共聚型紡織材料微結構控制-最適化共聚高分子預聚合系統",
+        "work": "主持人",
+        "duration": "2014/04/01 ～ 2014/12/31",
+        "institute": "紡織綜合研究所",
+        "state": "已結案",
+        "amount": "300000 "
+      },
+      {
+        "title": "微型共聚高分子聚合系統",
+        "work": "主持人",
+        "duration": "2013/03/01～2013/12/31",
+        "institute": "紡研所",
+        "state": "已結案",
+        "amount": "400000"
+      },
+      {
+        "title": "膠原蛋白纖維的熱性質",
+        "work": "主持人",
+        "duration": "2012/06/01～2013/05/31",
+        "institute": "和康生物科技股份有限公司",
+        "state": "已結案",
+        "amount": "200000"
+      }
+    ],
+    "journalPaper": [
+      {
+        "category": "2016年",
+        "items": [
+          {
+            "no": "26.",
+            "title": "Shih-Tung Lu, Chia-Jung Cho, Fang-Cheng Liang, Bo-Yu Chen, Chi-Ching Kuo*, “Pyrene or rhodamine derivative–modified surfaces of electrospun nanofibrous chemosensors for colorimetric and fluorescent determination of Cu2+, Hg2+, and pH”. Reactive and Functional Polymers (2016) (accept and revision)"
+          },
+          {
+            "no": "25.",
+            "title": "Chih-Chien Hung, Chi-Ching Kuo*, Nian-Kuan Weng, Wen-Chung Wu, Bo-Yu Chen, Chia-Jung Cho, I-Jui Hsu*, Yu-Cheng Chiu, and Wen-Chang Chen*, “Novel Highly Sensitive and Reversible Electrospun Nanofiberous Chemosensor–Filters Composed of Poly(HEMA-co-MNA) and bpy-F-bpy with Metal-Ion-Modulated Multicolor Fluorescence Emission”. Polymer Journal,1–11 (2016)"
+          }
+        ]
+      },
+      {
+        "category": "2015年",
+        "items": [
+          {
+            "no": "24.",
+            "title": "Yun-Shao Huang, Chi-Ching Kuo,* Chun-Chun Huang, Shin-Cheng Jang, WenChin Tsen, Fu-Sheng Chuang, Bo-Yu Chen, Jiun-Jen Chen, Jing-Dong Chowf and Yao-Chi Shug, “Novel highly aligned, double-layered, hollow fibrous polycarbonate membranes with a perfectly tightly packed pentagonal pore structure fabricated using the electrospinning process”. RSC Advances, 5, 88857–88865 (2015)   (SCI, IF=3.840)"
+          },
+          {
+            "no": "23.",
+            "title": "Bo-Yu Chen, Chi-Ching Kuo,* Yun-Shao Huang, Shih-Tung Lu, Fang-Cheng Liang, Dai-Hua Jiang, “Novel Highly Selective and Reversible Chemosensors Based on Dual Ratiometric Fluorescent Electrospun Nanofibers with pH- and Fe3+-modulated Multicolor Fluorescence Emission”. ACS Applied Materials & Interfaces, 7, 2797-2808 (2015) (SCI, IF= 6.723)"
+          },
+          {
+            "no": "22.",
+            "title": "Yen-Yu Chen, Chi-Ching Kuo*, Bo-Yu Chen, Pei-Chi Chiu, and Ping-Chun Tsai, “Multifunctional Polyacrylonitrile-ZnO/Ag Electrospun Nanofiber Membranes with Various ZnO Morphologies for Photocatalytic, UV-shielding, and Antibacterial Applications”. Journal of Polymer Science Part B: Polymer Physics, 53, 262–269 (2015). (SCI, IF= 3.803"
+          }
+        ]
+      },
+      {
+        "category": "2014年",
+        "items": [
+          {
+            "no": "21.",
+            "title": "Liang-Nien Chen, Chi-Ching Kuo*, Yu-Cheng Chiu, and Wen-Chang Chen*, “Ultra Metal Ions and pH Sensing Characteristics of Thermoresponsive Luminescent Electrospun Nanofibers Prepared From Poly(HPBO-co-NIPAAm-co-SA)”. RSC Advances, 4, 45345–45353 (2014) (SCI, IF= 3.840)"
+          },
+          {
+            "no": "20.",
+            "title": "Yun-Shao Huang, Chi-Ching Kuo*, Yao-Chi Shu, Shin-Cheng Jang, Wen-Chin Tsen, Fu-Sheng Chuang, and Chien-Chung Chen, “Highly Aligned and Single-Layered Hollow Fibrous Membranes Prepared from Polyurethane and Silica Blends through Two-Fluid Coaxial Electrospun Process”. Macromolecular Chemistry and Physics, 215, 879-887 (2014) (封面文章) (SCI, IF= 2.616)  "
+          },
+          {
+            "no": "19.",
+            "title": "Liang-Nien Chen, Yu-Cheng Chiu, Jr-Jian Hung, Chi-Ching Kuo*, and Wen-Chang Chen*, “Multifunctional Electrospun Nanofibers Prepared fromPoly((N-isopropylacrylamide)-co-(N-hydroxymethylacrylamide)) and Their Blends with 1,2-Diaminoanthraquinone for NO Gas Detection”. Macromolecular Chemistry and Physics, 215, 286-294 (2014) (SCI) (SCI, IF= 2.616)"
+          }
+        ]
+      },
+      {
+        "category": "2013年",
+        "items": []
+      },
+      {
+        "category": "2012年",
+        "items": [
+          {
+            "no": "18.",
+            "title": "Yu-Cheng Chiu, Yougen Chen, Chi-Ching Kuo, Shih-Huang Tung, Toyoji Kakuchi,Wen-Chang Chen*, “Synthesis, Morphology, and Sensory Applications of Multifunctional Rod−Coil−Coil Triblock Copolymers and Their Electrospun Nanofibers”. ACS Applied Materials & Interfaces 4, 3387-3395 (2012) (2012). (SCI, IF= 6.723)"
+          },
+          {
+            "no": "17.",
+            "title": "Jung-Chuan Lin, Wen-Ya Lee, Chi-Ching Kuo, Chaoxu Li, Raffaele Mezzenga*, Wen-Chang Chen*, “Synthesis, Morphology and Field Effect Transistor Characteristics of New Crystalline-Crystalline Diblock Copolymers of Poly(3-hexylthiophene-block-steryl acrylate)”. Journal of Polymer Science Part A: Polymer Chemistry, 50, 686-695 (2012)    (SCI, IF= 3.113)"
+          }
+        ]
+      },
+      {
+        "category": "2011年",
+        "items": [
+          {
+            "no": "16.",
+            "title": "Chen-Liang Liu, Chia-Hung Lin, Chi-Ching Kuo, Sung-Tso Lin and Wen-Chang Chen*, “Conjugated Rod-Coil Block Copolymers: Synthesis, Morphology, Photophysical Properties, and Stimuli-Responsive Applications”. Progress in Polymer Science 36, 603-637 (2011). (SCI=26.932"
+          },
+          {
+            "no": "15.",
+            "title": "Chih-Jung Lin, Jung-Ching Hsu, Jung-Hsun Tsai, Chi-Ching Kuo, Wen-Ya Lee, Wen-Chang Chen*, “Electrospun Aligned Nanofibers Based High Performance Field Effect Transistors Prepared from Two-Dimensional Polythiophene Derivative of P4TDPP”. Macromolecular Chemistry and Physics, 212, 2452-2458 (2011) (feature on issue cover) (SCI, IF= 2.616)"
+          },
+          {
+            "no": "14.",
+            "title": "Yu-Cheng Chiu, Chi-Ching Kuo, Chih-Jung Lin, Wen-Chan Chen*, Highly Ordered Luminescent Microporous Films Prepared From Crystalline Conjugated Rod - Coil Diblock Copolymers of PF - b - PSA and Their Superhydrophobic Characteristics. Soft Matter, 7, 9350-9358 (2011) (SCI, IF= 4.029)"
+          },
+          {
+            "no": "13.",
+            "title": "Jung-Yao Chen+, Chi-Ching Kuo+, Chia-Sheng Lai, Wen-Chang Chen*, and Hsin-Lung Chen*, “Manipulation on the Morphology and Electrical Properties of Poly(3-hexylthiophene) Aligned Electrospun Nanofibers For Field-Effect Transistor Applications”. Macromolecules 44, 2883-2892 (2011). (SCI, IF=5.800)"
+          },
+          {
+            "no": "12.",
+            "title": "Kuan-Kai Huang, Yi-Kai Fang , Jung-Ching Hsu, Chi-Ching Kuo, and Wen-Chang Chen*, “Synthesis, Micellar Structures, and Multifunctional Sensory Properties of Poly(3-hexylthiophene)-block-poly(2-(dimethylamino)ethyl methacrylate) Rod-Coil Diblock Copolymers”. Journal of Polymer Science Part A: Polymer Chemistry , 49, 147-155 (2011). (SCI, IF=3.113)"
+          }
+        ]
+      },
+      {
+        "category": "2010年",
+        "items": [
+          {
+            "no": "11.",
+            "title": "Yu-Cheng Chiu, Chih-Ching Kuo, and Wen-Chang Chen*, “Thermo-responsive Luminescent Electrospun Fibers Prepared From Poly(DMAEMA-co-SA-co-StFl) Multifunctional Random Copolymers” ACS Applied Materials & Interfaces 11, 3340-3347 (2010).(SCI=6.723)"
+          },
+          {
+            "no": "10.",
+            "title": "Chi-Ching Kuo, Chia-Hung Lin and Wen-Chang Chen*, “Electrospun Nanofibers from Conjugated Rod-Coil Polyfluorene-block-Poly(2-vinylpyridine) (PF-b-P2VP)/PEO Blends”. Journal of Polymer Research (2010). (SCI, IF=1.920)"
+          },
+          {
+            "no": "9.",
+            "title": "Ping Tzeng, Chi-Ching Kuo, Sung-Tso Lin, and Wen-Chang Chen*, “Novel Luminescent Electrospun Fibers Prepared From Conjugated Rod-Coil Block Copolymer Poly[2,7-(9,9-dihexylfluorene)]-block-poly(N-isopropylacrylamide) / PMMA Blends: Morphology, Thermoresponsive and Photophysical Properties”. Macromolecular Chemistry and Physics, 211, 1408–1416 (2010). (SCI, IF=2.616)"
+          },
+          {
+            "no": "8.",
+            "title": "Chi-Ching Kuo, Yi-Chih Tung, and Wen-Chang Chen*, “Morphology and pH Sensing Characteristics of New Luminescent Electrospun Fibers Prepared From Poly(phenylquinoline)-block-Polystyrene/Polystyrene Blends.” Macromolecular Rapid Communications, 31, 65-70 (2010). (SCI,IF=4.941)"
+          }
+        ]
+      },
+      {
+        "category": "2009年",
+        "items": [
+          {
+            "no": "27.",
+            "title": "Cheng-Ting Wang, Chi-Ching Kuo, Hsieh-Chih Chen and Wen-Chang Chen*, “Nonwoven and aligned electrospun multicomponent luminescent polymer nanofibers: Effects of aggregated morphology on the photophysical properties”. Nanotechnology, 20, 375604 (2009). (SCI, IF=3.821)"
+          },
+          {
+            "no": "6.",
+            "title": "Chi-Ching Kuo, Cheng-Ting Wang, and Wen-Chang Chen*, “Electrospun Poly(3-hexylthiophene)/Poly(methyl methacrylate) Core-Shell Fibers for Sensory Applications”. Macromolecular Symposia, 279, 41–47 (2009). (EI"
+          }
+        ]
+      },
+      {
+        "category": "2008年",
+        "items": [
+          {
+            "no": "5.",
+            "title": "Chi-Ching Kuo, Yi-Chih Tung, Chia-Hung Lin, and Wen-Chang Chen*, “Novel Luminescent Electrospun Fibers Prepared From Conjugated Rod-Coil Block Copolymer of Poly[2,7-(9,9-dihexylfluorene)]-block-Poly(methylmethacrylate)”. Macromolecular Rapid Communication, 29, 1711-1715 (2008). (SCI, IF=4.941)"
+          },
+          {
+            "no": "4.",
+            "title": "Chi-Ching Kuo, Cheng-Ting Wang, and Wen-Chang Chen*, “Highly Aligned Luminescent Electrospun Nanofibers Prepared From Polyfluorene /PMMA Blends: Fabrication, Morphology, Photophysical Properties, and Sensory Applications”. Macromolecular Materials and Engineering. 293, 999-1008 (2008). (SCI, IF=2.661)"
+          }
+        ]
+      },
+      {
+        "category": "2007年",
+        "items": [
+          {
+            "no": "3.",
+            "title": "Chi-Ching Kuo, Chia-Hung Lin, and Wen-Chang Chen* “Morphology and Photophysical Properties of Light-Emitting Electrospun Nanofibers Prepared from Poly(fluorene) Derivative/ PMMA Blends”. Macromolecules, 40, 6959-6966 (2007) (SCI, IF=5.800)"
+          }
+        ]
+      },
+      {
+        "category": "2006年",
+        "items": [
+          {
+            "no": "2.",
+            "title": "Shan-hui Hsu*, Chi-Ching Kuo, Shu Wen Whu, Chen-Huan Lin and Ching-Lin Tasi “The effect of ultrasound stimulation versus bioreactors on neocartilage formation in tissue engineering scaffolds seeded with human chondrocytes in vitro”. Biomolecular Engineering, 23, 259-264 (2006) (SCI, IF=3.17"
+          }
+        ]
+      },
+      {
+        "category": "2005年",
+        "items": [
+          {
+            "no": "1.",
+            "title": "Shan-hui Hsu*, Chi-Ching Kuo, Hung-Jen Yen, Shu Wen Whu, Ching-Lin Tsai, “The effect of two different bioreactors on the neocartilage formation in type II collagen modified polyester scaffolds seeded with chondrocytes”. Artificial Organs, 29, 467-474 (2005) (SCI, IF=2.050"
+          }
+        ]
+      }
+    ],
+    "books": [
+      {
+        "title": [
+          "Chi-Ching Kuo, Chen-Liang Liu and Wen-Chang Chen*",
+          "Chapter 19.  Morphologies and photophysical properties of rod-coil block copolymers",
+          "Complex Macromolecular Architectures: Synthesis, Characterization, and Self-Assembly, WILEY (2011)"
+        ]
+      }
+    ],
+    "patents": [
+      {
+        "no": "1.",
+        "title": "Wen-Chang Chen, Chi-Ching Kuo, and Cheng-Ting Wang. “Electrospun Device for Preparing A High Aligned Nanofibers and Luminescent Nanofiber by The Device”.(專利字號:第I 338059號)"
+      },
+      {
+        "no": "2.",
+        "title": "陳泰佑、陳威宏、郭霽慶，熱變形聚酯不織布的製造方法，101年中華民國專利提出申請，申請號是TW101148369。"
+      },
+      {
+        "no": "3.",
+        "title": "Hsieh-Chih Chen, Wen-Chang Chen, Chi-Ching Kuo, and Yu-Cheng Liu. “Photoluminescence Fiber and Material Thereof”. Applied Number: 96105007, 2006, ROC (Taiwan)/American Patent Application."
+      },
+      {
+        "no": "4.",
+        "title": "Chun-Nan Chen, Chi-Ching Kuo, and Chih-Ta Kao. “Nanofiber-based substrate with surface patterns and method for fabricating the same”. Patent Applied Number: P02940016TW/05P0206, 2005, ROC (Taiwan) Patent."
+      }
+    ],
+    "conferences": {
+      "domestic": [
+        {
+          "no": "1.",
+          "title": "卓家榮、郭霽慶*、顧皓仁、張祐維、蔡依璇 (2016) 新穎3D網絡奈米線交纏形成之高度彈性導電纖維及其應用，2016年高分子學會年會壁報，台灣台北。(2016高分子年會海報競賽優秀作品) (Poster)"
+        },
+        {
+          "no": "2.",
+          "title": "顧皓仁、郭霽慶*、卓家榮、江岱樺 (2016) 超高靈敏度之全織物型穿戴式觸覺感應裝置，2016年高分子學會年會壁報，台灣台北。(2016高分子年會海報競賽佳作) (Poster)"
+        },
+        {
+          "no": "3.",
+          "title": "梁芳誠、陳柏勳、郭霽慶*、陳伯瑜、鄭如忠 (2016) 高孔隙之多變色螢光奈米纖維及其pH與Hg2+離子多重感測應用，2016年高分子學會年會壁報，台灣台北。(2016高分子年會海報競賽佳作) (Poster)"
+        },
+        {
+          "no": "4.",
+          "title": "陳伯瑜、鄭如忠、梁芳誠、郭霽慶* (2016) 新型螢光靜電紡絲奈米纖維及其pH與二價汞離子(Hg2+)環境感測與分離應用，2016年高分子學會年會壁報，台灣台北。(2016高分子年會海報競賽佳作) (Poster)"
+        },
+        {
+          "no": "5.",
+          "title": "邱珮琪、陳彥友、郭霽慶*(2015)多型態氧化鋅/奈米銀之聚丙烯睛靜電紡絲奈米複合纖維膜 及其多功能應用(光催化，紫外線屏蔽和抗菌)，2015年高分子學會年會壁報，台灣台北。(2015高分子年會海報競賽優秀作品) (Poster)"
+        },
+        {
+          "no": "6.",
+          "title": "黃雲紹、郭霽慶*、許耀基、張欣程、莊富盛、曾雯卿(2015)利用同軸靜電紡絲製備單層高度順向排列之聚氨基甲酸酯(含二氧化矽)中空纖維膜，2015年高分子學會年會壁報，台灣台北。(2015高分子年會海報競賽佳作) (Poster)"
+        },
+        {
+          "no": "7.",
+          "title": "蔡秉均、郭皓承、郭霽慶*、陳仕斌、廖英志(2015)結合靜電紡絲奈米纖維與化學還原法製備新穎(銅/銀合金)奈米線在透明電極之應用，2015年高分子學會年會壁報，台灣台北。(2015高分子年會海報競賽佳作) (Poster)"
+        },
+        {
+          "no": "8.",
+          "title": "盧士棟、郭霽慶*、陳蔡文(2015)利用表面引發聚合法製備多功能感測(pH、金屬離子)之靜電紡絲螢光纖維，2015年高分子學會年會壁報，台灣台北。(2015高分子年會海報競賽佳作) (Poster)"
+        },
+        {
+          "no": "9.",
+          "title": "龍彥辰、郭霽慶*、洪誌鍵、陳文章(2014)新穎性靜電紡絲螢光奈米纖維及其多功能感測( pH、溫度、金屬離子)，2014年高分子學會年會壁報，台灣台中。(2014高分子年會纖維組海報競賽第二名) (Poster)"
+        },
+        {
+          "no": "10.",
+          "title": "陳伯瑜、郭霽慶*、陳亮年、陳文章(2014)雙變色之新型螢光靜電紡絲奈米纖維及其pH與三價鐵離子感測應用，2014年高分子學會年會壁報，台灣台中。(2014高分子年會高分子加工組海報競賽第二名) (Poster)"
+        },
+        {
+          "no": "11.",
+          "title": "莊允怡、郭霽慶*、邱昱誠、陳文章(2014)膠原蛋白/Pyrene複合物介電層應用於軟性有機薄膜電晶體式之記憶體，2014年高分子學會年會壁報，台灣台中。"
+        },
+        {
+          "no": "12.",
+          "title": "陳彥友、郭霽慶*、陳威宏、陳蔡文(2014)新穎多形態氧化鋅之靜電紡絲奈米纖維及其高效能光觸媒與抗菌的研究，2014年高分子學會年會壁報，台灣台中。"
+        },
+        {
+          "no": "13.",
+          "title": "謝秀伶、陳彥友、郭霽慶*(2014)含奈米銀粒子之靜電紡絲水膠奈米纖維其及在抗菌之應用，2014年高分子學會年會壁報，台灣台中。"
+        },
+        {
+          "no": "14.",
+          "title": "張如斯、郭霽慶*(2014)靜電紡絲與交聯技術對Poly(HEMA-co-MNA)共聚高分子奈米纖維形態變化研究，2014年高分子學會年會壁報，台灣台中。"
+        },
+        {
+          "no": "15.",
+          "title": "Yen-Yu Chen, Yu-sheng Chang, and Chi-Ching Kuo*, “新穎多樣化氧化鋅形態之靜電紡絲奈米纖維及其綠色高效能去汙功能的研究”. 2013 Annual Polymer Conference, Chiayi, 2013. (2013高分子年會纖維組海報競賽第一名) (Poster)"
+        },
+        {
+          "no": "16.",
+          "title": "Yu-sheng Chang, Yen-yu Chen, Chi-Ching Kuo*, Ta-yo Chen, and Wei-hung Chen, “新穎性生質系彈性體之靜電紡絲奈米纖維形態與智慧型過濾膜的研究”. 2013 Annual Polymer Conference, Chiayi, 2013. (2013高分子年會纖維組海報競賽第三名) (Poster)"
+        },
+        {
+          "no": "17.",
+          "title": "Yi-Hsing Huang, Yun-Yi Chuang, Chi-Ching Kuo*, Hung Chin Wu, and Wen-Chang Chen, “Morphology and Electric Properties of Organic Thin-Film Transistors with Biodegradable Silk Fibroin as Dielectric Layer by Controlling Annealing Temperature” 2013 Annual Polymer Conference, Chiayi, 2013. (Poster)"
+        },
+        {
+          "no": "18.",
+          "title": "Jr-Jian Hung, Yen-Cheng, Bo-Yu chen, and Chi-Ching Kuo*, “The Novel pH-responsive Luminescent Electrospun Fibers Prepared From Poly(HEMA-co-NMA-RhBAM) Random Copolymers: Synthesis, Morphology and Reversible Sensing Property” 2013 Annual Polymer Conference, Chiayi, 2013. (Poster)"
+        },
+        {
+          "no": "19.",
+          "title": "Yu-sheng Chang, Yi-Hsing Huang, Chi-Ching Kuo*,Ta-yo Chen and Wei-hung Chen, “生物可分解彈性體之靜電紡絲奈米纖維形態與綠色高效能過濾膜的研究”. 2012 Annual Polymer Conference, Chung Li, 2012. (2012高分子年會纖維組海報第一名)"
+        },
+        {
+          "no": "20.",
+          "title": "Shu-Yuan Chen, Jr-Jian Hung, Chi-Ching Kuo*, Yu-Cheng Chiu, and Wen-Chang Chen, “Morphology and Optoelectronic Property of Environment-Friendly Organic Field-Effect Transistors from Blends of Poly(3-hexylthiophene) and Biodegradable Poly(lactic acid) Through Solubility-Induced Processes” 2012 Annual Polymer Conference, Chung Li, 2012. (Poster)"
+        },
+        {
+          "no": "21.",
+          "title": "Jung-Yao Chen+, Chi-Ching Kuo+, Chia-Sheng Lai, Wen-Chang Chen*, and Hsin-Lung Chen*, “Manipulation on the Morphology and Electrical Properties of Poly(3-hexylthiophene) Aligned Electrospun Nanofibers For Field-Effect Transistor Applications”. (+:J. Y. Chen and Dr. C. C. Kuo equally contribute to this work.) 2011 Annual Polymer Conference, Taichung, 2011. (Poster Award)"
+        },
+        {
+          "no": "22.",
+          "title": "Chi-Ching Kuo, Yi-Chih Tung, and Wen-Chang Chen*, “Morphology and pH Sensing Characteristics of Luminescent Electrospun Fibers Prepared From Poly(phenylquinoline)-block-Polystyrene/Polystyrene Blends”. 2010 Annual Polymer Conference, Kaohsiung, 2010. (Poster Award)"
+        },
+        {
+          "no": "23.",
+          "title": "Chi-Ching Kuo, Chen-Ting Wang, Yi-Chih Tung, Chia-Hung Lin, and Wen-Chang Chen*, “Novel Luminescent Electrospun Fibers Prepared From Conjugated Rod-Coil Block Copolymer (PF-b-PMMA)”. 2009 Annual Polymer Conference, Taipei, 2009. (Oral presentation)"
+        }
+      ],
+      "international": [
+        {
+          "no": "1.",
+          "title": "Chi-Ching Kuo*, Morphology, Photophysical Properties, and Sensor Application of Electrospun Nanofibers from Photoluminescent Copolymers. Japan-Taiwan Bilateral Polymer Symposium 2015 (簡稱 JTBPS 2015) in Japan (Hokkaido University, Sapporo) on September 2nd - September 6nd, 2015. (日本北海道) (邀請演講)"
+        },
+        {
+          "no": "2.",
+          "title": "Ping-Chun Tsai, Chi-Ching Kuo*, Hao-Cheng Guo, and Fu-Cheng Jhuang. Novel Transparent Electrode Prepared from Electrospun Cu/Ag-Core/Shell Metal Nanofiber Webs. 14th Pacific Polymer Conference 2015. (美國夏威夷) (Poster)"
+        },
+        {
+          "no": "3.",
+          "title": "Bo-Yu Chen, Chi-Ching Kuo,*. Novel Highly Selective and Reversible Chemosensors Based on Dual Ratiometric Fluorescent Electrospun Nanofibers with pH- and Fe3+-modulated Multicolor Fluorescence Emission. IUPAC-2015 Busan 45th World Chemistry Congress August 9-14, 2015 Bexco, Busan, Korea. (韓國釜山)(Poster)"
+        },
+        {
+          "no": "4.",
+          "title": "Chi-Chin Kuo*, Yen-Yu Chen and Bo-Yu Chen “Multifunctional Polyacrylonitrile-ZnO/Ag Electrospun Nanofiber Membranes with Various ZnO Morphologies for Photocatalytic, UV-shielding, and Antibacterial Applications”, 4rd Polymer French-Brazilian meeting in Brazil 2014. (巴西) (邀請演講)"
+        },
+        {
+          "no": "5.",
+          "title": "Yun-Yi Chuang and Chi-Ching Kuo*, “Novel Bio-Organic Field-Effect Transistor (BioFET) Memory with Biodegradable Collagen as Dielectric Layer”, the 12th International Nanotech Symposium and Nano-Convergence Expo Nano Korea 2014. (韓國首爾)(Poster)"
+        },
+        {
+          "no": "6.",
+          "title": "Yen-Chen Lung and Chi-Chin Kuo*, “The Fabrication of Novel Electrospun Fluorescent Nanofiber Sensory and Their Versatile Sensing for pH, Temperature, and Metal-ions”, the 12th International Nanotech Symposium and Nano-Convergence Expo Nano Korea 2014. (韓國首爾)(Poster)"
+        },
+        {
+          "no": "7.",
+          "title": "Jr-Jian Hung, and Chi-Ching Kuo*, “The Novel pH-responsive Luminescent Electrospun Nanofibers Prepared From Poly(HEMA-co-NMA-co-RhBAM) Random Copolymers: Synthesis, Morphology and Reversible Sensing Property” 15th Asian Chemical Congress (ACC) Scientific and Technical Program, Singapore, Sentosa, 2013. (新加坡亞洲化學年會) (Poster)"
+        },
+        {
+          "no": "8.",
+          "title": "Chi-Ching Kuo, Chen-Ting Wang, Hsieh-Chih Chen, Yi-Chih Tung, and Wen-Chang Chen*, “Morphology and Optoelectronic Properties of Semiconducting Polymer Electrospun Nanofibers”. International Conference on Nano Science and Nano Technology, Gwangju, Korea, 2010. (韓國光州 ) (Oral presentation)"
+        },
+        {
+          "no": "9.",
+          "title": "Chi-Ching Kuo, Yi-Chih Tung, and Wen-Chang Chen*, “New luminescent electrospun fibers prepared from poly(phenylquinoline)-block-polystyrene/ polystyrene blends: morphology and pH sensing characteristics”. 239th ACS National Meeting & Exposition, San Francisco, California, 2010. (美國舊金山) (Oral presentation)"
+        },
+        {
+          "no": "10.",
+          "title": "Chi-Ching Kuo, Yi-Chih Tung, Chia-Hung Lin, and Wen-Chang Chen*, “Novel Luminescent Electrospun Fibers Prepared From Conjugated Rod-Coil Block Copolymer of Poly[2,7-(9,9-dihexylfluorene)]-block-Poly(methylmethacrylate).” IV International Conference on Photoresponsive Organics and Polymers (4th ICPOP), Hangzhou, China, 2008.(中國杭州) (Oral presentation)"
+        }
+      ]
     }
-  ],
-  "BookName": [
-    {
-      "author": "Chi-Ching Kuo, Chen-Liang Liu and Wen-Chang Chen*",
-      "content": " Chapter 19. Morphologies and photophysical properties of rod-coil block copolymers Complex Macromolecular Architectures: Synthesis, Characterization, and Self-Assembly, WILEY (2011)"
-    }
-  ],
-  "Patent": [
-    {
-      "number": "1.",
-      "content": " Wen-Chang Chen＊, Chi-Ching Kuo, and Cheng-Ting Wang. Electrospun Device for Preparing A High Aligned Nanofibers and Luminescent Nanofiber by The Device. Applied Number: 097118789, 2008, ROC(Taiwan) Patent."
-    },
-    {
-      "number": "2.",
-      "content": "Hsieh-Chih Chen, Wen-Chang Chen＊, Chi-Ching Kuo, and Yu-Cheng Liu. Photoluminescence Fiber and Material Thereof”. Applied Number: 96105007, 2006, ROC (Taiwan)/American Patent Application."
-    }
-  ],
-  "ConferencePapers": [
-    {
-      "number": "1.",
-      "content": "Jung-Yao Chen+, Chi-Ching Kuo+, Chia-Sheng Lai, Wen-Chang Chen*, and Hsin-Lung Chen* Manipulation on the Morphology and Electrical Properties of Poly(3-hexylthiophene) Aligned Electrospun Nanofibers For Field-Effect Transistor Applications. 2011 Annual Polymer Conference, Taichung, 2011. (Poster Award)"
-    },
-    {
-      "number": "2.",
-      "content": "Chi-Ching Kuo,Chen-Ting Wang, Hsieh-Chih Chen, Yi-Chih Tung, and Wen-Chang Chen*, Morphology and Optoelectronic Properties of Semiconducting Polymer Electrospun Nanofibers. International Conference on Nano Science and Nano Technology, Gwangju, Korea, 2010. (Oral presentation)"
-    }
-  ]
+  }
 }
