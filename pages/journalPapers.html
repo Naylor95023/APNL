@@ -1,0 +1,22 @@
+<div>
+    <ul>
+        <img class="marginTop30" src="img/u54_line.png"/>
+
+        <div><h1 ng-repeat="paper in ctrl.journalPapers"
+                 ui-sref="publication.journalPapers.journalPapersList({category: paper.category})">
+            {{paper.category}}
+        </h1></div>
+        <img class="marginTop30" src="img/u54_line.png"/>
+
+        <div class="columnMargin">
+            <h1>No.</h1>
+
+            <h2>國際期刊論文 Journal Papers</h2>
+        </div>
+        <!--columnMargin end-->
+
+        <img class="margin10" src="img/u73_line.png"/>
+
+        <ui-view></ui-view>
+    </ul>
+</div>

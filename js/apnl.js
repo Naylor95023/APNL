@@ -34,8 +34,38 @@
         $stateProvider.state('publication', {
             url: "/publication",
             templateUrl: 'pages/publication.html',
-            controller: 'PublicationCtrl as ctrl'
+            controller: 'PublicationCtrl as ctrl',
+            resolve: {publication: getPublication}
         });
+        $stateProvider.state('publication.researchProjects', {
+            url: "/researchProjects",
+            templateUrl: 'pages/researchProjects.html'
+        });
+        $stateProvider.state('publication.journalPapers', {
+            url: "/journalPapers",
+            templateUrl: 'pages/journalPapers.html',
+            controller: 'JournalPapersCtrl as ctrl',
+            resolve: {journalPapers: getJournalPapers}
+        });
+        $stateProvider.state('publication.journalPapers.journalPapersList', {
+            url: "/journalPapersList/:category",
+            templateUrl: 'pages/journalPapersList.html',
+            controller: 'JournalPapersListCtrl as ctrl',
+            resolve: {journalPapersList: getJournalPapersList}
+        });
+        $stateProvider.state('publication.bookChapters', {
+            url: "/bookChapters",
+            templateUrl: 'pages/bookChapters.html'
+        });
+        $stateProvider.state('publication.patents', {
+            url: "/patents",
+            templateUrl: 'pages/patents.html'
+        });
+        $stateProvider.state('publication.conferences', {
+            url: "/conferences",
+            templateUrl: 'pages/conferences.html'
+        });
+
         $stateProvider.state("honor", {
             url: "/honor",
             templateUrl: 'pages/honor.html',
@@ -78,6 +108,21 @@
         getResearch.$inject = ['ApnlData'];
         function getResearch(ApnlData) {
             return ApnlData.getResearch();
+        }
+
+        getPublication.$inject = ['ApnlData'];
+        function getPublication(ApnlData) {
+            return ApnlData.getPublication();
+        }
+
+        getJournalPapers.$inject = ['ApnlData'];
+        function getJournalPapers(ApnlData) {
+            return ApnlData.getJournalPapers();
+        }
+
+        getJournalPapersList.$inject = ['ApnlData', '$stateParams'];
+        function getJournalPapersList(ApnlData, $stateParams) {
+            return ApnlData.getJournalPapersList($stateParams.category);
         }
     }
 })();
