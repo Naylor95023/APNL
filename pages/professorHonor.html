@@ -1,0 +1,25 @@
+<div>
+    <ul>
+        <img class="marginTop30" src="img/u54_line.png"/>
+
+        <div class="columnMargin">
+            <h1>No.</h1>
+
+            <h2>事蹟</h2>
+        </div>
+        <!--columnMargin end-->
+        <img class="margin10" src="img/u73_line.png"/>
+
+        <div class="column">
+            <div ng-repeat="event in ctrl.honor.professor.events" class="row">
+                <h1>{{$index}}</h1>
+                <h2>{{event}}</h2>
+            </div>
+            <!--row end-->
+        </div>
+        <!--column end-->
+    </ul>
+</div>
+<div ng-repeat="photo in ctrl.honor.professor.photos">
+    <img ng-src="{{photo}}" alt="" style="width: 1000px;">
+</div>

@@ -93,6 +93,21 @@
             templateUrl: 'pages/honor.html',
             controller: "HonorCtrl as ctrl"
         });
+
+        $stateProvider.state("honor.professor", {
+            url: "/professor",
+            templateUrl: 'pages/professorHonor.html',
+            controller: "ProfessorHonorCtrl as ctrl",
+            resolve: {honor: getHonor}
+        });
+
+        $stateProvider.state("honor.students", {
+            url: "/students",
+            templateUrl: 'pages/studentsHonor.html',
+            controller: "StudentsHonorCtrl as ctrl",
+            resolve: {honor: getHonor}
+        });
+
         $stateProvider.state('member', {
             url: "/member",
             templateUrl: 'pages/member.html',
@@ -193,6 +208,11 @@
         getInternationalPapers.$inject = ['ApnlData'];
         function getInternationalPapers(ApnlData) {
             return ApnlData.getInternationalPapers();
+        }
+
+        getHonor.$inject = ['ApnlData'];
+        function getHonor(ApnlData) {
+            return ApnlData.getHonor();
         }
     }
 })();

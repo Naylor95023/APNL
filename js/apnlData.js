@@ -21,6 +21,7 @@
         service.getPatents = getPatents;
         service.getDomesticPapers = getDomesticPapers;
         service.getInternationalPapers = getInternationalPapers;
+        service.getHonor = getHonor;
 
 
         function getNews() {
@@ -249,6 +250,20 @@
 
             function success(response) {
                 return response.data.publication.conferences.international;
+            }
+
+            function failed(error) {
+                console.log("getPatents", error);
+            }
+        }
+
+        function getHonor() {
+            return $http.get("data/honor.json")
+                .then(success)
+                .catch(failed);
+
+            function success(response) {
+                return response.data.honor;
             }
 
             function failed(error) {
