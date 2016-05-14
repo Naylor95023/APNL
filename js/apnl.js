@@ -72,7 +72,20 @@
         });
         $stateProvider.state('publication.conferences', {
             url: "/conferences",
-            templateUrl: 'pages/conferences.html'
+            templateUrl: 'pages/conferences.html',
+            controller: 'ConferencesCtrl as ctrl'
+        });
+        $stateProvider.state('publication.conferences.domestic', {
+            url: "/domestic",
+            templateUrl: 'pages/domesticPapers.html',
+            controller: "DomesticConferenceCtrl as ctrl",
+            resolve: { domesticPapers: getDomesticPapers}
+        });
+        $stateProvider.state('publication.conferences.international', {
+            url: "/international",
+            templateUrl: 'pages/internationalPapers.html',
+            controller: "InternationalConferenceCtrl as ctrl",
+            resolve: { internationalPapers: getInternationalPapers}
         });
 
         $stateProvider.state("honor", {
@@ -170,6 +183,16 @@
         getPatents.$inject = ['ApnlData'];
         function getPatents(ApnlData) {
             return ApnlData.getPatents();
+        }
+
+        getDomesticPapers.$inject = ['ApnlData'];
+        function getDomesticPapers(ApnlData) {
+            return ApnlData.getDomesticPapers();
+        }
+
+        getInternationalPapers.$inject = ['ApnlData'];
+        function getInternationalPapers(ApnlData) {
+            return ApnlData.getInternationalPapers();
         }
     }
 })();

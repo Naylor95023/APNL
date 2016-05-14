@@ -19,6 +19,8 @@
         service.getResearchProjectsAmounts = getResearchProjectsAmounts;
         service.getBookChapters = getBookChapters;
         service.getPatents = getPatents;
+        service.getDomesticPapers = getDomesticPapers;
+        service.getInternationalPapers = getInternationalPapers;
 
 
         function getNews() {
@@ -226,6 +228,33 @@
             }
         }
 
+        function getDomesticPapers() {
+            return $http.get("data/publication.json")
+                .then(success)
+                .catch(failed);
+
+            function success(response) {
+                return response.data.publication.conferences.domestic;
+            }
+
+            function failed(error) {
+                console.log("getPatents", error);
+            }
+        }
+
+        function getInternationalPapers() {
+            return $http.get("data/publication.json")
+                .then(success)
+                .catch(failed);
+
+            function success(response) {
+                return response.data.publication.conferences.international;
+            }
+
+            function failed(error) {
+                console.log("getPatents", error);
+            }
+        }
 
         return service;
     }

@@ -1,17 +1,22 @@
-<div class="columnMargin">
-    <h1>No.</h1>
+<hr>
+<div id="tab">
+    <div class="titleList">
+        <div>
+            <div class="titleName" ui-sref="publication.conferences.domestic"
+                 ui-sref-active="active">
+                <h1>國內</h1>
 
-    <h2>國際研討會議論文 Conference Papers</h2>
-</div>
-<!--columnMargin end-->
-<img class="margin10" src="img/u73_line.png"/>
+                <h2>Domestic</h2>
+            </div>
+            <div class="titleName" ui-sref="publication.conferences.international"
+                 ui-sref-active="active">
+                <h1>國外</h1>
 
-<div class="column">
-    <div ng-repeat="item in ctrl.PUBLICATION" class="row">
-        <h1>{{item.number}}</h1>
-
-        <h2>{{item.content}}</h2>
+                <h2>International</h2>
+            </div>
+        </div>
     </div>
-    <!--row end-->
+    <!--titleList end-->
 </div>
-<!--column end-->
+<hr>
+<ui-view></ui-view>
