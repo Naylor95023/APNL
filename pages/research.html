@@ -12,7 +12,7 @@
     <img id="sample_img" src="img/research.jpg" alt="sample"/>
 
     <div ng-repeat="image in ctrl.research.images">
-        <img class="full" src="{{image}}"/>
+        <img class="full" ng-src="{{image}}"/>
     </div>
     <ng-youtube-embed ng-repeat="video in ctrl.research.videos"
                       url="video"></ng-youtube-embed>

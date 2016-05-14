@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>professor</title>
-    <link rel="stylesheet/less" href="../css/professor.less">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
-</head>
-<body>
-
 <div id="professor" class="content">
     <div class="title">
         <h1>主持人</h1>
@@ -17,11 +7,13 @@
 
     <div id="introduction">
         <div id="profile_img">
-            <img src="img/profile_pic.png" alt="profile_pic.png"/>
+            <img src="{{ctrl.professor.image}}" alt="profile_pic.png"/>
 
             <p> {{ctrl.professor.nameCht}}</p>
 
             <p>{{ctrl.professor.nameEng}}</p>
+
+            <p>{{ctrl.professor.rankCht}}</p>
 
             <p>{{ctrl.professor.rankEng}}</p>
         </div>
@@ -113,5 +105,3 @@
         </ol>
     </div>
 </div>
-</body>
-</html>
