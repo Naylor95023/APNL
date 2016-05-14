@@ -1,12 +1,24 @@
-<div ng-repeat="project in ctrl.researchProjects">
-    <span class="project-name">{{project.name}}</span>
-    <span class="project-title">{{project.title}}</span>
-    <span class="project-work">{{project.work}}</span>
-    <span class="project-duration">{{project.duration}}</span>
-    <span class="project-institute">{{project.institute}}</span>
-    <span class="project-state">{{project.state}}</span>
-    <span class="project-amount">{{project.amount}}</span>
-</div>
-<div>
-    <span class="total">{{ctrl.amounts}}</span>
+<div class="research-project">
+    <table>
+        <thead>
+        <tr>
+            <td>計畫名稱</td>
+            <td>擔任工作</td>
+            <td>起迄年月</td>
+            <td>補助機構</td>
+            <td>執行情形</td>
+            <td>經費總額</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="project in ctrl.researchProjects">
+            <td>{{project.title}}</td>
+            <td>{{project.work}}</td>
+            <td>{{project.duration}}</td>
+            <td>{{project.institute}}</td>
+            <td>{{project.state}}</td>
+            <td>{{project.amount | currency:"$":0}}</td>
+        </tr>
+        </tbody>
+    </table>
 </div>
