@@ -19,49 +19,81 @@
         </div>
         <div id="profile_data">
             <div id="profile_main">
-
                 <div id="profile_main_left">
-                    <div>
-                        <div><p>辦公室</p>
-
-                            <p>Office</p></div>
-                        <div><p>傳真</p>
-
-                            <p>Fax</p></div>
+                    <div class="field-row">
+                        <div class="label-data">
+                            <img src="img/icons/2-1+2_辦公室.png" alt="">
+                            <div class="label-data-title">
+                                <span class="cht">辦公室</span>
+                                <span class="eng">Office</span></div>
+                        </div>
+                        <div class="field-data">
+                            <p>{{ctrl.professor.officePlace}}</p>
+                            <p>{{ctrl.professor.officePhone}}</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>分子館3F</p>
+                    <div class="field-row">
+                        <div class="label-data">
+                            <img src="img/icons/2-3_傳真.png" alt="">
+                            <div class="label-data-title">
+                                <span class="cht">傳真</span>
 
-                        <p>{{ctrl.professor.officePhone}}</p>
+                                <span class="eng">Fax</span>
+                            </div>
+                        </div>
+                        <div class="field-data">
+                            <p>{{ctrl.professor.officePhone}}</p>
 
-                        <p>{{ctrl.professor.fax}}</p>
+                            <p>{{ctrl.professor.fax}}</p></div>
                     </div>
                 </div>
                 <div id="profile_main_right">
-                    <div>
-                        <p class="font-size-20">研究室<br><span class="font-size-16">Laboratory</span></p>
-
-                        <p class="font-size-20">信箱<br><span class="font-size-16">Email</span></p>
-                    </div>
-                    <div>
-                        <p class="font-size-16 Arial">分子館3F<br>
+                    <div class="field-row">
+                        <div class="label-data">
+                            <img src="img/icons/2-1+2_辦公室.png" alt="">
+                            <div class="label-data-title">
+                                <span class="cht">研究室</span>
+                                <span class="eng">Laboratory</span>
+                            </div>
+                        </div>
+                        <div class="field-data">
+                            <p>{{ctrl.professor.officePlace}}</p>
                             <span class="font-size-16 Arial">
-                                {{ctrl.professor.laboratoryPhone}} </span>>
-                        </p>
-
-                        <p class="font-size-16 Arial">{{ctrl.professor.email}}</p>
+                                {{ctrl.professor.laboratoryPhone}} </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="field-row">
+                        <div class="label-data">
+                            <img src="img/icons/2-4_信箱.png" alt="">
+                            <div class="label-data-title">
+                                <span class="cht">信箱</span>
+                                <span class="eng">Email</span>
+                            </div>
+                        </div>
+                        <div class="field-data">
+                            <p class="font-size-16 Arial">{{ctrl.professor.email}}</p>
+                        </div>
                     </div>
                 </div>
 
             </div>
 
             <div id="address">
-                <p class="font-size-20">地址<br><span class="font-size-16">Address</span></p>
-
-                <div>
-                    <p class="font-size-16 Arial" ng-repeat="address in ctrl.professor.addressLine">
-                        {{address}}
-                    </p></div>
+                <div class="field-row">
+                    <div class="label-data">
+                        <img src="img/icons/2-5_地址.png" alt="">
+                        <div class="label-data-title">
+                            <span class="cht">地址</span>
+                            <span class="eng">Address</span>
+                        </div>
+                    </div>
+                    <div class="field-data">
+                        <p class="font-size-16 Arial" ng-repeat="address in ctrl.professor.addressLine">
+                            {{address}}
+                        </p>
+                    </div>
+                </div>
             </div>
             <!--address end-->
         </div>
