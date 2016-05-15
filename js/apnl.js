@@ -79,13 +79,13 @@
             url: "/domestic",
             templateUrl: 'pages/domesticPapers.html',
             controller: "DomesticConferenceCtrl as ctrl",
-            resolve: { domesticPapers: getDomesticPapers}
+            resolve: {domesticPapers: getDomesticPapers}
         });
         $stateProvider.state('publication.conferences.international', {
             url: "/international",
             templateUrl: 'pages/internationalPapers.html',
             controller: "InternationalConferenceCtrl as ctrl",
-            resolve: { internationalPapers: getInternationalPapers}
+            resolve: {internationalPapers: getInternationalPapers}
         });
 
         $stateProvider.state("honor", {
@@ -130,7 +130,9 @@
         });
         $stateProvider.state('photo', {
             url: "/photo",
-            templateUrl: 'pages/photo.html'
+            templateUrl: 'pages/photo.html',
+            controller: 'PhotoCtrl as ctrl',
+            resolve: {photo: getPhoto}
         });
 
         $urlRouterProvider.otherwise('');
@@ -213,6 +215,11 @@
         getHonor.$inject = ['ApnlData'];
         function getHonor(ApnlData) {
             return ApnlData.getHonor();
+        }
+
+        getPhoto.$inject = ['ApnlData'];
+        function getPhoto(ApnlData) {
+            return ApnlData.getPhoto();
         }
     }
 })();

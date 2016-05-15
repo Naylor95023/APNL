@@ -22,6 +22,7 @@
         service.getDomesticPapers = getDomesticPapers;
         service.getInternationalPapers = getInternationalPapers;
         service.getHonor = getHonor;
+        service.getPhoto = getPhoto;
 
 
         function getNews() {
@@ -264,6 +265,20 @@
 
             function success(response) {
                 return response.data.honor;
+            }
+
+            function failed(error) {
+                console.log("getPatents", error);
+            }
+        }
+
+        function getPhoto() {
+            return $http.get("data/photo.json")
+                .then(success)
+                .catch(failed);
+
+            function success(response) {
+                return response.data.photo;
             }
 
             function failed(error) {

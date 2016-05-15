@@ -9,4 +9,12 @@
             target="_blank"><img
             src="img/googlePhotos.png" alt="">
         <h3>連結到Google photos</h3></a></div>
+    
+    <div class="group-photos">
+        <div class="photo" ng-repeat="photo in ctrl.photo.list">
+            <h1 class="photo-title">{{photo.title}}</h1>
+            <img ng-src="{{photo.photo}}" alt="">
+        </div>
+    </div>
 </div>
+
