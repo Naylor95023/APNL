@@ -8,7 +8,7 @@
         var vm = this;
         vm.news = news;
 
-        $state.transitionTo('news.category', {category: news[0].category}, {
+        $state.transitionTo('news.category', {category: news.list[0].category}, {
             location: false
         });
     }

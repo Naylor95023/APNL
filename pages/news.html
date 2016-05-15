@@ -1,12 +1,29 @@
 <div>
     <div class="title">
+        <h1>團體照</h1>
+
+        <h2>Group photo</h2>
+    </div>
+    <div class="group"><img ng-src="{{ctrl.news.group}}" alt="" style="width: 100%;"></div>
+
+    <div class="title">
+        <h1>Top News</h1>
+    </div>
+    <div class="top-news">
+        <img class="photo" ng-src="{{ctrl.news.topNews.photo}}" alt="">
+        <div class="text">
+            <p ng-repeat="text in ctrl.news.topNews.textLines">{{text}}</p>
+        </div>
+    </div>
+
+    <div class="title">
         <h1>最新消息</h1>
 
         <h2>NEWS</h2>
     </div>
     <nav id="contentNav">
         <ul>
-            <li ng-repeat="newsItem in ctrl.news" ui-sref-active="active">
+            <li ng-repeat="newsItem in ctrl.news.list" ui-sref-active="active">
                 <span ui-sref="news.category({ category: newsItem.category })">
                     {{newsItem.category}}
                 </span>
