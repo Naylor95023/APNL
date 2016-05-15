@@ -6,7 +6,7 @@
 
     function config($stateProvider, $urlRouterProvider) {
         $stateProvider.state('news', {
-            url: "",
+            url: "/",
             templateUrl: 'pages/news.html',
             controller: 'NewsCtrl as ctrl',
             resolve: {news: getNews}
@@ -135,7 +135,7 @@
             resolve: {photo: getPhoto}
         });
 
-        $urlRouterProvider.otherwise('');
+        $urlRouterProvider.otherwise('/');
 
         getNews.$inject = ['ApnlData'];
         function getNews(ApnlData) {
