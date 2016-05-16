@@ -48,7 +48,7 @@
             function success(response) {
                 console.log('getNewsList', response);
                 var newsList = [];
-                angular.forEach(response.data.news, function (data) {
+                angular.forEach(response.data.news.list, function (data) {
                     if (data.category == category) {
                         newsList = data.items;
                     }
