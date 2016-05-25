@@ -52,133 +52,11 @@
         {
           "name": [
             {
-              "text": "黃雲紹"
+              "text": "梁芳誠"
             }
           ],
-          "img": "img/Phd02.png",
-          "email": "980538001@mail.vnu.edu.tw",
-          "graduate": "",
-          "work": "",
-          "phone": "02-2771-2171#2446",
-          "study": "Electrospinning nanofibers applied in the biomedical and optoeletions application",
-          "interest": "",
-          "motto": [
-            {
-              "text": "無"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Master",
-      "items": [
-        {
-          "name": [
-            {
-              "text": "邱佩琪"
-            }
-          ],
-          "img": "img/master01.jpg",
-          "email": "chie92714@gmail.com",
-          "graduate": "",
-          "work": "",
-          "phone": "02-2771-2171#24466",
-          "study": "Inorganic electrospun nanofibers: fabrication, morphology, and sensor application",
-          "interest": "逛街、旅遊、下午茶",
-          "motto": [
-            {
-              "text": "夢想，是使人前進的最大動力"
-            }
-          ]
-        },
-        {
-          "name": [
-            {
-              "text": "莊舒媛"
-            }
-          ],
-          "img": "img/master02.jpg",
-          "email": "michiyo712@hotmail.com",
-          "graduate": "",
-          "work": "",
-          "phone": "02-2771-2171#2446",
-          "study": "Flexible polymer blend thin film transistors with fibroin as the gate dielectric",
-          "interest": "彈鋼琴、閱讀、聽音樂",
-          "motto": [
-            {
-              "text": "不要為明天憂慮，因為明天自有明天的憂慮；一天的難處一天當就夠了。"
-            }
-          ]
-        },
-        {
-          "name": [
-            {
-              "text": "陳健誠"
-            }
-          ],
-          "img": "img/master03.jpg",
-          "email": "tktom80415@hotmail.com",
-          "graduate": "",
-          "work": "",
-          "phone": "02-2771-2171#2446",
-          "study": "Novel fluorescent electrospun nanofibers device for sensing metallic ion",
-          "interest": "打球、聽音樂",
-          "motto": [
-            {
-              "text": "做人沒有夢想，那跟鹹魚有什麼分別"
-            }
-          ]
-        },
-        {
-          "name": [
-            {
-              "text": "盧士棟"
-            }
-          ],
-          "img": "img/master04.jpg",
-          "email": "steven5982@hotmail.com",
-          "graduate": "",
-          "work": "",
-          "phone": "02-2771-2171#2446",
-          "study": "Fluorescent copolymers: synthesis, pH/temp stimulate and sensing metallic ion",
-          "interest": "服飾、攝影、運動",
-          "motto": [
-            {
-              "text": "選擇快樂過每一天"
-            }
-          ]
-        },
-        {
-          "name": [
-            {
-              "text": "蔡秉均"
-            }
-          ],
-          "img": "img/master05.jpg",
-          "email": "eric800928@gmail.com",
-          "graduate": "",
-          "work": "",
-          "phone": "02-2771-2171#2446",
-          "study": "Polyester electrospun nanofibers: fabrication and smart filter",
-          "interest": "打桌球，游泳",
-          "motto": [
-            {
-              "text": "Experience without learning is better than learning without experience.Bertrand Russell（英國哲學家羅素)"
-            },
-            {
-              "text": "If you would have a thing well done, you must do it yourself.Henry Wadsworth Longfellow（美國詩人朗費羅)"
-            }
-          ]
-        },
-        {
-          "name": [
-            {
-              "text": "羅以玲"
-            }
-          ],
-          "img": "img/master06.jpg",
-          "email": "l80806@yahoo.com.tw",
+          "img": "img/master08.jpg",
+          "email": "frank62112003@yahoo.com.tw",
           "graduate": "",
           "work": "",
           "phone": "02-2771-2171#2446",
@@ -214,29 +92,12 @@
               "text": "If you would have a thing well done, you must do it yourself.Henry Wadsworth Longfellow（美國詩人朗費羅)"
             }
           ]
-        },
-        {
-          "name": [
-            {
-              "text": "梁芳誠"
-            }
-          ],
-          "img": "img/master08.jpg",
-          "email": "frank62112003@yahoo.com.tw",
-          "graduate": "",
-          "work": "",
-          "phone": "02-2771-2171#2446",
-          "study": "Polyester electrospun nanofibers: fabrication and smart filter",
-          "interest": "打桌球，游泳",
-          "motto": [
-            {
-              "text": "Experience without learning is better than learning without experience.Bertrand Russell（英國哲學家羅素)"
-            },
-            {
-              "text": "If you would have a thing well done, you must do it yourself.Henry Wadsworth Longfellow（美國詩人朗費羅)"
-            }
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "category": "Master",
+      "items": [
         {
           "name": [
             {
@@ -247,12 +108,88 @@
           "email": "howardareyou@hotmail.com",
           "graduate": "",
           "work": "",
-          "phone": "02-2771-2171#2446",
+          "phone": "02-2771-2171#24466",
           "study": "",
           "interest": "閱讀、游泳",
           "motto": [
             {
               "text": "如果有「以後」想做的事，現在就要去做。"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "羅以伶"
+            }
+          ],
+          "img": "img/master06.jpg",
+          "email": "l80806@yahoo.com.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Flexible polymer blend thin film transistors with fibroin as the gate dielectric",
+          "interest": "打桌球，游泳",
+          "motto": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "李婉伶"
+            }
+          ],
+          "img": "img/master11.jpg",
+          "email": "cheparan54@gmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "彈性導電靜電紡絲奈米纖維於穿戴式電源產生織物的應用",
+          "interest": "打爵士鼓",
+          "motto": [
+            {
+              "text": "能吃就是福"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "蔡景誼"
+            }
+          ],
+          "img": "img/master16.jpg",
+          "email": "mashymodrntimes@gmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "",
+          "interest": "聽音樂，看書",
+          "motto": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "張祐維"
+            }
+          ],
+          "img": "img/master12.jpg",
+          "email": "friday13012@yahoo.com.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "",
+          "interest": "打籃球，吃飯",
+          "motto": [
+            {
+              "text": "不要吵我"
             }
           ]
         },
@@ -274,46 +211,142 @@
               "text": "拿出勇氣，才能把不可能變可能。"
             }
           ]
+        },
+        {
+          "name": [
+            {
+              "text": "江岱樺(準碩一)"
+            }
+          ],
+          "img": "img/101350308.jpg",
+          "email": "ppaul288@yahoo.com.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "全透明壓力感測器結合觸碰LED",
+          "interest": "打籃球，看電影",
+          "motto": [
+            {
+              "text": "永不放手，直到夢想到手"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "張文政(準碩一)"
+            }
+          ],
+          "img": "img/master13.jpg",
+          "email": " j4917729@gmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "",
+          "interest": "球類運動，閱讀，桌遊",
+          "motto": [
+            {
+              "text": "人生就是不停的戰鬥"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "詹皓惟(準碩一)"
+            }
+          ],
+          "img": "img/master17.jpg",
+          "email": "lichter83521@gmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "",
+          "interest": "玩遊戲",
+          "motto": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "黃明義(準碩一)"
+            }
+          ],
+          "img": "img/master15.jpg",
+          "email": "bb777776@gmail.com",
+          "graduate": "",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "",
+          "interest": "旅遊，電影",
+          "motto": [
+            {
+              "text": "做正確的事情，就不會錯"
+            }
+          ]
         }
       ]
     },
     {
-      "category": "Toipcs",
+      "category": "Topics",
       "items": [
         {
           "name": [
             {
               "text": "江岱樺"
-            },
-            {
-              "text": "郭皓承"
-            },
-            {
-              "text": "呂建儒"
-            },
-            {
-              "text": "陳奕廷"
-            },
-            {
-              "text": "詹皓惟"
-            },
-            {
-              "text": "林長進"
             }
           ],
-          "img": "",
+          "img": "img/101350308.jpg",
+          "email": "asdf8289@yahoo.com.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "0955-029-190",
+          "study": "",
+          "interest": "打球，游泳，看電影",
+          "motto": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "陳奕廷"
+            }
+          ],
+          "img": "img/101350327.jpg",
           "email": "",
           "graduate": "",
           "work": "",
-          "phone": "",
-          "study": "FPolyester electrospun nanofibers: fabrication and smart filter",
-          "interest": "打桌球，游泳",
+          "phone": "0926-486-767",
+          "study": "",
+          "interest": "重訓，看電影",
           "motto": [
             {
-              "text": "Experience without learning is better than learning without experience.Bertrand Russell（英國哲學家羅素）"
-            },
+              "text": ""
+            }
+          ]
+        },
+        {
+          "name": [
             {
-              "text": "If you would have a thing well done, you must do it yourself.Henry Wadsworth Longfellow（美國詩人朗費羅）"
+              "text": "呂建儒"
+            }
+          ],
+          "img": "img/101350308.jpg",
+          "email": "asdf8289@yahoo.com.tw",
+          "graduate": "",
+          "work": "",
+          "phone": "0955-029-190",
+          "study": "",
+          "interest": "打球，游泳，看電影",
+          "motto": [
+            {
+              "text": ""
             }
           ]
         }
@@ -406,7 +439,7 @@
           ],
           "img": "img/graduate05.jpg",
           "email": "mi1472002@gmail.com",
-          "graduate": "",
+          "graduate": "2013年7月",
           "work": "力晶科技",
           "phone": "02-2771-2171#2446",
           "study": "Flexible polymer blend thin film transistors with fibroin as the gate dielectric",
@@ -425,7 +458,7 @@
           ],
           "img": "img/graduate06.jpg",
           "email": "iduo1125@hotmail.com",
-          "graduate": "",
+          "graduate": "2013年7月",
           "work": "力晶科技",
           "phone": "02-2771-2171#2446",
           "study": "Novel fluorescent electrospun nanofibers device for sensing metallic ion",
@@ -452,6 +485,120 @@
           "motto": [
             {
               "text": "一人一天只有24小時,唯有更努力,才能比別人更成功"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "邱佩琪"
+            }
+          ],
+          "img": "img/master01.jpg",
+          "email": "chie92714@gmail.com",
+          "graduate": "2014年7月",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Inorganic electrospun nanofibers: fabrication, morphology, and sensor application",
+          "interest": "逛街、旅遊、下午茶",
+          "motto": [
+            {
+              "text": "夢想，是使人前進的最大動力"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "莊舒媛"
+            }
+          ],
+          "img": "img/master02.jpg",
+          "email": "michiyo712@hotmail.com",
+          "graduate": "2014年7月",
+          "work": "台北科技大學研發處",
+          "phone": "02-2771-2171#2446",
+          "study": "Flexible polymer blend thin film transistors with fibroin as the gate dielectric",
+          "interest": "彈鋼琴、閱讀、聽音樂",
+          "motto": [
+            {
+              "text": "不要為明天憂慮，因為明天自有明天的憂慮；一天的難處一天當就夠了。"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "陳健誠"
+            }
+          ],
+          "img": "img/master03.jpg",
+          "email": "tktom80415@hotmail.com",
+          "graduate": "2014年7月",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Novel fluorescent electrospun nanofibers device for sensing metallic ion",
+          "interest": "打球、聽音樂",
+          "motto": [
+            {
+              "text": "做人沒有夢想，那跟鹹魚有什麼分別"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "盧士棟"
+            }
+          ],
+          "img": "img/master04.jpg",
+          "email": "steven5982@hotmail.com",
+          "graduate": "2014年7月",
+          "work": "",
+          "phone": "02-2771-2171#2446",
+          "study": "Fluorescent copolymers: synthesis, pH/temp stimulate and sensing metallic ion",
+          "interest": "服飾、攝影、運動",
+          "motto": [
+            {
+              "text": "選擇快樂過每一天"
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "黃雲紹"
+            }
+          ],
+          "img": "img/Phd02.png",
+          "email": "980538001@mail.vnu.edu.tw",
+          "graduate": "2015年7月",
+          "work": "台北科技大學研發處",
+          "phone": "02-2771-2171#2446",
+          "study": "Electrospinning nanofibers applied in the biomedical and optoeletions application",
+          "interest": "",
+          "motto": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "text": "蔡秉均"
+            }
+          ],
+          "img": "img/master05.jpg",
+          "email": "eric800928@gmail.com",
+          "graduate": "2015年2月",
+          "work": "台大博士班",
+          "phone": "02-2771-2171#2446",
+          "study": "Polyester electrospun nanofibers: fabrication and smart filter",
+          "interest": "打桌球，游泳",
+          "motto": [
+            {
+              "text": "Experience without learning is better than learning without experience.Bertrand Russell（英國哲學家羅素）"
             }
           ]
         }

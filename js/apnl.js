@@ -122,7 +122,9 @@
         });
         $stateProvider.state('contact', {
             url: "/contact",
-            templateUrl: 'pages/contact.html'
+            templateUrl: 'pages/contact.html',
+            controller: 'ContactCtrl as ctrl',
+            resolve: {professor: getProfessor}
         });
         $stateProvider.state('recruitment', {
             url: "/recruitment",

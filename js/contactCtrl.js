@@ -2,10 +2,11 @@
     'use strict';
     angular.module('apnl').controller('ContactCtrl', ContactCtrl);
 
-    ContactCtrl.$inject = [];
-    function ContactCtrl() {
+    ContactCtrl.$inject = ['professor'];
+    function ContactCtrl(professor) {
         var vm = this;
-
+        vm.officePhone = professor.officePhone;
+        vm.laboratoryPhone = professor.laboratoryPhone;
         activate();
 
         function activate() {
@@ -13,5 +14,3 @@
         }
     }
 })();
-<script src="/contactCtrl.js"></script>
-controller: 'ContactCtrl as ctrl'
