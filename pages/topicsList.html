@@ -1,0 +1,37 @@
+<div class="data-box">
+    <div class="right-detail">
+        <div class="l-row l-pad" data-y-pad="30">
+
+            <ul class="l-col is-fill" data-x-align="center">
+                <li>
+                    <span class="detail-title">大四</span>
+                </li>
+                <li>
+                    <span class="detail-title" ng-repeat="student in ctrl.memberList.senior">{{student.name}}</span>
+                </li>
+            </ul>
+            <div class="l-col is-fill" data-x-align="center">
+                <ul class="l-col is-fill" data-x-align="center">
+                    <li>
+                        <span class="detail-title">大三</span>
+                    </li>
+                    <li>
+                            <span class="detail-title"
+                                  ng-repeat="student in ctrl.memberList.junior">{{student.name}}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="l-col is-fill" data-x-align="center">
+                <ul class="l-col is-fill" data-x-align="center">
+                    <li>
+                        <span class="detail-title">大二</span>
+                    </li>
+                    <li>
+                            <span class="detail-title"
+                                  ng-repeat="student in ctrl.memberList.sophomore">{{student.name}}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
