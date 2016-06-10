@@ -116,7 +116,12 @@
         });
         $stateProvider.state('member.category', {
             url: "/:category",
-            templateUrl: 'pages/memberList.html',
+            templateUrl: function ($stateParams) {
+                if($stateParams.category == "Topics") {
+                    return 'pages/topicsList.html';
+                }
+                return 'pages/memberList.html';
+            },
             controller: 'MemberListCtrl as ctrl',
             resolve: {memberList: getMemberList}
         });

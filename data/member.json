@@ -292,65 +292,59 @@
     },
     {
       "category": "Topics",
-      "items": [
-        {
-          "name": [
-            {
-              "text": "江岱樺"
-            }
-          ],
-          "img": "img/101350308.jpg",
-          "email": "asdf8289@yahoo.com.tw",
-          "graduate": "",
-          "work": "",
-          "phone": "0955-029-190",
-          "study": "",
-          "interest": "打球，游泳，看電影",
-          "motto": [
-            {
-              "text": ""
-            }
-          ]
-        },
-        {
-          "name": [
-            {
-              "text": "陳奕廷"
-            }
-          ],
-          "img": "img/101350327.jpg",
-          "email": "",
-          "graduate": "",
-          "work": "",
-          "phone": "0926-486-767",
-          "study": "",
-          "interest": "重訓，看電影",
-          "motto": [
-            {
-              "text": ""
-            }
-          ]
-        },
-        {
-          "name": [
-            {
-              "text": "呂建儒"
-            }
-          ],
-          "img": "img/101350308.jpg",
-          "email": "asdf8289@yahoo.com.tw",
-          "graduate": "",
-          "work": "",
-          "phone": "0955-029-190",
-          "study": "",
-          "interest": "打球，游泳，看電影",
-          "motto": [
-            {
-              "text": ""
-            }
-          ]
-        }
-      ]
+      "items": {
+        "sophomore": [
+          {
+            "name": "謝孟庭"
+          },
+          {
+            "name": "王文蓮"
+          },
+          {
+            "name": "廖耿廷"
+          },
+          {
+            "name": "陳威丞"
+          },
+          {
+            "name": "林純菁"
+          },
+          {
+            "name": "陳嵩侑"
+          }
+        ],
+        "junior": [
+          {
+            "name": "莊富程"
+          },
+          {
+            "name": "蔡依璇"
+          },
+          {
+            "name": "陳柏勳"
+          },
+          {
+            "name": "陳柏允"
+          }
+        ],
+        "senior": [
+          {
+            "name": "江岱樺"
+          },
+          {
+            "name": "詹皓惟"
+          },
+          {
+            "name": "陳奕廷"
+          },
+          {
+            "name": "郭皓承"
+          },
+          {
+            "name": "呂建儒"
+          }
+        ]
+      }
     },
     {
       "category": "Graduate",
